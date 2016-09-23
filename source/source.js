@@ -1,1 +1,897 @@
-﻿var _0x8b7d=["\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x73","\x65\x78\x74\x65\x6E\x64","\x67\x68\x67\x36","\x73\x74\x61\x72\x74\x4E\x65\x77\x47\x61\x6D\x65","\x75\x70\x64\x61\x74\x65\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x55\x49","\x69\x6E\x69\x74","\x77\x65\x65\x6B\x50\x72\x6F\x63\x65\x65\x64\x65\x64","\x67\x61\x6D\x65\x70\x6C\x61\x79","\x65\x76\x65\x6E\x74\x4B\x65\x79\x73","\x74\x69\x63\x6B","\x6F\x6E","\x6C\x6F\x61\x64\x69\x6E\x67","\x73\x61\x76\x65\x73","\x6C\x6F\x61\x64","\x73\x61\x76\x69\x6E\x67","\x73\x61\x76\x65","\x64\x61\x74\x61","\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x44\x61\x74\x61","\x6D\x61\x70","\x6C\x65\x6E\x67\x74\x68","\x66\x6C\x61\x67\x46\x6F\x72\x52\x65\x6D\x6F\x76\x61\x6C","\x72\x65\x6D\x6F\x76\x65","\x61\x64\x64\x4E\x65\x77\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72","\x73\x6F\x72\x74\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x73","\x49\x44\x5F\x73\x69\x65\x72\x72\x61","\x53\x69\x65\x6E\x6E\x61","\x73\x6C\x69\x63\x65","\x67\x65\x74\x52\x61\x6E\x64\x6F\x6D\x54\x6F\x70\x69\x63\x73","\x70\x75\x73\x68","\x49\x44\x5F\x55\x62\x69\x73\x6F\x66\x74","\x55\x62\x69\x63\x72\x6F\x66\x74","\x49\x44\x5F\x4D\x69\x6E\x6E\x69\x73\x6F\x66\x74","\x4D\x69\x6E\x6E\x69\x53\x6F\x66\x74","\x49\x44\x5F\x41\x72\x65\x61\x4E\x65\x74","\x41\x72\x65\x61\x4E\x65\x74","\x49\x44\x5F\x42\x61\x63\x6B\x62\x6F\x6E\x65\x4D\x65\x64\x69\x61","\x42\x61\x63\x6B\x62\x6F\x6E\x65\x20\x4D\x65\x64\x69\x61","\x49\x44\x5F\x42\x69\x6F\x6E\x69\x63\x57\x61\x72\x65","\x42\x69\x6F\x6E\x69\x63\x57\x61\x72\x65","\x49\x44\x5F\x42\x6C\x61\x63\x6B\x57\x6F\x6C\x66\x47\x61\x6D\x65\x73","\x42\x6C\x61\x63\x6B\x20\x57\x6F\x6C\x66\x20\x47\x61\x6D\x65\x73","\x49\x44\x5F\x42\x75\x6C\x6C\x64\x6F\x67\x50\x72\x6F\x64\x75\x63\x74\x69\x6F\x6E\x73","\x42\x75\x6C\x6C\x64\x6F\x67\x20\x50\x72\x6F\x64\x75\x63\x74\x69\x6F\x6E\x73","\x49\x44\x5F\x4B\x6F\x67\x6F\x6E\x61\x6D\x69","\x4B\x6F\x67\x6F\x6E\x61\x6D\x69","\x49\x44\x5F\x45\x61\x67\x6C\x65\x53\x6F\x66\x74\x77\x61\x72\x65","\x45\x61\x67\x6C\x65\x20\x53\x6F\x66\x74\x77\x61\x72\x65","\x70\x69\x63\x6B\x52\x61\x6E\x64\x6F\x6D","\x6E\x61\x6D\x65","\x49\x44\x5F","","\x72\x65\x70\x6C\x61\x63\x65","\x63\x61\x73\x68","\x74\x6F\x70\x69\x63\x73","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x73\x70\x6C\x69\x63\x65","\x73\x6F\x72\x74","\x72\x65\x76\x65\x72\x73\x65","\x69\x64","\x73\x63\x6F\x72\x65","\x66\x61\x6E\x73","\x67\x61\x6D\x65\x53\x69\x7A\x65","\x73\x6D\x61\x6C\x6C","\x72\x65\x6C\x65\x61\x73\x65\x57\x65\x65\x6B","\x67\x65\x6E\x72\x65","\x74\x6F\x70\x69\x63","\x77\x65\x65\x6B\x73\x4F\x6E\x4D\x61\x72\x6B\x65\x74","\x74\x61\x72\x67\x65\x74\x41\x75\x64\x69\x65\x6E\x63\x65","\x65\x76\x65\x72\x79\x6F\x6E\x65","\x68\x79\x70\x65\x50\x6F\x69\x6E\x74\x73","\x70\x6C\x61\x74\x66\x6F\x72\x6D\x73","\x61\x6C\x6C\x50\x6C\x61\x74\x66\x6F\x72\x6D\x73","\x74\x6F\x74\x61\x6C\x53\x61\x6C\x65\x73\x43\x61\x73\x68","\x63\x75\x72\x72\x65\x6E\x74\x53\x61\x6C\x65\x73\x43\x61\x73\x68","\x6E\x65\x78\x74\x53\x61\x6C\x65\x73\x43\x61\x73\x68","\x6E\x65\x78\x74\x53\x61\x6C\x65\x73\x52\x61\x6E\x6B","\x66\x61\x6E\x73\x43\x68\x61\x6E\x67\x65\x54\x61\x72\x67\x65\x74","\x6E\x65\x78\x74\x66\x61\x6E\x73\x43\x68\x61\x6E\x67\x65","\x66\x61\x6E\x73\x43\x68\x61\x6E\x67\x65\x64","\x63\x6F\x73\x74\x73","\x63\x6F\x6E\x74\x72\x61\x63\x74","\x66\x6C\x61\x67\x73","\x66\x61\x6E\x73\x20","\x66\x69\x72\x73\x74","\x67\x65\x74\x41\x6C\x6C","\x73\x65\x63\x6F\x6E\x64\x47\x65\x6E\x72\x65","\x6C\x69\x63\x65\x6E\x63\x65\x64\x50\x6C\x61\x74\x66\x6F\x72\x6D\x73","\x67\x61\x6D\x65\x4C\x6F\x67","\x61\x63\x74\x69\x76\x65\x47\x65\x6E\x72\x65\x73","\x61\x63\x74\x69\x76\x65\x54\x6F\x70\x69\x63\x73","\x69\x73\x4C\x61\x73\x74\x47\x61\x6D\x65\x53\x65\x6C\x6C\x69\x6E\x67","\x61\x76\x61\x69\x6C\x61\x62\x6C\x65\x50\x6C\x61\x74\x66\x6F\x72\x6D\x73","\x6F\x77\x6E\x65\x64","\x78\x70","\x6D\x61\x78\x47\x61\x6D\x65\x73\x55\x6E\x74\x69\x6C\x4E\x65\x77\x54\x6F\x70\x69\x63","\x6B\x6E\x6F\x77\x6C\x65\x64\x67\x65\x42\x61\x73\x65","\x67\x61\x6D\x65\x73\x55\x6E\x74\x69\x6C\x4E\x65\x77\x54\x6F\x70\xEE\x63","\x61\x63\x74\x69\x76\x65\x43\x6F\x6E\x74\x72\x61\x63\x74","\x67\x65\x74\x4C\x61\x73\x74\x47\x61\x6D\x65\x49\x6E\x66\x6F","\x4E\x6F\x6E\x65","\x67\x65\x74\x53\x68\x6F\x72\x74\x4E\x75\x6D\x62\x65\x72\x53\x74\x72\x69\x6E\x67","\x66\x6F\x72\x6D\x61\x74","\x7B\x30\x7D\x20\x20\x53\x63\x6F\x72\x65\x3A\x20\x7B\x31\x7D\x3C\x62\x72\x3E\x47\x65\x6E\x72\x65\x3A\x20\x7B\x32\x7D\x3C\x62\x72\x3E\x54\x6F\x70\x69\x63\x3A\x20\x7B\x33\x7D\x3C\x62\x72\x3E\x43\x6F\x73\x74\x73\x3A\x20\x7B\x34\x7D","\x70\x72\x6F\x63\x65\x73\x73\x53\x61\x6C\x65\x73","\x73\x65\x6C\x6C\x47\x61\x6D\x65","\x67\x65\x6E\x65\x72\x61\x74\x65\x47\x61\x6D\x65\x53\x63\x6F\x72\x65","\x67\x65\x6E\x72\x65\x57\x65\x69\x67\x68\x74\x69\x6E\x67\x73","\x67\x65\x74\x47\x65\x6E\x72\x65\x57\x65\x69\x67\x68\x74\x69\x6E\x67","\x67\x65\x74\x52\x61\x6E\x64\x6F\x6D","\x63\x6F\x6D\x70\x61\x6E\x79","\x61\x64\x64\x4E\x65\x77\x54\x6F\x70\x69\x63","\x63\x68\x65\x63\x6B\x49\x66\x43\x6F\x6D\x62\x6F\x49\x73\x42\x61\x64\x41\x6E\x64\x4B\x6E\x6F\x77\x6E","\x68\x61\x73\x43\x6F\x6D\x62\x6F\x4B\x6E\x6F\x77\x6C\x65\x64\x67\x65","\x72\x65\x6C\x65\x61\x73\x65\x4E\x65\x77\x47\x61\x6D\x65","\x54\x65\x73\x74\x47\x61\x6D\x65","\x20","\x63\x75\x72\x72\x65\x6E\x74\x57\x65\x65\x6B","\x63\x75\x72\x72\x65\x6E\x74\x4C\x65\x76\x65\x6C","\x6D\x65\x64\x69\x75\x6D","\x6C\x61\x72\x67\x65","\x72\x6F\x79\x61\x6C\x74\x79\x52\x61\x74\x65","\x61\x64\x64\x54\x6F\x4B\x6E\x6F\x77\x6C\x65\x64\x67\x65","\x63\x61\x6C\x63\x75\x6C\x61\x74\x65\x53\x61\x6C\x65\x73","\x64\x65\x76\x65\x6C\x6F\x70\x6D\x65\x6E\x74\x43\x6F\x73\x74\x73","\x65\x6E\x67\x69\x6E\x65\x73","\x70\x65\x6E\x61\x6C\x74\x79\x46\x65\x65","\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x20\x43\x6F\x6E\x74\x72\x61\x63\x74","\x7B\x30\x7D\x20\x68\x61\x73\x20\x66\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x6D\x65\x65\x74\x20\x74\x68\x65\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x73\x63\x6F\x72\x65\x20\x66\x6F\x72\x20\x79\x6F\x75\x72\x20\x50\x75\x62\x6C\x69\x73\x68\x20\x43\x6F\x6E\x74\x72\x61\x63\x74\x2E\x20\x59\x6F\x75\x20\x77\x69\x6C\x6C\x20\x72\x65\x63\x65\x69\x76\x65\x20\x61\x20\x70\x65\x6E\x61\x6C\x74\x79\x20\x66\x65\x65\x20\x6F\x66\x20\x7B\x31\x7D","\x6E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E\x73","\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x20\x43\x6F\x6E\x74\x72\x61\x63\x74\x20\x50\x65\x6E\x61\x6C\x74\x79\x20\x7B\x30\x7D","\x61\x64\x6A\x75\x73\x74\x43\x61\x73\x68","\x72\x6F\x79\x61\x6C\x74\x79","\x7B\x30\x7D\x20\x68\x61\x73\x20\x6A\x75\x73\x74\x20\x72\x65\x6C\x65\x61\x73\x65\x64\x20\x27\x7B\x31\x7D\x27\x20\x74\x68\x65\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x73\x63\x6F\x72\x65\x20\x66\x6F\x72\x20\x79\x6F\x75\x72\x20\x50\x75\x62\x6C\x69\x73\x68\x20\x43\x6F\x6E\x74\x72\x61\x63\x74\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x72\x65\x61\x63\x68\x65\x64\x21\x20\x59\x6F\x75\x20\x77\x69\x6C\x6C\x20\x72\x65\x63\x65\x69\x76\x65\x20\x61\x20\x77\x65\x65\x6B\x6C\x79\x20\x70\x72\x6F\x66\x69\x74\x20\x6F\x66\x20\x7B\x32\x7D\x25","\x70\x72\x65\x42\x6F\x6E\x75\x73","\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x20\x43\x6F\x6E\x74\x72\x61\x63\x74\x20\x43\x6F\x73\x74\x73\x20\x7B\x30\x7D","\x70\x72\x6F\x63\x65\x73\x73\x57\x65\x65\x6B","\x67\x65\x74\x4E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E","\x62\x61\x6E\x6B\x72\x75\x70\x74\x63\x79\x4E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E","\x57\x65\x65\x6B\x6C\x79\x20\x52\x65\x76\x65\x6E\x75\x65\x20\x7B\x30\x7D","\x72\x65\x73\x65\x61\x72\x63\x68\x50\x6F\x69\x6E\x74\x73","\x70\x72\x6F\x63\x65\x73\x73\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x43\x6F\x6E\x74\x72\x61\x63\x74\x73","\x63\x6F\x6E\x74\x72\x61\x63\x74\x73","\x61\x63\x74\x69\x76\x65\x43\x6F\x6D\x70\x61\x6E\x79","\x74\x6F\x70\x69\x63\x49\x64","\x67\x65\x6E\x72\x65\x49\x64","\x73\x61\x62\x6F\x74\x61\x67\x65","\x53\x61\x62\x6F\x74\x61\x67\x65","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x62\x61\x6E\x6B\x72\x75\x70\x74\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x3F\x20\x54\x68\x69\x73\x20\x77\x69\x6C\x6C\x20\x63\x6F\x73\x74\x73\x20\x79\x6F\x75\x20\x31\x30\x30\x4B","\x63\x6F\x6E\x66\x69\x72\x6D\x41\x63\x74\x69\x6F\x6E","\x48\x69\x72\x65\x20\x53\x63\x61\x6D\x6D\x65\x72\x73","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x68\x69\x72\x65\x20\x73\x63\x61\x6D\x6D\x65\x72\x73\x20\x74\x6F\x20\x73\x63\x61\x6D\x20\x32\x30\x30\x4B\x20\x66\x72\x6F\x6D\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x3F\x20\x54\x68\x69\x73\x20\x77\x69\x6C\x6C\x20\x63\x6F\x73\x74\x73\x20\x79\x6F\x75\x20\x31\x30\x30\x4B","\x48\x61\x63\x6B\x20\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72","\x75\x70\x64\x61\x74\x65\x50\x6F\x69\x6E\x74\x73","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x68\x61\x63\x6B\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x3F\x20\x54\x68\x69\x73\x20\x77\x69\x6C\x6C\x20\x63\x6F\x73\x74\x73\x20\x79\x6F\x75\x20\x31\x30\x30\x4B\x2E\x20\x59\x6F\x75\x20\x77\x69\x6C\x6C\x20\x67\x65\x74\x20\x31\x30\x20\x52\x65\x73\x65\x61\x72\x63\x68\x20\x50\x6F\x69\x6E\x74\x73","\x62\x75\x79","\x42\x75\x79","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x62\x75\x79\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x3F","\x73\x65\x74\x74\x69\x6E\x67\x73","\x4D\x65\x72\x67\x65\x20\x63\x6F\x6D\x70\x61\x6E\x79\x20\x7B\x30\x7D","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x6D\x65\x72\x67\x65\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x20\x77\x69\x74\x68\x20\x79\x6F\x75\x72\x20\x63\x6F\x6D\x70\x61\x6E\x79\x3F","\x53\x65\x6C\x6C\x20\x63\x6F\x6D\x70\x61\x6E\x79\x20\x7B\x30\x7D","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x73\x65\x6C\x6C\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x3F","\x76\x61\x6C","\x23\x74\x65\x78\x74\x46\x69\x65\x6C\x64","\x66\x69\x6E\x64","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x43\x6F\x6E\x74\x65\x6E\x74","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x72\x65\x6E\x61\x6D\x65\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x3F","\x73\x68\x6F\x77\x47\x61\x6D\x65\x48\x69\x73\x74\x6F\x72\x79","\x70\x61\x75\x73\x65","\x23\x67\x61\x6D\x65\x48\x69\x73\x74\x6F\x72\x79\x44\x69\x61\x6C\x6F\x67","\x23\x67\x61\x6D\x65\x48\x69\x73\x74\x6F\x72\x79\x43\x6F\x6E\x74\x65\x6E\x74","\x65\x6D\x70\x74\x79","\x20\x47\x61\x6D\x65\x20\x48\x69\x73\x74\x6F\x72\x79","\x74\x65\x78\x74","\x2E\x77\x69\x6E\x64\x6F\x77\x54\x69\x74\x6C\x65","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x67\x61\x6D\x65\x48\x69\x73\x74\x6F\x72\x79\x53\x6C\x69\x64\x65\x72\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72\x20\x72\x6F\x79\x61\x6C\x53\x6C\x69\x64\x65\x72\x20\x72\x73\x44\x65\x66\x61\x75\x6C\x74\x49\x6E\x76\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x61\x70\x70\x65\x6E\x64","\x69\x73\x45\x78\x74\x65\x6E\x73\x69\x6F\x6E\x50\x61\x63\x6B","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x46\x6F\x72\x47\x61\x6D\x65\x44\x65\x74\x61\x69\x6C","\x6D\x61\x78\x46\x6F\x6E\x74","\x6C\x6F\x63\x61\x6C\x69\x7A\x65","\x4F\x4B","\x63\x6C\x69\x63\x6B","\x63\x6C\x6F\x73\x65","\x64\x69\x61\x6C\x6F\x67","\x72\x65\x73\x75\x6D\x65","\x63\x6C\x69\x63\x6B\x45\x78\x63\x6C","\x2E\x6F\x6B\x42\x75\x74\x74\x6F\x6E","\x49\x53\x57\x49\x4E\x38","\x67\x64\x53\x6C\x69\x64\x65\x72","\x66\x61\x64\x65","\x2E\x63\x6C\x6F\x73\x65\x44\x69\x61\x6C\x6F\x67\x42\x75\x74\x74\x6F\x6E","\x2E\x75\x69\x2D\x64\x69\x61\x6C\x6F\x67\x3A\x66\x69\x72\x73\x74","\x70\x61\x72\x65\x6E\x74\x73","\x63\x6C\x6F\x73\x65\x42\x75\x74\x74\x6F\x6E\x54\x65\x6D\x70\x6C\x61\x74\x65","\x7A\x49\x6E\x64\x65\x78","\x63\x6C\x69\x63\x6B\x45\x78\x63\x6C\x4F\x6E\x63\x65","\x2E\x75\x69\x2D\x64\x69\x61\x6C\x6F\x67\x2D\x74\x69\x74\x6C\x65\x62\x61\x72","\x73\x69\x62\x6C\x69\x6E\x67\x73","\x74\x61\x6C\x6C\x57\x69\x6E\x64\x6F\x77","\x61\x64\x64\x43\x6C\x61\x73\x73","\x77\x69\x6E\x64\x6F\x77\x42\x6F\x72\x64\x65\x72","\x75\x69\x2D\x77\x69\x64\x67\x65\x74\x2D\x63\x6F\x6E\x74\x65\x6E\x74","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x64\x65\x73\x74\x72\x6F\x79","\x63\x73\x73\x54\x65\x78\x74","\x73\x74\x79\x6C\x65","\x64\x69\x73\x70\x6C\x61\x79\x3A\x6E\x6F\x6E\x65\x3B","\x67\x65\x74\x44\x61\x74\x65","\x63\x6C\x6F\x6E\x65","\x23\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x54\x65\x6D\x70\x6C\x61\x74\x65","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x54\x69\x74\x6C\x65","\x5F\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x43\x6F\x6C\x75\x6D\x6E\x31\x46\x6F\x6E\x74\x53\x69\x7A\x65","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x43\x6F\x6C\x75\x6D\x6E\x31","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x49\x53\x5F\x53\x45\x47\x4F\x45\x5F\x55\x49\x5F\x49\x4E\x53\x54\x41\x4C\x4C\x45\x44","\x53\x65\x67\x6F\x65\x20\x55\x49","\x4F\x70\x65\x6E\x20\x53\x61\x6E\x73","\x62\x6F\x6C\x64\x65\x72\x20\x7B\x30\x7D\x70\x74\x20\x7B\x31\x7D","\x62\x6C\x61\x63\x6B","\x67\x65\x74\x4D\x65\x61\x73\x75\x72\x65\x64\x57\x69\x64\x74\x68","\x7B\x30\x7D\x70\x74\x20\x7B\x31\x7D","\x70\x74","\x63\x73\x73","\x31\x32\x70\x74","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x43\x6F\x6C\x75\x6D\x6E\x32","\x2F","\x2D","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x54\x6F\x70\x69\x63\x47\x65\x6E\x72\x65","\x2C\x20","\x6A\x6F\x69\x6E","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x50\x6C\x61\x74\x66\x6F\x72\x6D","\x73\x72\x63","\x67\x65\x74\x50\x6C\x61\x74\x66\x6F\x72\x6D\x49\x6D\x61\x67\x65","\x61\x74\x74\x72","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x49\x6D\x61\x67\x65","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x43\x6F\x73\x74\x73","\x63\x6F\x6D\x69\x6E\x67\x20\x73\x6F\x6F\x6E","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x52\x65\x6C\x65\x61\x73\x65\x57\x65\x65\x6B","\x79\x65\x61\x72","\x6D\x6F\x6E\x74\x68","\x77\x65\x65\x6B","\x64\x61\x74\x65\x20\x64\x69\x73\x70\x6C\x61\x79","\x59\x7B\x30\x7D\x20\x4D\x7B\x31\x7D\x20\x57\x7B\x32\x7D","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x41\x6D\x6F\x75\x6E\x74\x45\x61\x72\x6E\x65\x64","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x54\x6F\x74\x61\x6C","\x4C\x6F\x73\x73\x3A","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x54\x6F\x74\x61\x6C\x4C\x61\x62\x65\x6C","\x72\x65\x64","\x67\x72\x65\x65\x6E","\x72\x6F\x75\x6E\x64","\x6D\x61\x78","\x67\x65\x74\x4C\x6F\x6E\x67\x4E\x75\x6D\x62\x65\x72\x53\x74\x72\x69\x6E\x67","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x46\x61\x6E\x73\x43\x68\x61\x6E\x67\x65","\x74\x6F\x70\x53\x61\x6C\x65\x73\x52\x61\x6E\x6B","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x54\x6F\x70\x53\x61\x6C\x65\x73\x52\x61\x6E\x6B","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x54\x6F\x70\x53\x61\x6C\x65\x73\x52\x61\x6E\x6B\x4C\x61\x62\x65\x6C","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x55\x6E\x69\x74\x73\x53\x6F\x6C\x64","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x55\x6E\x69\x74\x73\x53\x6F\x6C\x64\x4C\x61\x62\x65\x6C","\x3F","\x2E\x67\x61\x6D\x65\x41\x76\x65\x72\x61\x67\x65\x53\x63\x6F\x72\x65\x4F\x76\x65\x72\x76\x69\x65\x77","\x2E\x67\x61\x6D\x65\x44\x65\x74\x61\x69\x6C\x73\x41\x76\x67\x52\x65\x76\x69\x65\x77","\x62\x72\x6F\x61\x64\x43\x61\x73\x74\x4E\x6F\x66\x69\x66\x69\x63\x61\x74\x69\x6F\x6E\x43\x6F\x6D\x70\x6C\x65\x74\x65","\x73\x6F\x75\x72\x63\x65\x49\x64","\x63\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72","\x73\x65\x74\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72","\x41\x20\x73\x61\x64\x20\x74\x75\x72\x6E\x20\x6F\x66\x20\x65\x76\x65\x6E\x74\x73\x2C\x20\x7B\x30\x7D\x20\x61\x20\x63\x6F\x6D\x70\x61\x6E\x79\x20\x6B\x6E\x6F\x77\x6E\x20\x66\x6F\x72\x20\x69\x74\x27\x73\x20\x67\x72\x65\x61\x74\x20\x67\x61\x6D\x65\x73\x20\x68\x61\x73\x20\x6A\x75\x73\x74\x20\x61\x6E\x6E\x6F\x75\x6E\x63\x65\x64\x20\x42\x61\x6E\x6B\x72\x75\x70\x74\x63\x79\x2E\x20\x53\x74\x69\x6C\x6C\x20\x74\x68\x65\x72\x65\x20\x69\x73\x20\x61\x20\x67\x72\x65\x61\x74\x20\x6F\x70\x70\x6F\x72\x74\x75\x6E\x69\x74\x79\x20\x77\x6F\x75\x6C\x64\x20\x79\x6F\x75\x20\x6C\x69\x6B\x65\x20\x74\x6F\x20\x70\x75\x72\x63\x68\x61\x73\x65\x20\x74\x68\x69\x73\x20\x63\x6F\x6D\x70\x61\x6E\x79\x3F\x20\x45\x73\x74\x69\x6D\x61\x74\x65\x64\x20\x63\x6F\x73\x74\x73\x3A\x20\x7B\x31\x7D","\x68\x65\x61\x64\x69\x6E\x67","\x42\x61\x6E\x6B\x72\x75\x70\x74\x63\x79","\x64\x65\x63\x69\x73\x69\x6F\x6E\x20\x61\x63\x74\x69\x6F\x6E\x20\x62\x75\x74\x74\x6F\x6E\x3B\x20\x6D\x6F\x76\x65\x20\x61\x73\x20\x69\x6E\x20\x6D\x6F\x76\x65\x20\x74\x6F\x20\x6E\x65\x77\x20\x6F\x66\x66\x69\x63\x65","\x42\x75\x79\x20\x63\x6F\x6D\x70\x61\x6E\x79\x20\x61\x6E\x64\x20\x70\x61\x79\x20\x44\x65\x62\x74\x73","\x64\x65\x63\x69\x73\x69\x6F\x6E\x20\x61\x63\x74\x69\x6F\x6E\x20\x62\x75\x74\x74\x6F\x6E","\x4C\x65\x74\x20\x49\x74\x20\x62\x75\x72\x6E\x20\x3A\x70","\x42\x75\x79\x20\x62\x61\x6E\x6B\x72\x75\x70\x74\x20\x63\x6F\x6D\x70\x61\x6E\x79\x20\x7B\x30\x7D"];var CompetitorMod={};(function (){CompetitorMod[_0x8b7d[0]]=[];var _0xd5d4x2=function (){} ;var _0xd5d4x3=function (){GameFlags=jQuery[_0x8b7d[1]]({},GameFlags);GameFlags[_0x8b7d[2]]=true;} ;var _0xd5d4x4=GameManager[_0x8b7d[3]];var _0xd5d4x5=function (){CompetitorMod[_0x8b7d[3]]();CompetitorUI[_0x8b7d[4]]();_0xd5d4x4();} ;GameManager[_0x8b7d[3]]=_0xd5d4x5;CompetitorMod[_0x8b7d[5]]=function (){CompetitorModPublisher[_0x8b7d[5]]();CompetitorUI[_0x8b7d[5]]();GDT[_0x8b7d[10]](GDT[_0x8b7d[8]][_0x8b7d[7]][_0x8b7d[6]],CompetitorMod[_0x8b7d[9]]);GDT[_0x8b7d[10]](GDT[_0x8b7d[8]][_0x8b7d[12]][_0x8b7d[11]],CompetitorMod[_0x8b7d[13]]);GDT[_0x8b7d[10]](GDT[_0x8b7d[8]][_0x8b7d[12]][_0x8b7d[14]],CompetitorMod[_0x8b7d[15]]);GDT[_0x8b7d[10]](GDT[_0x8b7d[8]][_0x8b7d[12]][_0x8b7d[11]],_0xd5d4x3);} ;CompetitorMod[_0x8b7d[15]]=function (_0xd5d4x6){var _0xd5d4x7=_0xd5d4x6[_0x8b7d[16]];var _0xd5d4x8=_0xd5d4x7[_0x8b7d[17]];if(!_0xd5d4x8){_0xd5d4x8=_0xd5d4x7[_0x8b7d[17]]={};} ;_0xd5d4x8[_0x8b7d[0]]=CompetitorMod[_0x8b7d[0]][_0x8b7d[18]](function (_0xd5d4x9){return _0xd5d4x9[_0x8b7d[15]]();} );} ;CompetitorMod[_0x8b7d[13]]=function (_0xd5d4x6){var _0xd5d4x7=_0xd5d4x6[_0x8b7d[16]];var _0xd5d4x8=_0xd5d4x7[_0x8b7d[17]];if(!_0xd5d4x8){CompetitorMod[_0x8b7d[3]]();} else {if(_0xd5d4x8[_0x8b7d[0]]){CompetitorMod[_0x8b7d[0]]=_0xd5d4x8[_0x8b7d[0]][_0x8b7d[18]](function (_0xd5d4xa){return _0xd5d4x1f[_0x8b7d[13]](_0xd5d4xa);} );} ;} ;CompetitorUI[_0x8b7d[4]]();} ;CompetitorMod[_0x8b7d[9]]=function (_0xd5d4xb){for(var _0xd5d4xc=CompetitorMod[_0x8b7d[0]][_0x8b7d[19]]-1;_0xd5d4xc>=0;_0xd5d4xc--){var _0xd5d4xd=CompetitorMod[_0x8b7d[0]][_0xd5d4xc];if(_0xd5d4xd[_0x8b7d[20]]==true){CompetitorMod[_0x8b7d[0]][_0x8b7d[21]](_0xd5d4xd);CompetitorMod[_0x8b7d[22]]();continue ;} ;_0xd5d4xd[_0x8b7d[9]]();} ;CompetitorMod[_0x8b7d[23]]();CompetitorUI[_0x8b7d[4]]();} ;CompetitorMod[_0x8b7d[3]]=function (_0xd5d4xb){CompetitorMod[_0x8b7d[0]]=[];CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[24],_0x8b7d[25],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[29],_0x8b7d[30],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[31],_0x8b7d[32],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[33],_0x8b7d[34],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[35],_0x8b7d[36],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[37],_0x8b7d[38],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[39],_0x8b7d[40],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[41],_0x8b7d[42],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[43],_0x8b7d[44],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));CompetitorMod[_0x8b7d[0]][_0x8b7d[28]]( new _0xd5d4x1f(_0x8b7d[45],_0x8b7d[46],[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4)));} ;CompetitorMod[_0x8b7d[22]]=function (){var _0xd5d4xe=CompanyNames[_0x8b7d[47]]();for(var _0xd5d4xc=0;_0xd5d4xc<CompetitorMod[_0x8b7d[0]][_0x8b7d[19]];_0xd5d4xc++){var _0xd5d4xd=CompetitorMod[_0x8b7d[0]][_0xd5d4xc];if(_0xd5d4xd[_0x8b7d[48]]==_0xd5d4xe){CompetitorMod[_0x8b7d[22]]();return ;} ;} ;var _0xd5d4xf= new _0xd5d4x1f(_0x8b7d[49]+_0xd5d4xe[_0x8b7d[51]](/\s/g,_0x8b7d[50]),_0xd5d4xe,[],CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,4));_0xd5d4xf[_0x8b7d[52]]=2500000;CompetitorMod[_0x8b7d[0]][_0x8b7d[28]](_0xd5d4xf);} ;CompetitorMod[_0x8b7d[27]]=function (){var _0xd5d4x10=Topics[_0x8b7d[53]];var _0xd5d4x11=_0xd5d4x10[_0x8b7d[26]](0,0);var _0xd5d4x12=_0xd5d4x10[_0x8b7d[26]](0);var _0xd5d4x13= new MersenneTwister(Math[_0x8b7d[55]](Math[_0x8b7d[54]]()*65535));while(_0xd5d4x12[_0x8b7d[19]]>0){var _0xd5d4x14=Math[_0x8b7d[55]](_0xd5d4x13[_0x8b7d[54]]()*_0xd5d4x12[_0x8b7d[19]]);_0xd5d4x11[_0x8b7d[28]](_0xd5d4x12[_0xd5d4x14]);_0xd5d4x12[_0x8b7d[56]](_0xd5d4x14,1);} ;return _0xd5d4x11;} ;CompetitorMod[_0x8b7d[23]]=function (){CompetitorMod[_0x8b7d[0]][_0x8b7d[57]](function (_0xd5d4x15,_0xd5d4x16){return _0xd5d4x15[_0x8b7d[52]]-_0xd5d4x16[_0x8b7d[52]];} );CompetitorMod[_0x8b7d[0]][_0x8b7d[58]]();} ;var _0xd5d4x17=function (_0xd5d4x18){for(var _0xd5d4xc=0;_0xd5d4xc<CompetitorMod[_0x8b7d[0]][_0x8b7d[19]];_0xd5d4xc++){var _0xd5d4xd=CompetitorMod[_0x8b7d[0]][_0xd5d4xc];if(_0xd5d4xd[_0x8b7d[59]]==_0xd5d4x18){return _0xd5d4xd;} ;} ;return null;} ;var _0xd5d4x19=function (_0xd5d4xe){this[_0x8b7d[48]]=_0xd5d4xe;this[_0x8b7d[60]]=8;this[_0x8b7d[61]]=0;this[_0x8b7d[62]]=_0x8b7d[63];this[_0x8b7d[64]]=0;this[_0x8b7d[65]]=undefined;this[_0x8b7d[66]]=undefined;this[_0x8b7d[67]]=0;this[_0x8b7d[68]]=_0x8b7d[69];this[_0x8b7d[70]]=0;this[_0x8b7d[71]]=[];this[_0x8b7d[71]][_0x8b7d[28]](Platforms[_0x8b7d[72]][0]);this[_0x8b7d[73]]=0;this[_0x8b7d[74]]=0;this[_0x8b7d[75]]=0;this[_0x8b7d[76]]=0;this[_0x8b7d[77]]=0;this[_0x8b7d[78]]=0;this[_0x8b7d[79]]=0;this[_0x8b7d[80]]=0;this[_0x8b7d[81]]=undefined;this[_0x8b7d[82]]={};this[_0x8b7d[15]]=function (){var _0xd5d4x7={};_0xd5d4x7[_0x8b7d[48]]=this[_0x8b7d[48]];_0xd5d4x7[_0x8b7d[60]]=this[_0x8b7d[60]];_0xd5d4x7[_0x8b7d[83]]=this[_0x8b7d[61]];_0xd5d4x7[_0x8b7d[62]]=this[_0x8b7d[62]];_0xd5d4x7[_0x8b7d[64]]=this[_0x8b7d[64]];_0xd5d4x7[_0x8b7d[65]]=this[_0x8b7d[65]][_0x8b7d[59]];_0xd5d4x7[_0x8b7d[66]]=this[_0x8b7d[66]][_0x8b7d[59]];_0xd5d4x7[_0x8b7d[68]]=this[_0x8b7d[68]];_0xd5d4x7[_0x8b7d[70]]=this[_0x8b7d[70]];_0xd5d4x7[_0x8b7d[71]]=this[_0x8b7d[71]][_0x8b7d[18]](function (_0xd5d4x1a){return {"\x69\x64":_0xd5d4x1a[_0x8b7d[59]]};} );_0xd5d4x7[_0x8b7d[73]]=this[_0x8b7d[73]];_0xd5d4x7[_0x8b7d[74]]=this[_0x8b7d[74]];_0xd5d4x7[_0x8b7d[77]]=this[_0x8b7d[77]];_0xd5d4x7[_0x8b7d[78]]=this[_0x8b7d[78]];_0xd5d4x7[_0x8b7d[79]]=this[_0x8b7d[79]];_0xd5d4x7[_0x8b7d[75]]=this[_0x8b7d[75]];_0xd5d4x7[_0x8b7d[76]]=this[_0x8b7d[76]];_0xd5d4x7[_0x8b7d[80]]=this[_0x8b7d[80]];_0xd5d4x7[_0x8b7d[82]]=this[_0x8b7d[82]];return _0xd5d4x7;} ;} ;_0xd5d4x19[_0x8b7d[13]]=function (_0xd5d4x7){if(_0xd5d4x7){var _0xd5d4x1b= new _0xd5d4x19();_0xd5d4x1b[_0x8b7d[48]]=_0xd5d4x7[_0x8b7d[48]];_0xd5d4x1b[_0x8b7d[60]]=_0xd5d4x7[_0x8b7d[60]];_0xd5d4x1b[_0x8b7d[61]]=_0xd5d4x7[_0x8b7d[61]];_0xd5d4x1b[_0x8b7d[62]]=_0xd5d4x7[_0x8b7d[62]];_0xd5d4x1b[_0x8b7d[64]]=_0xd5d4x7[_0x8b7d[64]];if(_0xd5d4x7[_0x8b7d[65]]!=undefined){_0xd5d4x1b[_0x8b7d[65]]=GameGenre[_0x8b7d[85]]()[_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[59]]===_0xd5d4x7[_0x8b7d[65]];} );} ;if(_0xd5d4x7[_0x8b7d[86]]!=undefined){_0xd5d4x1b[_0x8b7d[86]]=GameGenre[_0x8b7d[85]]()[_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[59]]===_0xd5d4x7[_0x8b7d[86]];} );} ;if(_0xd5d4x7[_0x8b7d[66]]!=undefined){_0xd5d4x1b[_0x8b7d[66]]=Topics[_0x8b7d[53]][_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[59]]===_0xd5d4x7[_0x8b7d[66]];} );} ;_0xd5d4x1b[_0x8b7d[68]]=_0xd5d4x7[_0x8b7d[68]];_0xd5d4x1b[_0x8b7d[70]]=_0xd5d4x7[_0x8b7d[70]];if(_0xd5d4x7[_0x8b7d[71]]!=undefined){_0xd5d4x1b[_0x8b7d[71]]=_0xd5d4x7[_0x8b7d[71]][_0x8b7d[18]](function (_0xd5d4x1d){var _0xd5d4x1e=Platforms[_0x8b7d[72]][_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[59]]===_0xd5d4x1d[_0x8b7d[59]];} );if(!_0xd5d4x1e){_0xd5d4x1e=company[_0x8b7d[87]][_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[59]]===_0xd5d4x1d[_0x8b7d[59]];} );} ;return _0xd5d4x1e;} );} ;_0xd5d4x1b[_0x8b7d[73]]=_0xd5d4x7[_0x8b7d[73]];_0xd5d4x1b[_0x8b7d[74]]=_0xd5d4x7[_0x8b7d[74]];_0xd5d4x1b[_0x8b7d[77]]=_0xd5d4x7[_0x8b7d[77]];_0xd5d4x1b[_0x8b7d[78]]=_0xd5d4x7[_0x8b7d[78]];_0xd5d4x1b[_0x8b7d[79]]=_0xd5d4x7[_0x8b7d[79]];_0xd5d4x1b[_0x8b7d[75]]=_0xd5d4x7[_0x8b7d[75]];_0xd5d4x1b[_0x8b7d[76]]=_0xd5d4x7[_0x8b7d[76]];_0xd5d4x1b[_0x8b7d[80]]=_0xd5d4x7[_0x8b7d[80]];_0xd5d4x1b[_0x8b7d[82]]=_0xd5d4x7[_0x8b7d[82]];if(!_0xd5d4x1b[_0x8b7d[82]]){_0xd5d4x1b[_0x8b7d[82]]={};} ;return _0xd5d4x1b;} ;return undefined;} ;var _0xd5d4x1f=function (_0xd5d4x20,_0xd5d4xe,_0xd5d4x21,_0xd5d4x22){this[_0x8b7d[59]]=_0xd5d4x20;this[_0x8b7d[48]]=_0xd5d4xe;this[_0x8b7d[88]]=[];this[_0x8b7d[89]]=_0xd5d4x21;this[_0x8b7d[90]]=_0xd5d4x22;this[_0x8b7d[52]]=75000;this[_0x8b7d[61]]=0;this[_0x8b7d[91]]=false;this[_0x8b7d[82]]={};this[_0x8b7d[87]]=[];this[_0x8b7d[92]]=[];this[_0x8b7d[93]]=false;this[_0x8b7d[94]]=0;this[_0x8b7d[95]]=20;this[_0x8b7d[96]]=[];this[_0x8b7d[97]]=this[_0x8b7d[95]];this[_0x8b7d[98]]=undefined;this[_0x8b7d[20]]=false;this[_0x8b7d[99]]=function (){if(this[_0x8b7d[88]][_0x8b7d[19]]<1){return _0x8b7d[100];} ;var _0xd5d4x1b=this[_0x8b7d[88]][this[_0x8b7d[88]][_0x8b7d[19]]-1];return _0x8b7d[103][_0x8b7d[102]](_0xd5d4x1b[_0x8b7d[48]],_0xd5d4x1b[_0x8b7d[60]],_0xd5d4x1b[_0x8b7d[65]][_0x8b7d[48]],_0xd5d4x1b[_0x8b7d[66]][_0x8b7d[48]],UI[_0x8b7d[101]](_0xd5d4x1b[_0x8b7d[80]]));} ;this[_0x8b7d[104]]=function (){var _0xd5d4x1b=this[_0x8b7d[88]][this[_0x8b7d[88]][_0x8b7d[19]]-1];CompetitorModSales[_0x8b7d[105]](this,_0xd5d4x1b);} ;this[_0x8b7d[106]]=function (_0xd5d4x1b){var _0xd5d4x23=GameGenre[_0x8b7d[108]](_0xd5d4x1b[_0x8b7d[66]][_0x8b7d[107]],_0xd5d4x1b[_0x8b7d[65]]);var _0xd5d4x24=0;var _0xd5d4x25;var _0xd5d4x26=GameManager[_0x8b7d[110]][_0x8b7d[109]]();switch(_0xd5d4x23){case 0.6:_0xd5d4x24=3;break ;;case 0.7:_0xd5d4x24=5;break ;;case 0.8:_0xd5d4x24=8;break ;;case 0.9:_0xd5d4x24=9;break ;;case 1:_0xd5d4x24=10;break ;;} ;if(this[_0x8b7d[94]]>1000){_0xd5d4x26+=0.05;} else {if(this[_0x8b7d[94]]>2000){_0xd5d4x26+=0.075;} else {if(this[_0x8b7d[94]]>3000){_0xd5d4x26+=0.125;} else {if(this[_0x8b7d[94]]>4000){_0xd5d4x26+=0.15;} ;} ;} ;} ;if(_0xd5d4x26<=0.25){_0xd5d4x25=Math[_0x8b7d[55]](_0xd5d4x24*0.6);} else {if(_0xd5d4x26<=0.5){_0xd5d4x25=Math[_0x8b7d[55]](_0xd5d4x24*0.7);} else {if(_0xd5d4x26<=0.75){_0xd5d4x25=Math[_0x8b7d[55]](_0xd5d4x24*0.8);} else {if(_0xd5d4x26<=0.9){_0xd5d4x25=Math[_0x8b7d[55]](_0xd5d4x24*0.9);} else {if(_0xd5d4x26<=1){_0xd5d4x25=_0xd5d4x24;} else {_0xd5d4x25=_0xd5d4x24;} ;} ;} ;} ;} ;return _0xd5d4x25;} ;this[_0x8b7d[111]]=function (){var _0xd5d4x27;var _0xd5d4x28;do{_0xd5d4x28=null;_0xd5d4x27=CompetitorMod[_0x8b7d[27]]()[_0x8b7d[26]](0,1)[0];_0xd5d4x28=this[_0x8b7d[90]][_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[59]]===_0xd5d4x27[_0x8b7d[59]];} );} while(_0xd5d4x28!=null&&_0xd5d4x28[_0x8b7d[59]]===_0xd5d4x27[_0x8b7d[59]]);;this[_0x8b7d[90]][_0x8b7d[28]](_0xd5d4x27);} ;this[_0x8b7d[112]]=function (_0xd5d4x29,_0xd5d4x2a){var _0xd5d4x23=GameGenre[_0x8b7d[108]](_0xd5d4x29[_0x8b7d[107]],_0xd5d4x2a);if((_0xd5d4x23==0.6||_0xd5d4x23==0.7||_0xd5d4x23==0.8)&&this[_0x8b7d[113]](_0xd5d4x29,_0xd5d4x2a)){return true;} else {return false;} ;} ;this[_0x8b7d[114]]=function (){var _0xd5d4x1b= new _0xd5d4x19(_0x8b7d[115]+((this[_0x8b7d[88]][_0x8b7d[19]]==0)?_0x8b7d[50]:(_0x8b7d[116]+(this[_0x8b7d[88]][_0x8b7d[19]]+1))));_0xd5d4x1b[_0x8b7d[64]]=Math[_0x8b7d[55]](GameManager[_0x8b7d[110]][_0x8b7d[117]])+1;var _0xd5d4x2a;var _0xd5d4x29;if(this[_0x8b7d[98]]==undefined){do{_0xd5d4x2a=GameGenre[_0x8b7d[85]]()[_0x8b7d[47]]();_0xd5d4x29=this[_0x8b7d[90]][_0x8b7d[47]]();} while(this[_0x8b7d[112]](_0xd5d4x29,_0xd5d4x2a));;if(GameManager[_0x8b7d[110]][_0x8b7d[118]]==2){_0xd5d4x1b[_0x8b7d[62]]=_0x8b7d[119];} ;if(GameManager[_0x8b7d[110]][_0x8b7d[118]]==3){_0xd5d4x1b[_0x8b7d[62]]=_0x8b7d[119];} ;if(GameManager[_0x8b7d[110]][_0x8b7d[118]]==4){_0xd5d4x1b[_0x8b7d[62]]=_0x8b7d[120];} ;} else {_0xd5d4x2a=this[_0x8b7d[98]][_0x8b7d[65]];_0xd5d4x29=this[_0x8b7d[98]][_0x8b7d[66]];_0xd5d4x1b[_0x8b7d[62]]=this[_0x8b7d[98]][_0x8b7d[62]];_0xd5d4x1b[_0x8b7d[68]]=this[_0x8b7d[98]][_0x8b7d[68]];_0xd5d4x1b[_0x8b7d[81]]=this[_0x8b7d[98]];this[_0x8b7d[98]]=undefined;_0xd5d4x1b[_0x8b7d[82]][_0x8b7d[121]]=true;} ;_0xd5d4x1b[_0x8b7d[65]]=_0xd5d4x2a;_0xd5d4x1b[_0x8b7d[66]]=_0xd5d4x29;_0xd5d4x1b[_0x8b7d[60]]=this[_0x8b7d[106]](_0xd5d4x1b);this[_0x8b7d[88]][_0x8b7d[28]](_0xd5d4x1b);this[_0x8b7d[122]](_0xd5d4x1b);this[_0x8b7d[91]]=true;if(_0xd5d4x1b[_0x8b7d[60]]==10){this[_0x8b7d[94]]+=75;} else {this[_0x8b7d[94]]+=50;} ;CompetitorModSales[_0x8b7d[123]](this,_0xd5d4x1b);var _0xd5d4x2b=0;for(var _0xd5d4xc=0;_0xd5d4xc<_0xd5d4x1b[_0x8b7d[71]][_0x8b7d[19]];_0xd5d4xc++){_0xd5d4x2b+=_0xd5d4x1b[_0x8b7d[71]][_0xd5d4xc][_0x8b7d[124]];} ;if(GameManager[_0x8b7d[110]][_0x8b7d[125]][_0x8b7d[19]]>0){_0xd5d4x2b+=Math[_0x8b7d[55]](GameManager[_0x8b7d[110]][_0x8b7d[125]][GameManager[_0x8b7d[110]][_0x8b7d[125]][_0x8b7d[19]]-1][_0x8b7d[80]]/2.6);} ;this[_0x8b7d[52]]-=_0xd5d4x2b;_0xd5d4x1b[_0x8b7d[80]]=_0xd5d4x2b;if(_0xd5d4x1b[_0x8b7d[81]]!=undefined){if(_0xd5d4x1b[_0x8b7d[60]]<_0xd5d4x1b[_0x8b7d[81]][_0x8b7d[60]]){this[_0x8b7d[52]]-=_0xd5d4x1b[_0x8b7d[81]][_0x8b7d[126]];GameManager[_0x8b7d[110]][_0x8b7d[129]][_0x8b7d[28]]( new Notification(_0x8b7d[127],_0x8b7d[128][_0x8b7d[102]](this[_0x8b7d[48]],UI[_0x8b7d[101]](_0xd5d4x1b[_0x8b7d[81]][_0x8b7d[126]]))));GameManager[_0x8b7d[110]][_0x8b7d[131]](_0xd5d4x1b[_0x8b7d[81]][_0x8b7d[126]],_0x8b7d[130][_0x8b7d[102]](this[_0x8b7d[48]]));} else {GameManager[_0x8b7d[110]][_0x8b7d[129]][_0x8b7d[28]]( new Notification(_0x8b7d[127],_0x8b7d[133][_0x8b7d[102]](this[_0x8b7d[48]],_0xd5d4x1b[_0x8b7d[48]],_0xd5d4x1b[_0x8b7d[81]][_0x8b7d[132]])));} ;GameManager[_0x8b7d[110]][_0x8b7d[131]](-_0xd5d4x1b[_0x8b7d[81]][_0x8b7d[126]],_0x8b7d[135][_0x8b7d[102]](_0xd5d4x1b[_0x8b7d[81]][_0x8b7d[134]]));} ;this[_0x8b7d[97]]-=1;if(this[_0x8b7d[97]]<=0){this[_0x8b7d[111]]();this[_0x8b7d[97]]=this[_0x8b7d[95]];} ;} ;this[_0x8b7d[136]]=function (){if(GameManager[_0x8b7d[110]][_0x8b7d[118]]==1){this[_0x8b7d[52]]-=2000;} else {if(GameManager[_0x8b7d[110]][_0x8b7d[118]]==2){this[_0x8b7d[52]]-=10000;} else {if(GameManager[_0x8b7d[110]][_0x8b7d[118]]>2){this[_0x8b7d[52]]-=15000;} ;} ;} ;if(this[_0x8b7d[52]]<-50000){GameManager[_0x8b7d[110]][_0x8b7d[129]][_0x8b7d[28]](DecisionNotifications[_0x8b7d[138]][_0x8b7d[137]](this));} ;if(this[_0x8b7d[93]]){var _0xd5d4x2c=Math[_0x8b7d[55]]((this[_0x8b7d[52]]*0.05)/100);this[_0x8b7d[52]]-=_0xd5d4x2c;GameManager[_0x8b7d[110]][_0x8b7d[131]](_0xd5d4x2c,_0x8b7d[139][_0x8b7d[102]](this[_0x8b7d[48]]));GameManager[_0x8b7d[110]][_0x8b7d[140]]+=1;} ;} ;this[_0x8b7d[141]]=function (){var _0xd5d4x2d;for(var _0xd5d4xc=0;_0xd5d4xc<CompetitorModPublisher[_0x8b7d[142]][_0x8b7d[19]];_0xd5d4xc++){_0xd5d4x2d=CompetitorModPublisher[_0x8b7d[142]][_0xd5d4xc];if(_0xd5d4x2d[_0x8b7d[143]]===undefined){var _0xd5d4x28=this[_0x8b7d[90]][_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[59]]===_0xd5d4x2d[_0x8b7d[66]][_0x8b7d[59]];} );if(_0xd5d4x28!=null){_0xd5d4x2d[_0x8b7d[143]]=this;this[_0x8b7d[98]]=_0xd5d4x2d;} ;} ;} ;} ;this[_0x8b7d[9]]=function (){if(this[_0x8b7d[91]]==true){this[_0x8b7d[104]]();} else {this[_0x8b7d[114]]();} ;this[_0x8b7d[136]]();this[_0x8b7d[141]]();} ;this[_0x8b7d[113]]=function (_0xd5d4x29,_0xd5d4x2a){if(!this[_0x8b7d[96]]){return false;} ;return this[_0x8b7d[96]][_0x8b7d[84]](function (_0xd5d4x1c){return _0xd5d4x1c[_0x8b7d[144]]==_0xd5d4x29[_0x8b7d[59]]&&(_0xd5d4x1c[_0x8b7d[145]]==_0xd5d4x2a[_0x8b7d[59]]);} );} ;this[_0x8b7d[122]]=function (_0xd5d4x1b){if(!this[_0x8b7d[96]]){this[_0x8b7d[96]]=[];} ;if(this[_0x8b7d[113]](_0xd5d4x1b[_0x8b7d[66]],_0xd5d4x1b[_0x8b7d[65]])){return ;} ;var _0xd5d4x23=GameGenre[_0x8b7d[108]](_0xd5d4x1b[_0x8b7d[66]][_0x8b7d[107]],_0xd5d4x1b[_0x8b7d[65]]);var _0xd5d4x1c={"\x74\x6F\x70\x69\x63\x49\x64":_0xd5d4x1b[_0x8b7d[66]][_0x8b7d[59]],"\x67\x65\x6E\x72\x65\x49\x64":_0xd5d4x1b[_0x8b7d[65]][_0x8b7d[59]],"\x74\x6F\x70\x69\x63\x47\x65\x6E\x72\x65\x4D\x61\x74\x63\x68":_0xd5d4x23};this[_0x8b7d[96]][_0x8b7d[28]](_0xd5d4x1c);} ;this[_0x8b7d[15]]=function (){var _0xd5d4x7={};_0xd5d4x7[_0x8b7d[59]]=this[_0x8b7d[59]];_0xd5d4x7[_0x8b7d[48]]=this[_0x8b7d[48]];_0xd5d4x7[_0x8b7d[52]]=this[_0x8b7d[52]];_0xd5d4x7[_0x8b7d[61]]=this[_0x8b7d[61]];_0xd5d4x7[_0x8b7d[82]]=this[_0x8b7d[82]];_0xd5d4x7[_0x8b7d[93]]=this[_0x8b7d[93]];_0xd5d4x7[_0x8b7d[94]]=this[_0x8b7d[94]];_0xd5d4x7[_0x8b7d[91]]=this[_0x8b7d[91]];_0xd5d4x7[_0x8b7d[97]]=this[_0x8b7d[97]];_0xd5d4x7[_0x8b7d[96]]=this[_0x8b7d[96]];_0xd5d4x7[_0x8b7d[88]]=this[_0x8b7d[88]][_0x8b7d[18]](function (_0xd5d4x9){return _0xd5d4x9[_0x8b7d[15]]();} );_0xd5d4x7[_0x8b7d[89]]=this[_0x8b7d[89]][_0x8b7d[18]](function (_0xd5d4x9){return _0xd5d4x9[_0x8b7d[15]]();} );_0xd5d4x7[_0x8b7d[90]]=this[_0x8b7d[90]][_0x8b7d[18]](function (_0xd5d4x9){return TopicsSerializer[_0x8b7d[15]](_0xd5d4x9);} );_0xd5d4x7[_0x8b7d[87]]=this[_0x8b7d[87]][_0x8b7d[18]](function (_0xd5d4x9){return PlatformsSerializer[_0x8b7d[15]](_0xd5d4x9);} );_0xd5d4x7[_0x8b7d[92]]=this[_0x8b7d[92]][_0x8b7d[18]](function (_0xd5d4x9){return PlatformsSerializer[_0x8b7d[15]](_0xd5d4x9);} );return _0xd5d4x7;} ;} ;_0xd5d4x1f[_0x8b7d[13]]=function (_0xd5d4x7){var _0xd5d4x2e= new _0xd5d4x1f();_0xd5d4x2e[_0x8b7d[59]]=_0xd5d4x7[_0x8b7d[59]];_0xd5d4x2e[_0x8b7d[48]]=_0xd5d4x7[_0x8b7d[48]];_0xd5d4x2e[_0x8b7d[52]]=_0xd5d4x7[_0x8b7d[52]];_0xd5d4x2e[_0x8b7d[61]]=_0xd5d4x7[_0x8b7d[61]];_0xd5d4x2e[_0x8b7d[93]]=_0xd5d4x7[_0x8b7d[93]];_0xd5d4x2e[_0x8b7d[94]]=_0xd5d4x7[_0x8b7d[94]];_0xd5d4x2e[_0x8b7d[91]]=_0xd5d4x7[_0x8b7d[91]];_0xd5d4x2e[_0x8b7d[97]]=_0xd5d4x7[_0x8b7d[97]];_0xd5d4x2e[_0x8b7d[96]]=_0xd5d4x7[_0x8b7d[96]];_0xd5d4x2e[_0x8b7d[82]]=_0xd5d4x7[_0x8b7d[82]];if(!_0xd5d4x2e[_0x8b7d[82]]){_0xd5d4x2e[_0x8b7d[82]]={};} ;_0xd5d4x2e[_0x8b7d[89]]=_0xd5d4x7[_0x8b7d[89]][_0x8b7d[18]](function (_0xd5d4xa){return Genres[_0x8b7d[13]](_0xd5d4xa);} );_0xd5d4x2e[_0x8b7d[90]]=_0xd5d4x7[_0x8b7d[90]][_0x8b7d[18]](function (_0xd5d4xa){return TopicsSerializer[_0x8b7d[13]](_0xd5d4xa);} );_0xd5d4x2e[_0x8b7d[87]]=_0xd5d4x7[_0x8b7d[87]][_0x8b7d[18]](function (_0xd5d4xa){return PlatformsSerializer[_0x8b7d[13]](_0xd5d4xa);} );_0xd5d4x2e[_0x8b7d[92]]=_0xd5d4x7[_0x8b7d[92]][_0x8b7d[18]](function (_0xd5d4xa){return PlatformsSerializer[_0x8b7d[13]](_0xd5d4xa);} );if(_0xd5d4x7[_0x8b7d[88]]){_0xd5d4x2e[_0x8b7d[88]]=_0xd5d4x7[_0x8b7d[88]][_0x8b7d[18]](function (_0xd5d4xa){return _0xd5d4x19[_0x8b7d[13]](_0xd5d4xa);} );} ;return _0xd5d4x2e;} ;CompetitorMod[_0x8b7d[146]]=function (_0xd5d4x18,_0xd5d4x2f){var _0xd5d4xd=_0xd5d4x17(_0xd5d4x18);if(_0xd5d4x2f==1){var _0xd5d4x30=function (){GameManager[_0x8b7d[110]][_0x8b7d[131]](-100000,_0x8b7d[147]);_0xd5d4xd[_0x8b7d[52]]=-50000;} ;CompetitorUI[_0x8b7d[149]](_0x8b7d[148],_0xd5d4x30);} else {if(_0xd5d4x2f==2){var _0xd5d4x30=function (){GameManager[_0x8b7d[110]][_0x8b7d[131]](-100000,_0x8b7d[150]);_0xd5d4xd[_0x8b7d[52]]-=200000;} ;CompetitorUI[_0x8b7d[149]](_0x8b7d[151],_0xd5d4x30);} else {if(_0xd5d4x2f==3){var _0xd5d4x30=function (){GameManager[_0x8b7d[110]][_0x8b7d[131]](-100000,_0x8b7d[152]);GameManager[_0x8b7d[110]][_0x8b7d[140]]=Math[_0x8b7d[55]](GameManager[_0x8b7d[110]][_0x8b7d[140]])+10;VisualsManager[_0x8b7d[140]][_0x8b7d[153]](GameManager[_0x8b7d[110]][_0x8b7d[140]]);} ;CompetitorUI[_0x8b7d[149]](_0x8b7d[154],_0xd5d4x30);} ;} ;} ;} ;CompetitorMod[_0x8b7d[155]]=function (_0xd5d4x18,_0xd5d4x2f){var _0xd5d4xd=_0xd5d4x17(_0xd5d4x18);if(_0xd5d4x2f==1){if(_0xd5d4xd[_0x8b7d[93]]==true){return ;} ;var _0xd5d4x30=function (){GameManager[_0x8b7d[110]][_0x8b7d[131]](-_0xd5d4xd[_0x8b7d[52]],_0x8b7d[156]);_0xd5d4xd[_0x8b7d[93]]=true;} ;CompetitorUI[_0x8b7d[149]](_0x8b7d[157],_0xd5d4x30);} ;} ;CompetitorMod[_0x8b7d[158]]=function (_0xd5d4x18,_0xd5d4x2f){var _0xd5d4xd=_0xd5d4x17(_0xd5d4x18);if(_0xd5d4x2f==1){if(_0xd5d4xd==undefined||_0xd5d4xd[_0x8b7d[20]]==true||_0xd5d4xd[_0x8b7d[93]]==false){return ;} ;var _0xd5d4x30=function (){GameManager[_0x8b7d[110]][_0x8b7d[131]](_0xd5d4xd[_0x8b7d[52]],_0x8b7d[159][_0x8b7d[102]](_0xd5d4xd[_0x8b7d[48]]));GameManager[_0x8b7d[110]][_0x8b7d[140]]+=Math[_0x8b7d[55]](_0xd5d4xd[_0x8b7d[94]]/50);VisualsManager[_0x8b7d[140]][_0x8b7d[153]](GameManager[_0x8b7d[110]][_0x8b7d[140]]);GameManager[_0x8b7d[110]][_0x8b7d[61]]+=_0xd5d4xd[_0x8b7d[61]];_0xd5d4xd[_0x8b7d[93]]=false;_0xd5d4xd[_0x8b7d[20]]=true;} ;CompetitorUI[_0x8b7d[149]](_0x8b7d[160],_0xd5d4x30);} else {if(_0xd5d4x2f==2){if(_0xd5d4xd[_0x8b7d[93]]==false){return ;} ;var _0xd5d4x30=function (){GameManager[_0x8b7d[110]][_0x8b7d[131]](_0xd5d4xd[_0x8b7d[52]],_0x8b7d[161][_0x8b7d[102]](_0xd5d4xd[_0x8b7d[48]]));_0xd5d4xd[_0x8b7d[93]]=false;} ;CompetitorUI[_0x8b7d[149]](_0x8b7d[162],_0xd5d4x30);} else {if(_0xd5d4x2f==3){if(_0xd5d4xd[_0x8b7d[93]]==false){return ;} ;var _0xd5d4x30=function (){var _0xd5d4xe=$(_0x8b7d[166])[_0x8b7d[165]](_0x8b7d[164]+_0xd5d4x2f)[_0x8b7d[163]]();_0xd5d4xd[_0x8b7d[48]]=_0xd5d4xe;} ;CompetitorUI[_0x8b7d[149]](_0x8b7d[167],_0xd5d4x30);} ;} ;} ;} ;CompetitorMod[_0x8b7d[168]]=function (_0xd5d4xd){var _0xd5d4x31=_0xd5d4xd[_0x8b7d[88]];if(_0xd5d4x31[_0x8b7d[19]]>0){GameManager[_0x8b7d[169]](true);var _0xd5d4x32=$(_0x8b7d[170]);var _0xd5d4x33=_0xd5d4x32[_0x8b7d[165]](_0x8b7d[171]);_0xd5d4x33[_0x8b7d[172]]();_0xd5d4x32[_0x8b7d[165]](_0x8b7d[175])[_0x8b7d[174]](_0xd5d4xd[_0x8b7d[48]]+_0x8b7d[173]);var _0xd5d4x34=$(_0x8b7d[176]);_0xd5d4x33[_0x8b7d[177]](_0xd5d4x34);_0xd5d4x31[_0x8b7d[26]]()[_0x8b7d[57]](function (_0xd5d4x15,_0xd5d4x16){if(_0xd5d4x15[_0x8b7d[64]]>_0xd5d4x16[_0x8b7d[64]]){return 1;} ;return -1;} );for(var _0xd5d4xc=_0xd5d4x31[_0x8b7d[19]]-1;_0xd5d4xc>=0;_0xd5d4xc--){var _0xd5d4x1b=_0xd5d4x31[_0xd5d4xc];if(!_0xd5d4x1b[_0x8b7d[82]][_0x8b7d[178]]||forPostMortem){var _0xd5d4x35=_0xd5d4x1b[_0x8b7d[60]];var _0xd5d4x36=CompetitorMod[_0x8b7d[179]](_0xd5d4x1b,_0xd5d4x35);_0xd5d4x34[_0x8b7d[177]](_0xd5d4x36);} ;} ;UI[_0x8b7d[180]](_0xd5d4x32[_0x8b7d[165]](_0x8b7d[175]),34,50);var _0xd5d4x37=_0x8b7d[182][_0x8b7d[181]]();_0xd5d4x32[_0x8b7d[165]](_0x8b7d[188])[_0x8b7d[174]](_0xd5d4x37)[_0x8b7d[187]](function (){Sound[_0x8b7d[183]]();$(_0x8b7d[170])[_0x8b7d[185]](_0x8b7d[184]);GameManager[_0x8b7d[186]](true);} );if(PlatformShim[_0x8b7d[189]]){_0xd5d4x34[_0x8b7d[190]]();} ;_0xd5d4x32[_0x8b7d[185]]({draggable:false,width:660,height:650,modal:true,resizable:false,show:_0x8b7d[191],zIndex:6000,open:function (){var _0xd5d4x38=$(this)[_0x8b7d[194]](_0x8b7d[193])[_0x8b7d[165]](_0x8b7d[192]);if(_0xd5d4x38[_0x8b7d[19]]==0){_0xd5d4x38=$(UI[_0x8b7d[195]]);$(this)[_0x8b7d[194]](_0x8b7d[193])[_0x8b7d[177]](_0xd5d4x38);} ;_0xd5d4x38[_0x8b7d[196]]=4500;_0xd5d4x38[_0x8b7d[197]](function (){Sound[_0x8b7d[183]]();_0xd5d4x32[_0x8b7d[185]](_0x8b7d[184]);} );$(this)[_0x8b7d[199]](_0x8b7d[198])[_0x8b7d[21]]();$(this)[_0x8b7d[194]](_0x8b7d[193])[_0x8b7d[201]](_0x8b7d[200]);$(this)[_0x8b7d[194]](_0x8b7d[193])[_0x8b7d[201]](_0x8b7d[202]);$(this)[_0x8b7d[194]](_0x8b7d[193])[_0x8b7d[204]](_0x8b7d[203]);var _0xd5d4x39=this;if(!PlatformShim[_0x8b7d[189]]){_0xd5d4x34[_0x8b7d[190]]();} ;} ,close:function (){$(this)[_0x8b7d[185]](_0x8b7d[205]);this[_0x8b7d[207]][_0x8b7d[206]]=_0x8b7d[208];GameManager[_0x8b7d[186]](true);} });} ;} ;CompetitorMod[_0x8b7d[179]]=function (_0xd5d4x1b,_0xd5d4x3a){var _0xd5d4x3b=GameManager[_0x8b7d[110]][_0x8b7d[209]](_0xd5d4x1b[_0x8b7d[64]]);var _0xd5d4x3c=$(_0x8b7d[211])[_0x8b7d[210]]();_0xd5d4x3c[_0x8b7d[212]](_0x8b7d[59]);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[213])[_0x8b7d[174]](_0xd5d4x1b[_0x8b7d[48]]);if(UI[_0x8b7d[214]]==undefined){var _0xd5d4x3d=_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[215]);var _0xd5d4x3e=[];for(var _0xd5d4xc=0;_0xd5d4xc<_0xd5d4x3d[_0x8b7d[19]];_0xd5d4xc++){if(_0xd5d4x3d[_0xd5d4xc][_0x8b7d[216]]){_0xd5d4x3e[_0x8b7d[28]](_0xd5d4x3d[_0xd5d4xc][_0x8b7d[216]]);} ;} ;var _0xd5d4x3f=UI[_0x8b7d[217]]?_0x8b7d[218]:_0x8b7d[219];UI[_0x8b7d[214]]=15;var _0xd5d4x40=_0x8b7d[220][_0x8b7d[102]](UI._gameDetailsColumn1FontSize,_0xd5d4x3f);for(var _0xd5d4xc=0;_0xd5d4xc<_0xd5d4x3e[_0x8b7d[19]];_0xd5d4xc++){if(UI[_0x8b7d[214]]==10){break ;} ;var _0xd5d4x41= new createjs.Text(_0xd5d4x3e[_0xd5d4xc],_0xd5d4x40,_0x8b7d[221]);if(_0xd5d4x41[_0x8b7d[222]]()>180){UI[_0x8b7d[214]]-=1;_0xd5d4x40=_0x8b7d[223][_0x8b7d[102]](UI._gameDetailsColumn1FontSize,_0xd5d4x3f);_0xd5d4xc--;} ;} ;} ;_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[215])[_0x8b7d[225]]({"\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65":UI[_0x8b7d[214]]+_0x8b7d[224]});if(!UI[_0x8b7d[217]]){_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[215])[_0x8b7d[225]]({"\x66\x6F\x6E\x74\x2D\x66\x61\x6D\x69\x6C\x79":_0x8b7d[219]});_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[227])[_0x8b7d[225]]({"\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65":_0x8b7d[226],"\x66\x6F\x6E\x74\x2D\x66\x61\x6D\x69\x6C\x79":_0x8b7d[219]});} ;if(_0xd5d4x1b[_0x8b7d[86]]){_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[230])[_0x8b7d[174]](_0xd5d4x1b[_0x8b7d[66]][_0x8b7d[48]]+_0x8b7d[228]+_0xd5d4x1b[_0x8b7d[65]][_0x8b7d[48]]+_0x8b7d[229]+_0xd5d4x1b[_0x8b7d[86]][_0x8b7d[48]]);} else {_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[230])[_0x8b7d[174]](_0xd5d4x1b[_0x8b7d[66]][_0x8b7d[48]]+_0x8b7d[228]+_0xd5d4x1b[_0x8b7d[65]][_0x8b7d[48]]);} ;var _0xd5d4x42=_0xd5d4x1b[_0x8b7d[71]][_0x8b7d[18]](function (_0xd5d4x1a){return _0xd5d4x1a[_0x8b7d[48]];} )[_0x8b7d[232]](_0x8b7d[231]);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[233])[_0x8b7d[174]](_0xd5d4x42);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[237])[_0x8b7d[236]](_0x8b7d[234],Platforms[_0x8b7d[235]](_0xd5d4x1b[_0x8b7d[71]][0],_0xd5d4x1b[_0x8b7d[64]]));_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[238])[_0x8b7d[174]](UI[_0x8b7d[101]](_0xd5d4x1b[_0x8b7d[80]]));if(_0xd5d4x1b[_0x8b7d[64]]>GameManager[_0x8b7d[110]][_0x8b7d[117]]){_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[240])[_0x8b7d[174]](_0x8b7d[239][_0x8b7d[181]]());} else {_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[240])[_0x8b7d[174]](_0x8b7d[245][_0x8b7d[181]](_0x8b7d[244])[_0x8b7d[102]](_0xd5d4x3b[_0x8b7d[241]],_0xd5d4x3b[_0x8b7d[242]],_0xd5d4x3b[_0x8b7d[243]]));} ;if(_0xd5d4x1b[_0x8b7d[73]]>0){_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[246])[_0x8b7d[174]](UI[_0x8b7d[101]](_0xd5d4x1b[_0x8b7d[73]]));var _0xd5d4x43=_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[247]);var _0xd5d4x44=_0xd5d4x1b[_0x8b7d[73]]-_0xd5d4x1b[_0x8b7d[80]];if(_0xd5d4x44<0){_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[249])[_0x8b7d[174]](_0x8b7d[248][_0x8b7d[181]]());_0xd5d4x43[_0x8b7d[201]](_0x8b7d[250]);} else {_0xd5d4x43[_0x8b7d[201]](_0x8b7d[251]);} ;_0xd5d4x43[_0x8b7d[174]](UI[_0x8b7d[101]](_0xd5d4x44));_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[255])[_0x8b7d[174]](UI[_0x8b7d[254]](Math[_0x8b7d[253]](0,Math[_0x8b7d[252]](_0xd5d4x1b[_0x8b7d[79]]))));if(_0xd5d4x1b[_0x8b7d[256]]>0){_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[257])[_0x8b7d[174]](_0xd5d4x1b[_0x8b7d[256]]);} else {_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[257])[_0x8b7d[174]](_0x8b7d[50]);} ;_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[258])[_0x8b7d[174]](_0x8b7d[50]);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[259])[_0x8b7d[174]](_0x8b7d[50]);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[260])[_0x8b7d[174]](_0x8b7d[50]);} else {var _0xd5d4x45=_0xd5d4x1b[_0x8b7d[82]][_0x8b7d[178]]?_0x8b7d[229]:_0x8b7d[261];_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[259])[_0x8b7d[174]](_0xd5d4x45);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[246])[_0x8b7d[174]](_0xd5d4x45);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[247])[_0x8b7d[174]](_0xd5d4x45);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[255])[_0x8b7d[174]](_0xd5d4x45);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[257])[_0x8b7d[174]](_0xd5d4x45);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[246])[_0x8b7d[204]](_0x8b7d[251]);} ;_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[262])[_0x8b7d[174]](_0xd5d4x3a);_0xd5d4x3c[_0x8b7d[165]](_0x8b7d[263])[_0x8b7d[174]](_0xd5d4x3a);return _0xd5d4x3c;} ;var _0xd5d4x46=General[_0x8b7d[264]];var _0xd5d4x47=function (_0xd5d4x48,_0xd5d4x49){if(_0xd5d4x48[_0x8b7d[265]]===_0x8b7d[138]){DecisionNotifications[_0x8b7d[138]][_0x8b7d[267]](_0xd5d4x48[_0x8b7d[266]]);} ;_0xd5d4x46(_0xd5d4x48,_0xd5d4x49);} ;General[_0x8b7d[264]]=_0xd5d4x47;{var _0xd5d4x4a=DecisionNotifications;_0xd5d4x4a[_0x8b7d[138]]={id:_0x8b7d[138],trigger:function (_0xd5d4xb){return false;} ,competitor:undefined,setCompetitor:function (_0xd5d4x4b){this[_0x8b7d[266]]=_0xd5d4x4b;return ;} ,getNotification:function (_0xd5d4xb){var _0xd5d4x4c=_0x8b7d[268][_0x8b7d[181]]()[_0x8b7d[102]](_0xd5d4xb[_0x8b7d[48]],UI[_0x8b7d[101]](-(_0xd5d4xb[_0x8b7d[52]]-500000)));return  new Notification({sourceId:_0x8b7d[138],header:_0x8b7d[270][_0x8b7d[181]](_0x8b7d[269]),text:_0xd5d4x4c,competitor:_0xd5d4xb,options:[_0x8b7d[272][_0x8b7d[181]](_0x8b7d[271]),_0x8b7d[274][_0x8b7d[181]](_0x8b7d[273])]});} ,complete:function (_0xd5d4x4d,_0xd5d4x48){var _0xd5d4xb=GameManager[_0x8b7d[110]];if(_0xd5d4x4d===0){_0xd5d4xb[_0x8b7d[131]](this[_0x8b7d[266]][_0x8b7d[52]]-500000,_0x8b7d[275][_0x8b7d[102]](this[_0x8b7d[266]][_0x8b7d[48]]));this[_0x8b7d[266]][_0x8b7d[93]]=true;this[_0x8b7d[266]][_0x8b7d[52]]=500000;} else {this[_0x8b7d[266]][_0x8b7d[20]]=true;} ;} };} ;} )();
+﻿var CompetitorMod = {};
+(function () {
+CompetitorMod.competitors = [];
+
+
+
+		//temp for testing
+		var test = function(){
+		}
+		//UI._showNotification = test;
+		var setCustomGameSpeed = function(){
+			GameFlags = jQuery.extend({},GameFlags);
+			GameFlags.ghg6 = true;
+		}
+		//end temp for testing
+
+		
+		
+		
+var oldStartNewGame = GameManager.startNewGame;
+var newStartNewGame = function(){
+	CompetitorMod.startNewGame();
+	CompetitorUI.updateCompetitorUI();	
+	oldStartNewGame();
+}
+GameManager.startNewGame = newStartNewGame;
+
+CompetitorMod.init = function(){
+	CompetitorModPublisher.init();
+	CompetitorUI.init();
+
+	//init tick,Save,Load
+	GDT.on(GDT.eventKeys.gameplay.weekProceeded, CompetitorMod.tick);
+	GDT.on(GDT.eventKeys.saves.loading, CompetitorMod.load);
+	GDT.on(GDT.eventKeys.saves.saving, CompetitorMod.save);
+	
+	//debug
+	GDT.on(GDT.eventKeys.saves.loading, setCustomGameSpeed);
+	
+	//test
+	/*ResourceKeys.Level1 = "./mods/CompetitorMod/source/images/level1.png";
+	var loader = new html5Preloader(ResourceKeys.Level1);
+	GameDev.ResourceManager.resources[ResourceKeys.Level1] = loader.getFile(ResourceKeys.Level1);*/
+}
+
+CompetitorMod.save = function(e){
+	var data = e.data;
+	var competitorModData = data['competitorModData'];
+	if (!competitorModData) {
+		competitorModData = data.competitorModData = {};
+	}
+	competitorModData["competitors"] = CompetitorMod.competitors.map(function (n) {return n.save()});
+}
+
+CompetitorMod.load = function(e){
+	var data = e.data;
+	var competitorModData = data['competitorModData'];
+	if (!competitorModData) {
+		CompetitorMod.startNewGame();
+	}else if(competitorModData["competitors"]){
+		CompetitorMod.competitors = competitorModData["competitors"].map(function (o) {return Competitor.load(o)});
+	}
+	
+	CompetitorUI.updateCompetitorUI();
+}
+
+CompetitorMod.tick = function(company){
+	for (var i=CompetitorMod.competitors.length-1;i>=0;i--){
+		var competitor = CompetitorMod.competitors[i];
+		
+		if(competitor.flagForRemoval == true){
+			//remove from array and add new competitor
+			CompetitorMod.competitors.remove(competitor);
+			CompetitorMod.addNewCompetitor();
+			continue;
+		}
+		competitor.tick();
+	}
+	CompetitorMod.sortCompetitors();
+	
+	CompetitorUI.updateCompetitorUI();
+}
+
+CompetitorMod.startNewGame = function(company){
+	CompetitorMod.competitors = [];
+	CompetitorMod.competitors.push(new Competitor("ID_sierra","Sienna",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_Ubisoft","Ubicroft",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_Minnisoft","MinniSoft",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_AreaNet","AreaNet",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_BackboneMedia","Backbone Media",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_BionicWare","BionicWare",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_BlackWolfGames","Black Wolf Games",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_BulldogProductions","Bulldog Productions",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_Kogonami","Kogonami",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+	CompetitorMod.competitors.push(new Competitor("ID_EagleSoftware","Eagle Software",[],CompetitorMod.getRandomTopics().slice(0, 4)));
+}
+
+CompetitorMod.addNewCompetitor = function(){
+	var name = CompanyNames.pickRandom();
+	
+	//check if name is used already
+	for (var i=0;i<CompetitorMod.competitors.length;i++){
+		var competitor = CompetitorMod.competitors[i];
+		if(competitor.name == name){
+			CompetitorMod.addNewCompetitor();
+			return;
+		}
+	}
+	
+	var new_competitor = new Competitor("ID_"+name.replace(/\s/g,"") , name,[],CompetitorMod.getRandomTopics().slice(0, 4));
+	new_competitor.cash = 2500000;
+	CompetitorMod.competitors.push(new_competitor);
+}
+
+CompetitorMod.getRandomTopics = function () {
+	var original = Topics.topics;
+	var finalOrder = original.slice(0, 0);
+	var rest = original.slice(0);
+	var random = new MersenneTwister(Math.floor(Math.random() * 65535));
+		while (rest.length > 0) {
+			var index = Math.floor(random.random() * rest.length);
+			finalOrder.push(rest[index]);
+			rest.splice(index, 1)
+		}
+	return finalOrder
+};
+
+CompetitorMod.sortCompetitors = function(){
+	CompetitorMod.competitors.sort(function(a, b){
+	 return a.cash-b.cash;
+	});
+	CompetitorMod.competitors.reverse();
+}
+
+var getCompetitor = function(competitor_id){
+	for (var i=0;i<CompetitorMod.competitors.length;i++){
+		var competitor = CompetitorMod.competitors[i];
+		if(competitor.id == competitor_id){
+			return competitor;
+		}
+	}
+	return null;
+}
+
+var CompetitorGame = function (name) {
+	this.name = name;
+	this.score = 8;
+	this.fans = 0;
+	this.gameSize = "small";
+	this.releaseWeek = 0;
+	this.genre = undefined;
+	this.topic = undefined;
+	this.weeksOnMarket = 0;
+	this.targetAudience = "everyone";
+	this.hypePoints = 0;
+	this.platforms = [];
+	this.platforms.push(Platforms.allPlatforms[0]);
+	this.totalSalesCash =0;
+	this.currentSalesCash = 0;
+	this.nextSalesCash = 0;
+	this.nextSalesRank = 0;
+	this.fansChangeTarget = 0;
+	this.nextfansChange = 0;
+	this.fansChanged = 0;
+	this.costs = 0;
+	this.contract = undefined;
+	this.flags = {};
+	
+	this.save = function () {
+		var data = {};
+		data["name"] = this.name;
+		data["score"] = this.score;
+		data["fans "] = this.fans;
+		data["gameSize"] = this.gameSize;
+		data["releaseWeek"] = this.releaseWeek;
+		data["genre"] = this.genre.id;
+		data["topic"] = this.topic.id;
+		data["targetAudience"] = this.targetAudience;
+		data["hypePoints"] = this.hypePoints;
+		data["platforms"] = this.platforms.map(function (p) {return {"id" : p.id}});
+		data["totalSalesCash"] = this.totalSalesCash;
+		data["currentSalesCash"] = this.currentSalesCash;
+		data["fansChangeTarget"] = this.fansChangeTarget;
+		data["nextfansChange"] = this.nextfansChange;
+		data["fansChanged"] = this.fansChanged;
+		data["nextSalesCash"] = this.nextSalesCash;
+		data["nextSalesRank"] = this.nextSalesRank;
+		data["costs"] = this.costs;
+		data["flags"] = this.flags;
+		return data
+	}
+}
+
+CompetitorGame.load = function (data) {
+		if (data) {
+			var game = new CompetitorGame();
+			game.name = data["name"];
+			game.score = data["score"];
+			game.fans = data["fans"];
+			game.gameSize = data["gameSize"];
+			game.releaseWeek = data["releaseWeek"];
+			if (data["genre"] != undefined)
+				game.genre = GameGenre.getAll().first(function (item) {return item.id === data["genre"]});
+			if (data["secondGenre"] != undefined)
+				game.secondGenre = GameGenre.getAll().first(function (item) {return item.id === data["secondGenre"]});	
+			if (data["topic"] != undefined)
+				game.topic = Topics.topics.first(function (item) {return item.id === data["topic"]});
+			game.targetAudience = data["targetAudience"];
+			game.hypePoints = data["hypePoints"];
+			if (data["platforms"] != undefined)
+				game.platforms = data["platforms"].map(function (f) {
+						var platform = Platforms.allPlatforms.first(function (item) {return item.id === f["id"]});
+						if (!platform)
+							platform = company.licencedPlatforms.first(function (item) {return item.id === f["id"]});
+						return platform
+				});		
+			game.totalSalesCash = data["totalSalesCash"];
+			game.currentSalesCash = data["currentSalesCash"];
+			game.fansChangeTarget = data["fansChangeTarget"];
+			game.nextfansChange = data["nextfansChange"];
+			game.fansChanged = data["fansChanged"];
+			game.nextSalesCash = data["nextSalesCash"];
+			game.nextSalesRank = data["nextSalesRank"];
+			game.costs = data["costs"];
+			game.flags = data["flags"];
+			if (!game.flags)
+				game.flags = {};
+
+			return game
+		}
+		return undefined
+	};
+
+var Competitor = function (id,name,genres,topics) {
+	this.id = id;
+	this.name = name;
+	this.gameLog = [];
+	this.activeGenres = genres;
+	this.activeTopics = topics;
+	this.cash = 75000;
+	this.fans = 0;
+	this.isLastGameSelling = false;
+	this.flags = {};
+	this.licencedPlatforms = [];
+	this.availablePlatforms = [];
+	this.owned = false;
+	this.xp = 0;
+	this.maxGamesUntilNewTopic = 20;
+	this.knowledgeBase = [];
+	this.gamesUntilNewTopîc = this.maxGamesUntilNewTopic;
+	this.activeContract = undefined;
+	this.flagForRemoval = false;
+	
+	this.getLastGameInfo = function(){
+		if(this.gameLog.length <1)
+			return "None";
+		
+		var game = this.gameLog[this.gameLog.length-1];
+		return "{0}  Score: {1}<br>Genre: {2}<br>Topic: {3}<br>Costs: {4}".format(game.name,game.score,game.genre.name,game.topic.name,UI.getShortNumberString(game.costs));
+	}
+
+	this.processSales = function(){
+		var game = this.gameLog[this.gameLog.length-1];
+		CompetitorModSales.sellGame(this,game);
+	}
+	
+	this.generateGameScore = function(game){
+		var topicGenreMatch = GameGenre.getGenreWeighting(game.topic.genreWeightings, game.genre);
+		var maxScore = 0;
+		var score;
+		var r = GameManager.company.getRandom();
+
+		switch (topicGenreMatch) {
+			case 0.6:
+				maxScore = 3;
+				break;
+			case 0.7:
+				maxScore = 5;
+				break;
+			case 0.8:
+				maxScore = 8;
+				break;
+			case 0.9:
+				maxScore = 9;
+				break;
+			case 1:
+				maxScore = 10;
+				break
+		}
+		
+		if(this.xp > 1000){
+			r += 0.05;
+		}else if(this.xp > 2000){
+			r += 0.075;
+		}else if(this.xp > 3000){
+			r += 0.125;
+		}else if(this.xp > 4000){
+			r += 0.15;
+		}
+		
+		if(r <=0.25){
+			score = Math.floor(maxScore * 0.6);
+		}else if(r <=0.5){
+			score = Math.floor(maxScore * 0.7);
+		}else if(r <=0.75){
+			score = Math.floor(maxScore * 0.8);
+		}else if(r <=0.9){
+			score = Math.floor(maxScore * 0.9);
+		}else if(r <=1){
+			score = maxScore;
+		}else{
+			score = maxScore;
+		}
+		
+		return score;
+	}
+	
+	this.addNewTopic = function(){
+		var newTopic;
+		var foundTopic;
+		do{
+			foundTopic = null;
+			newTopic = CompetitorMod.getRandomTopics().slice(0, 1)[0];
+			foundTopic = this.activeTopics.first(function (item) {return item.id === newTopic.id});
+		}while(foundTopic != null && foundTopic.id === newTopic.id);
+		
+		this.activeTopics.push(newTopic);
+	}
+	
+	this.checkIfComboIsBadAndKnown = function(topic,genre){
+		var topicGenreMatch = GameGenre.getGenreWeighting(topic.genreWeightings, genre);
+		if((topicGenreMatch == 0.6 || topicGenreMatch == 0.7 || topicGenreMatch == 0.8) && this.hasComboKnowledge(topic,genre)){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	this.releaseNewGame = function () {
+		var game = new CompetitorGame(this.generateGameName());
+		game.releaseWeek = Math.floor(GameManager.company.currentWeek) + 1;		
+		var genre;
+		var topic;
+		
+		if(this.activeContract == undefined){
+			//check if combo is bad and in knowledgebase:
+			do{
+				genre = GameGenre.getAll().pickRandom();
+				topic = this.activeTopics.pickRandom();
+			}while(this.checkIfComboIsBadAndKnown(topic,genre));
+			
+			if( GameManager.company.currentLevel == 2)
+				game.gameSize = "medium";
+			if( GameManager.company.currentLevel == 3)
+				game.gameSize = "medium";		
+			if( GameManager.company.currentLevel == 4)
+				game.gameSize = "large";
+		}else{
+			//get contract details (genre & topic)
+			genre = this.activeContract.genre;
+			topic = this.activeContract.topic;
+			game.gameSize = this.activeContract.gameSize;
+			game.targetAudience = this.activeContract.targetAudience;
+			game.contract = this.activeContract;
+			this.activeContract = undefined;
+			game.flags.royaltyRate = true;
+		}
+		
+		game.genre = genre;
+		game.topic = topic;
+		game.score = this.generateGameScore(game);
+		
+		this.gameLog.push(game);
+		this.addToKnowledge(game);
+		this.isLastGameSelling = true;
+		
+		//add xp for releasing game
+		if(game.score == 10){
+			this.xp += 75;
+		}else{
+			this.xp += 50;
+		}
+		
+		//GameManager.company.notifications.push(new Notification("News", "{0} has released a their new game {1}".format(name,game.name)));
+		
+		CompetitorModSales.calculateSales(this,game);
+		
+		//process game dev costs
+		var gameCosts = 0;
+		for(var i = 0;i< game.platforms.length;i++){
+			gameCosts += game.platforms[i].developmentCosts;
+		}
+		
+		//get engine from user and calculate cost of using the engine
+		if(GameManager.company.engines.length >0)
+			gameCosts += Math.floor(GameManager.company.engines[GameManager.company.engines.length-1].costs/2.6);
+			
+
+		this.cash -= gameCosts;
+		game.costs = gameCosts;
+		
+		
+		
+		//publishercontracts
+		if(game.contract != undefined ){
+			if(game.score < game.contract.score){
+				//Company didn't have correct score--> give penalty 
+				this.cash -= game.contract.penaltyFee;
+				GameManager.company.notifications.push(new Notification("Publisher Contract", "{0} has failed to meet the required score for your Publish Contract. You will receive a penalty fee of {1}".format(this.name,UI.getShortNumberString(game.contract.penaltyFee))));
+				GameManager.company.adjustCash(game.contract.penaltyFee, "Publisher Contract Penalty {0}".format(this.name));
+			}else{
+				GameManager.company.notifications.push(new Notification("Publisher Contract", "{0} has just released '{1}' the required score for your Publish Contract has been reached! You will receive a weekly profit of {2}%".format(this.name,game.name,game.contract.royalty)));
+			}
+			GameManager.company.adjustCash(-game.contract.penaltyFee, "Publisher Contract Costs {0}".format(game.contract.preBonus));
+		}
+		
+		//check if a new topic needs to be added!
+		this.gamesUntilNewTopîc -= 1;
+		if(this.gamesUntilNewTopîc <=0){
+			this.addNewTopic();
+			this.gamesUntilNewTopîc = this.maxGamesUntilNewTopic;
+		}
+	}
+	
+	this.processWeek = function () {
+		//costs
+		if(GameManager.company.currentLevel == 1)
+			this.cash -= 2000;
+		else if(GameManager.company.currentLevel == 2)
+			this.cash -= 10000;
+		else if(GameManager.company.currentLevel > 2)
+			this.cash -= 15000;
+		/*else if(GameManager.company.currentLevel == 3)
+			this.cash -= 2000;
+		else if(GameManager.company.currentLevel == 4)
+			this.cash -= 2000;	*/
+			
+			
+		//check if company is bankrupt
+		if(this.cash < -50000){
+				GameManager.company.notifications.push(DecisionNotifications.bankruptcyNotification.getNotification(this));
+			//GameManager.company.notifications.push(new Notification("Bankrupt", "A sad turn of events, {0} a company known for it's great games has just announced Bankruptcy.".format(this.name)));
+		}
+
+		
+		//owning revenue
+		if(this.owned){
+			var revenue = Math.floor((this.cash * 0.05) /100);
+			this.cash -= revenue;
+			GameManager.company.adjustCash(revenue, "Weekly Revenue {0}".format(this.name));
+			GameManager.company.researchPoints +=1 ;
+		}
+	}
+	
+	this.processPublisherContracts = function(){
+		var contract;
+		for(var i = 0;i<CompetitorModPublisher.contracts.length;i++){
+			contract = CompetitorModPublisher.contracts[i];
+			if(contract.activeCompany === undefined){
+				var foundTopic = this.activeTopics.first(function (item) {return item.id === contract.topic.id});
+				if(foundTopic != null){
+					//competitor has researched the needed topic
+					//Add to list of availible competitors and random choose one to complete the task, after that notify user publish deal is done
+					//for now just always use this company, so I can test the sales mechanism
+					contract.activeCompany = this;
+					this.activeContract = contract;
+				}
+			}
+		}
+	}
+	
+	this.tick = function(){
+		if(this.isLastGameSelling == true){
+			this.processSales();
+		}else{
+			this.releaseNewGame();
+		}
+		this.processWeek();
+		this.processPublisherContracts();
+	}
+	
+	this.hasComboKnowledge = function (topic, genre) {
+		if (!this.knowledgeBase)
+			return false;
+		return this.knowledgeBase.first(function (item) {
+			return item.topicId == topic.id && (item.genreId == genre.id /*&& (!game.secondGenre || game.secondGenre.id == item.secondGenreId)*/)
+		})
+	};
+	
+	this.addToKnowledge = function(game){
+		if (!this.knowledgeBase)
+			this.knowledgeBase = [];
+		if (this.hasComboKnowledge(game.topic,game.genre))
+			return;
+		var topicGenreMatch = GameGenre.getGenreWeighting(game.topic.genreWeightings, game.genre);
+
+		var item = {
+			"topicId" : game.topic.id,
+			"genreId" : game.genre.id,
+			"topicGenreMatch" : topicGenreMatch
+		};
+		/*if (game.secondGenre)
+			item.secondGenreId = game.secondGenre.id;*/
+		this.knowledgeBase.push(item);
+	}
+	
+	this.generateGameName = function(){
+		var name = null;
+		do{
+			name = Kristof1104Lib.generateGameName();
+		}while(this.isExistingGameName(name) == true);
+		return name;
+	}
+	
+	this.isExistingGameName = function(name){
+		var name = this.gameLog.first(function (item) {
+			return item.name == name;
+		})
+		if(!name && name != null){
+			return true;
+		}
+		return false;
+	}
+	
+	this.save = function () {
+		var data = {};
+		
+		data["id"] = this.id;
+		data["name"] = this.name;
+		data["cash"] = this.cash;
+		data["fans"] = this.fans;
+		data["flags"] = this.flags;
+		data["owned"] = this.owned;
+		data["xp"] = this.xp;
+		data["isLastGameSelling"] = this.isLastGameSelling;
+		data["gamesUntilNewTopîc"] = this.gamesUntilNewTopîc;
+		data["knowledgeBase"] = this.knowledgeBase;
+		data["gameLog"] = this.gameLog.map(function (n) {
+				return n.save()
+			});
+		data["activeGenres"] = this.activeGenres.map(function (n) {
+				return n.save()
+			});
+		data["activeTopics"] = this.activeTopics.map(function (n) {
+				return TopicsSerializer.save(n)
+			});
+		data["licencedPlatforms"] = this.licencedPlatforms.map(function (n) {
+				return PlatformsSerializer.save(n)
+			});
+		data["availablePlatforms"] = this.availablePlatforms.map(function (n) {
+				return PlatformsSerializer.save(n)
+			});
+		return data
+	}
+}
+
+Competitor.load = function (data) {
+		var obj = new Competitor();
+		obj.id = data["id"];
+		obj.name = data["name"];
+		obj.cash = data["cash"];
+		obj.fans = data["fans"];
+		obj.owned = data["owned"];
+		obj.xp = data["xp"];
+		obj.isLastGameSelling = data["isLastGameSelling"];
+		obj.gamesUntilNewTopîc = data["gamesUntilNewTopîc"];
+		obj.knowledgeBase = data["knowledgeBase"];
+		obj.flags = data["flags"];
+		if (!obj.flags)
+			obj.flags = {};
+			
+		obj.activeGenres = data["activeGenres"].map(function (o) {
+				return Genres.load(o)
+			});
+		obj.activeTopics = data["activeTopics"].map(function (o) {
+				return TopicsSerializer.load(o)
+			});
+		obj.licencedPlatforms = data["licencedPlatforms"].map(function (o) {
+				return PlatformsSerializer.load(o)
+			});
+		obj.availablePlatforms = data["availablePlatforms"].map(function (o) {
+				return PlatformsSerializer.load(o)
+			});
+
+		if (data["gameLog"])
+			obj.gameLog = data["gameLog"].map(function (o) {
+					return CompetitorGame.load(o)});
+		
+		return obj
+	};
+
+
+//UI Actions
+CompetitorMod.sabotage = function(competitor_id,option){
+	var competitor = getCompetitor(competitor_id);
+	if(option == 1){
+		var action = function(){
+			GameManager.company.adjustCash(-100000, "Sabotage");
+			//temp debug bankrupt company
+			competitor.cash = -50000;
+		}
+		CompetitorUI.confirmAction("Are you sure you want to bankrupt this competitor? This will costs you 100K",action);
+	}else if(option == 2){
+		var action = function(){
+			GameManager.company.adjustCash(-100000, "Hire Scammers");
+			competitor.cash -= 200000;
+		}
+		CompetitorUI.confirmAction("Are you sure you want to hire scammers to scam 200K from this competitor? This will costs you 100K",action);
+	}else if(option == 3){
+		var action = function(){
+			GameManager.company.adjustCash(-100000, "Hack Competitor");
+			GameManager.company.researchPoints = Math.floor(GameManager.company.researchPoints) + 10;
+			VisualsManager.researchPoints.updatePoints(GameManager.company.researchPoints); 
+		}
+		CompetitorUI.confirmAction("Are you sure you want to hack this competitor? This will costs you 100K. You will get 10 Research Points",action);
+	}
+}
+
+CompetitorMod.buy = function(competitor_id,option){
+	var competitor = getCompetitor(competitor_id);
+	if(option == 1){
+		if(competitor.owned == true)
+			return;
+	
+		var action = function(){
+			GameManager.company.adjustCash(-competitor.cash, "Buy");
+			competitor.owned = true;
+		}
+		CompetitorUI.confirmAction("Are you sure you want to buy this competitor?",action);
+	}
+}
+
+CompetitorMod.settings = function(competitor_id,option){
+	var competitor = getCompetitor(competitor_id);
+	if(option == 1){
+		if(competitor == undefined || competitor.flagForRemoval == true || competitor.owned == false)
+			return;
+		
+		var action = function(){
+			// add company cash to parent company
+			GameManager.company.adjustCash(competitor.cash, "Merge company {0}".format(competitor.name));
+			//add research points xp /50 = 1 RP
+			GameManager.company.researchPoints += Math.floor(competitor.xp/50);
+			VisualsManager.researchPoints.updatePoints(GameManager.company.researchPoints); 
+			//add fans
+			GameManager.company.fans += competitor.fans;
+			//todo staff training!
+			
+			//flag competitor for removal
+			competitor.owned = false;
+			competitor.flagForRemoval = true;
+		}
+		
+		CompetitorUI.confirmAction("Are you sure you want to merge this competitor with your company?",action);
+		
+	}else if(option == 2){
+		if(competitor.owned == false)
+			return;
+			
+		var action = function(){
+			GameManager.company.adjustCash(competitor.cash, "Sell company {0}".format(competitor.name));
+			competitor.owned = false;
+		}
+			
+		CompetitorUI.confirmAction("Are you sure you want to sell this competitor?",action);
+	}else if(option == 3){
+		if(competitor.owned == false)
+			return;
+		
+		var action = function(){
+			var name = $("#CompetitorModContent").find("#textField"+option).val();
+			competitor.name = name;
+		}
+		CompetitorUI.confirmAction("Are you sure you want to rename this competitor?",action);
+	}
+}
+
+//UI part
+CompetitorMod.showGameHistory = function (competitor) {
+		var games = competitor.gameLog;
+		if (games.length > 0) {
+			GameManager.pause(true);
+			var dlg = $("#gameHistoryDialog");
+			var content = dlg.find("#gameHistoryContent");
+			content.empty();
+			dlg.find(".windowTitle").text(competitor.name + " Game History");
+			
+			var slider = $('<div class="gameHistorySliderContainer royalSlider rsDefaultInv"></div>');
+			content.append(slider);
+			games.slice().sort(function (a,
+					b) {
+				if (a.releaseWeek > b.releaseWeek)
+					return 1;
+				return -1
+			});
+			for (var i = games.length - 1; i >= 0; i--) {
+				var game = games[i];
+				if (!game.flags.isExtensionPack || forPostMortem) {
+					var avgScore = game.score;
+					var element = CompetitorMod.getElementForGameDetail(game, avgScore);
+					slider.append(element)
+				}
+			}
+			//var selectGame = GameManager.flags.selectGameActive;
+			//if (selectGame)
+			//	GameManager.flags.selectedGameId = null;
+			//var dialogHeader = selectGame ? "Select Game".localize("heading") : "Game History".localize();
+			//dlg.find(".windowTitle").text(dialogHeader);
+			UI.maxFont(dlg.find(".windowTitle"), 34, 50);
+			var buttonText = "OK".localize();
+			dlg.find(".okButton").text(buttonText).clickExcl(function () {
+				Sound.click();
+				//if (selectGame)
+					//GameManager.flags.selectedGameId = dlg.find(".rsActiveSlide").find(".gameId").text();
+				$("#gameHistoryDialog").dialog("close");
+				GameManager.resume(true)
+			});
+			if (PlatformShim.ISWIN8)
+				slider.gdSlider();
+			dlg.dialog({
+				draggable : false,
+				width : 660,
+				height : 650,
+				modal : true,
+				resizable : false,
+				show : "fade",
+				zIndex : 6000,
+				open : function () {
+					var closeButton =
+						$(this).parents(".ui-dialog:first").find(".closeDialogButton");
+					if (closeButton.length == 0) {
+						closeButton = $(UI.closeButtonTemplate);
+						$(this).parents(".ui-dialog:first").append(closeButton)
+					}
+					closeButton.zIndex = 4500;
+					closeButton.clickExclOnce(function () {
+						Sound.click();
+						dlg.dialog("close")
+					});
+					$(this).siblings(".ui-dialog-titlebar").remove();
+					$(this).parents(".ui-dialog:first").addClass("tallWindow");
+					$(this).parents(".ui-dialog:first").addClass("windowBorder");
+					$(this).parents(".ui-dialog:first").removeClass("ui-widget-content");
+					var that = this;
+					if (!PlatformShim.ISWIN8)
+						slider.gdSlider()
+				},
+				close : function () {
+					$(this).dialog("destroy");
+					this.style.cssText = "display:none;";
+					//if (callback)
+						//callback();
+					GameManager.resume(true)
+				}
+			})
+		}
+}
+
+CompetitorMod.getElementForGameDetail = function (game, avgReview) {
+	var date = GameManager.company.getDate(game.releaseWeek);
+	var template = $("#gameDetailsTemplate").clone();
+	template.removeAttr("id");
+	template.find(".gameDetailsTitle").text(game.name);
+	if (UI._gameDetailsColumn1FontSize == undefined) {
+		var column1 = template.find(".gameDetailsColumn1");
+		var texts = [];
+		for (var i = 0; i < column1.length; i++)
+			if (column1[i].innerText)
+				texts.push(column1[i].innerText);
+		var fontName = UI.IS_SEGOE_UI_INSTALLED ?
+			"Segoe UI" : "Open Sans";
+		UI._gameDetailsColumn1FontSize = 15;
+		var font = "bolder {0}pt {1}".format(UI._gameDetailsColumn1FontSize, fontName);
+		for (var i = 0; i < texts.length; i++) {
+			if (UI._gameDetailsColumn1FontSize == 10)
+				break;
+			var text = new createjs.Text(texts[i], font, "black");
+			if (text.getMeasuredWidth() > 180) {
+				UI._gameDetailsColumn1FontSize -= 1;
+				font = "{0}pt {1}".format(UI._gameDetailsColumn1FontSize, fontName);
+				i--
+			}
+		}
+	}
+	template.find(".gameDetailsColumn1").css({
+		"font-size" : UI._gameDetailsColumn1FontSize + "pt"
+	});
+	if (!UI.IS_SEGOE_UI_INSTALLED) {
+		template.find(".gameDetailsColumn1").css({
+			"font-family" : "Open Sans"
+		});
+		template.find(".gameDetailsColumn2").css({
+			"font-size" : "12pt",
+			"font-family" : "Open Sans"
+		})
+	}
+	//template.find(".gameId").text(game.id);
+	if (game.secondGenre)
+		template.find(".gameDetailsTopicGenre").text(game.topic.name + "/" + game.genre.name + "-" + game.secondGenre.name);
+	else
+		template.find(".gameDetailsTopicGenre").text(game.topic.name + "/" + game.genre.name);
+	var platforms = game.platforms.map(function (p) {
+			return p.name
+		}).join(", ");
+	template.find(".gameDetailsPlatform").text(platforms);
+	//if (GameManager.company.researchCompleted.indexOf(Research.TargetAudience) !=
+	//	-1)
+		//template.find(".gameDetailsAudience").text(General.getAudienceLabel(game.targetAudience));
+	template.find(".gameDetailsImage").attr("src", Platforms.getPlatformImage(game.platforms[0], game.releaseWeek));
+	template.find(".gameDetailsCosts").text(UI.getShortNumberString(game.costs));
+	if (game.releaseWeek > GameManager.company.currentWeek)
+		template.find(".gameDetailsReleaseWeek").text("coming soon".localize());
+	else
+		template.find(".gameDetailsReleaseWeek").text("Y{0} M{1} W{2}".localize("date display").format(date.year,
+				date.month, date.week));
+	if (game.totalSalesCash > 0) {
+		template.find(".gameDetailsAmountEarned").text(UI.getShortNumberString(game.totalSalesCash));
+		var profitElement = template.find(".gameDetailsTotal");
+		var profit = game.totalSalesCash - game.costs;
+		if (profit < 0) {
+			template.find(".gameDetailsTotalLabel").text("Loss:".localize());
+			profitElement.addClass("red")
+		} else
+			profitElement.addClass("green");
+		profitElement.text(UI.getShortNumberString(profit));
+		template.find(".gameDetailsFansChange").text(UI.getLongNumberString(Math.max(0, Math.round(game.fansChanged))));
+		if (game.topSalesRank > 0)
+			template.find(".gameDetailsTopSalesRank").text(game.topSalesRank);
+		else
+			template.find(".gameDetailsTopSalesRank").text("");
+			template.find(".gameDetailsTopSalesRankLabel").text("");
+		template.find(".gameDetailsUnitsSold").text("");
+		template.find(".gameDetailsUnitsSoldLabel").text("");
+	} else {
+		var displayText = game.flags.isExtensionPack ? "-" : "?";
+		template.find(".gameDetailsUnitsSold").text(displayText);
+		template.find(".gameDetailsAmountEarned").text(displayText);
+		template.find(".gameDetailsTotal").text(displayText);
+		template.find(".gameDetailsFansChange").text(displayText);
+		template.find(".gameDetailsTopSalesRank").text(displayText);
+		template.find(".gameDetailsAmountEarned").removeClass("green")
+	}
+		template.find(".gameAverageScoreOverview").text(avgReview);
+		template.find(".gameDetailsAvgReview").text(avgReview)
+	
+	return template
+}
+
+//Notifications
+//Hook the broadCastNofificationComplete to Set the competitor source.
+var old_broadCastNofificationComplete = General.broadCastNofificationComplete
+var new_broadCastNofificationComplete = function (notification, params) {
+		if (notification.sourceId === "bankruptcyNotification"){
+		//set competitor
+			DecisionNotifications.bankruptcyNotification.setCompetitor(notification.competitor);
+		}
+	old_broadCastNofificationComplete(notification, params);
+};
+General.broadCastNofificationComplete = new_broadCastNofificationComplete
+
+{
+var dn = DecisionNotifications;
+	dn.bankruptcyNotification = {
+		id : "bankruptcyNotification",
+		trigger : function (company) {
+				return false
+		},
+		competitor : undefined,
+		setCompetitor : function (_competitor) {
+			this.competitor = _competitor;
+			return;
+		},
+		getNotification : function (company) {
+			var msg = "A sad turn of events, {0} a company known for it's great games has just announced Bankruptcy. Still there is a great opportunity would you like to purchase this company? Estimated costs: {1}".localize().format(company.name,UI.getShortNumberString(-(company.cash - 500000)));
+			return new Notification({
+				sourceId : "bankruptcyNotification",
+				header : "Bankruptcy".localize("heading"),
+				text : msg,
+				competitor : company,
+				options : ["Buy company and pay Debts".localize("decision action button; move as in move to new office"), "Let It burn :p".localize("decision action button")]
+			})
+		},
+		complete : function (decision,notification) {
+			var company = GameManager.company;
+			if (decision === 0) {
+				company.adjustCash(this.competitor.cash - 500000, "Buy bankrupt company {0}".format(this.competitor.name));
+				this.competitor.owned = true;
+				this.competitor.cash = 500000;
+			} else{
+				//flag competitor for removal.
+				this.competitor.flagForRemoval = true;
+			}
+		}
+	}
+}
+
+})();

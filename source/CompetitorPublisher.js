@@ -1,1 +1,471 @@
-﻿var _0x65be=["\x63\x6F\x6E\x74\x72\x61\x63\x74\x73","\x73\x63\x6F\x72\x65","\x67\x61\x6D\x65\x53\x69\x7A\x65","\x73\x6D\x61\x6C\x6C","\x67\x65\x6E\x72\x65","\x74\x6F\x70\x69\x63","\x74\x61\x72\x67\x65\x74\x41\x75\x64\x69\x65\x6E\x63\x65","\x65\x76\x65\x72\x79\x6F\x6E\x65","\x70\x6C\x61\x74\x66\x6F\x72\x6D\x73","\x70\x65\x6E\x61\x6C\x74\x79\x46\x65\x65","\x70\x72\x65\x42\x6F\x6E\x75\x73","\x72\x6F\x79\x61\x6C\x74\x79","\x61\x63\x74\x69\x76\x65\x43\x6F\x6D\x70\x61\x6E\x79","\x69\x6E\x69\x74","\x69\x6E\x69\x74\x55\x49","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x77\x69\x6E\x64\x6F\x77\x42\x6F\x72\x64\x65\x72\x20\x74\x61\x6C\x6C\x57\x69\x6E\x64\x6F\x77\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x7A\x2D\x69\x6E\x64\x65\x78\x3A\x20\x35\x34\x30\x30\x3B\x6F\x76\x65\x72\x66\x6C\x6F\x77\x3A\x61\x75\x74\x6F\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x6E\x6F\x6E\x65\x3B\x22\x3E","\x70\x75\x73\x68","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x54\x69\x74\x6C\x65\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x77\x69\x6E\x64\x6F\x77\x54\x69\x74\x6C\x65\x20\x73\x6D\x61\x6C\x6C\x65\x72\x57\x69\x6E\x64\x6F\x77\x54\x69\x74\x6C\x65\x22\x3E\x43\x72\x65\x61\x74\x65\x20\x41\x20\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x20\x43\x6F\x6E\x74\x72\x61\x63\x74\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x43\x6F\x6E\x74\x65\x6E\x74\x22\x2F\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x54\x6F\x70\x69\x63\x43\x68\x6F\x6F\x73\x65\x72\x22\x2F\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x47\x65\x6E\x72\x65\x43\x68\x6F\x6F\x73\x65\x72\x22\x2F\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x50\x6C\x61\x74\x66\x6F\x72\x6D\x43\x68\x6F\x6F\x73\x65\x72\x22\x2F\x3E","\x3C\x2F\x64\x69\x76\x3E","\x62\x6F\x64\x79","","\x6A\x6F\x69\x6E","\x61\x70\x70\x65\x6E\x64","\x63\x72\x65\x61\x74\x65\x43\x6F\x6E\x74\x72\x61\x63\x74\x55\x49","\x68\x69\x64\x65","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x54\x6F\x70\x69\x63\x43\x68\x6F\x6F\x73\x65\x72","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x47\x65\x6E\x72\x65\x43\x68\x6F\x6F\x73\x65\x72","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x50\x6C\x61\x74\x66\x6F\x72\x6D\x43\x68\x6F\x6F\x73\x65\x72","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x43\x6F\x6E\x74\x65\x6E\x74","\x65\x6D\x70\x74\x79","\x63\x6C\x6F\x6E\x65","\x23\x67\x61\x6D\x65\x44\x65\x66\x69\x6E\x69\x74\x69\x6F\x6E\x43\x6F\x6E\x74\x65\x6E\x74\x54\x65\x6D\x70\x6C\x61\x74\x65","\x72\x65\x6D\x6F\x76\x65","\x23\x67\x61\x6D\x65\x54\x69\x74\x6C\x65","\x66\x69\x6E\x64","\x70\x69\x63\x6B\x54\x6F\x70\x69\x63\x43\x6C\x69\x63\x6B","\x63\x6C\x69\x63\x6B\x45\x78\x63\x6C","\x2E\x70\x69\x63\x6B\x54\x6F\x70\x69\x63\x42\x75\x74\x74\x6F\x6E","\x70\x69\x63\x6B\x47\x65\x6E\x72\x65\x43\x6C\x69\x63\x6B","\x23\x70\x69\x63\x6B\x47\x65\x6E\x72\x65\x42\x75\x74\x74\x6F\x6E","\x70\x69\x63\x6B\x53\x65\x63\x6F\x6E\x64\x47\x65\x6E\x72\x65\x43\x6C\x69\x63\x6B","\x23\x70\x69\x63\x6B\x53\x65\x63\x6F\x6E\x64\x47\x65\x6E\x72\x65\x42\x75\x74\x74\x6F\x6E","\x70\x69\x63\x6B\x50\x6C\x61\x74\x66\x6F\x72\x6D\x43\x6C\x69\x63\x6B","\x2E\x70\x69\x63\x6B\x50\x6C\x61\x74\x66\x6F\x72\x6D\x42\x75\x74\x74\x6F\x6E","\x63\x61\x6E\x44\x65\x76\x65\x6C\x6F\x70\x4D\x65\x64\x69\x75\x6D\x47\x61\x6D\x65\x73","\x63\x6F\x6D\x70\x61\x6E\x79","\x63\x61\x6E\x44\x65\x76\x65\x6C\x6F\x70\x4C\x61\x72\x67\x65\x47\x61\x6D\x65\x73","\x2E\x67\x61\x6D\x65\x53\x69\x7A\x65\x4C\x61\x72\x67\x65","\x63\x61\x6E\x44\x65\x76\x65\x6C\x6F\x70\x41\x41\x41\x47\x61\x6D\x65\x73","\x2E\x67\x61\x6D\x65\x53\x69\x7A\x65\x41\x41\x41","\x23\x67\x61\x6D\x65\x53\x69\x7A\x65\x47\x72\x6F\x75\x70","\x63\x61\x6E\x44\x65\x76\x65\x6C\x6F\x70\x4D\x4D\x4F\x47\x61\x6D\x65\x73","\x2E\x67\x61\x6D\x65\x47\x65\x6E\x72\x65\x4D\x4D\x4F","\x63\x61\x6E\x44\x65\x76\x65\x6C\x6F\x70\x4D\x75\x6C\x74\x69\x50\x6C\x61\x74\x66\x6F\x72\x6D","\x77\x69\x64\x74\x68","\x31\x34\x35\x70\x78","\x63\x73\x73","\x6D\x61\x72\x67\x69\x6E\x2D\x72\x69\x67\x68\x74","\x32\x2E\x35\x70\x78","\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74","\x73\x6C\x69\x63\x65","\x63\x61\x6E\x53\x65\x74\x54\x61\x72\x67\x65\x74\x41\x75\x64\x69\x65\x6E\x63\x65","\x23\x74\x61\x72\x67\x65\x74\x52\x61\x74\x69\x6E\x67","\x2E\x70\x69\x63\x6B\x45\x6E\x67\x69\x6E\x65\x42\x75\x74\x74\x6F\x6E\x57\x72\x61\x70\x70\x65\x72","\x2E\x72\x61\x74\x69\x6E\x67\x4C\x61\x62\x65\x6C","\x63\x6C\x69\x63\x6B","\x73\x65\x6C\x65\x63\x74\x65\x64","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x2E\x67\x61\x6D\x65\x44\x65\x66\x53\x65\x6C\x65\x63\x74\x69\x6F\x6E","\x70\x61\x72\x65\x6E\x74","\x61\x64\x64\x43\x6C\x61\x73\x73","\x73\x68\x61\x6B\x65","\x65\x66\x66\x65\x63\x74","\x2E\x64\x69\x61\x6C\x6F\x67\x4E\x65\x78\x74\x42\x75\x74\x74\x6F\x6E","\x23\x67\x61\x6D\x65\x44\x65\x66\x69\x6E\x69\x74\x69\x6F\x6E","\x69\x64","\x6D\x61\x70","\x67\x72\x6F\x75\x70","\x67\x72\x61\x70\x68\x69\x63\x2D\x74\x79\x70\x65","\x66\x69\x6C\x74\x65\x72","\x67\x65\x74\x41\x6C\x6C\x49\x74\x65\x6D\x73","\x69\x6E\x64\x65\x78\x4F\x66","\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E","\x2E\x64\x69\x61\x6C\x6F\x67\x53\x63\x72\x65\x65\x6E\x31","\x31\x30\x30\x25","\x2E\x64\x69\x61\x6C\x6F\x67\x53\x63\x72\x65\x65\x6E\x32","\x2E\x64\x69\x61\x6C\x6F\x67\x42\x61\x63\x6B\x42\x75\x74\x74\x6F\x6E","\x50\x72\x65\x50\x61\x79\x20\x42\x6F\x6E\x75\x73\x3A\x20\x3C\x69\x6E\x70\x75\x74\x20\x69\x64\x3D\x27\x6D\x6F\x6E\x65\x79\x46\x69\x65\x6C\x64\x27\x20\x74\x79\x70\x65\x3D\x27\x74\x65\x78\x74\x27\x20\x6D\x61\x78\x6C\x65\x6E\x67\x74\x68\x3D\x27\x33\x35\x27\x20\x76\x61\x6C\x75\x65\x3D\x27","\x67\x65\x74\x4C\x6F\x6E\x67\x4E\x75\x6D\x62\x65\x72\x53\x74\x72\x69\x6E\x67","\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x77\x69\x64\x74\x68\x3A\x31\x37\x30\x70\x78\x3B\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x32\x32\x70\x74\x27\x2F\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x6D\x6F\x6E\x65\x79\x53\x6C\x69\x64\x65\x72\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x6D\x61\x72\x67\x69\x6E\x2D\x74\x6F\x70\x3A\x33\x70\x78\x3B\x27\x3E\x3C\x2F\x64\x69\x76\x3E","\x6D\x69\x6E","\x76\x61\x6C\x75\x65","\x76\x61\x6C","\x23\x6D\x6F\x6E\x65\x79\x46\x69\x65\x6C\x64","\x73\x6C\x69\x64\x65\x72","\x23\x6D\x6F\x6E\x65\x79\x53\x6C\x69\x64\x65\x72","\x52\x6F\x79\x61\x6C\x74\x79\x52\x61\x74\x65\x20\x25\x3A\x20\x3C\x69\x6E\x70\x75\x74\x20\x69\x64\x3D\x27\x72\x6F\x79\x61\x6C\x74\x79\x46\x69\x65\x6C\x64\x27\x20\x74\x79\x70\x65\x3D\x27\x74\x65\x78\x74\x27\x20\x6D\x61\x78\x6C\x65\x6E\x67\x74\x68\x3D\x27\x33\x35\x27\x20\x76\x61\x6C\x75\x65\x3D\x27","\x67\x65\x74\x50\x65\x72\x63\x65\x6E\x74\x4E\x75\x6D\x62\x65\x72\x53\x74\x72\x69\x6E\x67","\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x72\x6F\x79\x61\x6C\x74\x79\x53\x6C\x69\x64\x65\x72\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x6D\x61\x72\x67\x69\x6E\x2D\x74\x6F\x70\x3A\x33\x70\x78\x3B\x27\x3E\x3C\x2F\x64\x69\x76\x3E","\x23\x72\x6F\x79\x61\x6C\x74\x79\x46\x69\x65\x6C\x64","\x23\x72\x6F\x79\x61\x6C\x74\x79\x53\x6C\x69\x64\x65\x72","\x3C\x64\x69\x76\x20\x73\x74\x79\x6C\x65\x3D\x27\x77\x69\x64\x74\x68\x3A\x33\x30\x32\x70\x78\x3B\x6D\x61\x72\x67\x69\x6E\x3A\x20\x61\x75\x74\x6F\x3B\x27\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x4F\x4B\x42\x75\x74\x74\x6F\x6E\x27\x20\x63\x6C\x61\x73\x73\x3D\x27\x20\x62\x61\x73\x65\x42\x75\x74\x74\x6F\x6E\x20\x6F\x72\x61\x6E\x67\x65\x42\x75\x74\x74\x6F\x6E\x20\x77\x69\x6E\x64\x6F\x77\x4C\x61\x72\x67\x65\x4F\x6B\x42\x75\x74\x74\x6F\x6E\x27\x3E\x43\x72\x65\x61\x74\x65\x20\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x20\x43\x6F\x6E\x74\x72\x61\x63\x74\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x63\x72\x65\x61\x74\x65\x43\x6F\x6E\x74\x72\x61\x63\x74","\x63\x6C\x6F\x73\x65","\x64\x69\x61\x6C\x6F\x67","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x4F\x4B\x42\x75\x74\x74\x6F\x6E","\x73\x68\x6F\x77","\x23\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x54\x69\x74\x6C\x65","\x65\x78\x65\x63\x55\x6E\x73\x61\x66\x65\x4C\x6F\x63\x61\x6C\x46\x75\x6E\x63\x74\x69\x6F\x6E","\x0A","\x73\x70\x6C\x69\x74","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x67\x65\x74","\x73\x65\x6C\x65\x63\x74\x6F\x72\x42\x75\x74\x74\x6F\x6E\x45\x6D\x70\x74\x79","\x2E\x73\x69\x6D\x70\x6C\x65\x6D\x6F\x64\x61\x6C\x2D\x64\x61\x74\x61","\x68\x65\x61\x64\x69\x6E\x67","\x6C\x6F\x63\x61\x6C\x69\x7A\x65","\x50\x69\x63\x6B\x20\x54\x6F\x70\x69\x63","\x74\x65\x78\x74","\x2E\x6F\x76\x65\x72\x6C\x61\x79\x54\x69\x74\x6C\x65","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x6C\x65\x63\x74\x6F\x72\x42\x75\x74\x74\x6F\x6E\x20\x77\x68\x69\x74\x65\x42\x75\x74\x74\x6F\x6E\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x2E\x70\x69\x63\x6B\x54\x6F\x70\x69\x63\x43\x6C\x69\x63\x6B\x28\x74\x68\x69\x73\x29\x22\x3E\x7B\x7B\x6E\x61\x6D\x65\x7D\x7D\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x6C\x65\x63\x74\x6F\x72\x42\x75\x74\x74\x6F\x6E\x20\x64\x69\x73\x61\x62\x6C\x65\x64\x42\x75\x74\x74\x6F\x6E\x22\x3E\x7B\x7B\x6E\x61\x6D\x65\x7D\x7D\x3C\x2F\x64\x69\x76\x3E","\x67\x65\x74\x54\x6F\x70\x69\x63\x4F\x72\x64\x65\x72","\x70\x69\x63\x6B\x54\x6F\x70\x69\x63\x46\x6F\x6E\x74\x53\x69\x7A\x65","\x6C\x65\x6E\x67\x74\x68","\x6E\x61\x6D\x65","\x7B\x30\x7D\x70\x74\x20\x7B\x31\x7D","\x49\x53\x5F\x53\x45\x47\x4F\x45\x5F\x55\x49\x5F\x49\x4E\x53\x54\x41\x4C\x4C\x45\x44","\x53\x65\x67\x6F\x65\x20\x55\x49","\x4F\x70\x65\x6E\x20\x53\x61\x6E\x73","\x74\x6F\x70\x69\x63\x73","\x74\x6F\x70\x69\x63\x49\x64","\x63\x75\x72\x72\x65\x6E\x74\x52\x65\x73\x65\x61\x72\x63\x68\x65\x73","\x61\x72\x65\x48\x69\x6E\x74\x73\x45\x6E\x61\x62\x6C\x65\x64","\x68\x61\x73\x54\x6F\x70\x69\x63\x41\x75\x64\x69\x65\x6E\x63\x65\x57\x65\x69\x67\x68\x74\x69\x6E\x67\x4B\x6E\x6F\x77\x6C\x65\x64\x67\x65","\x20\x64\x69\x73\x61\x62\x6C\x65\x64\x42\x75\x74\x74\x6F\x6E","\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x2E\x70\x69\x63\x6B\x54\x6F\x70\x69\x63\x43\x6C\x69\x63\x6B\x28\x74\x68\x69\x73\x29","\x20","\x20\x77\x68\x69\x74\x65\x42\x75\x74\x74\x6F\x6E\x20","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x6C\x65\x63\x74\x6F\x72\x42\x75\x74\x74\x6F\x6E","\x70\x69\x63\x6B\x54\x6F\x70\x69\x63\x42\x75\x74\x74\x6F\x6E\x41\x75\x64\x69\x65\x6E\x63\x65\x48\x69\x6E\x74\x56\x69\x73\x69\x62\x6C\x65","\x22\x3E\x3C\x73\x70\x61\x6E\x20\x73\x74\x79\x6C\x65\x3D\x22\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x72\x65\x6C\x61\x74\x69\x76\x65\x3B\x74\x6F\x70\x3A\x35\x70\x78\x3B\x22\x3E\x7B\x30\x7D\x3C\x73\x70\x61\x6E\x20\x73\x74\x79\x6C\x65\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x31\x31\x70\x74\x3B\x22\x3E\x3C\x62\x72\x2F\x3E\x7B\x31\x7D\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E","\x67\x65\x74\x54\x6F\x70\x69\x63\x41\x75\x64\x69\x65\x6E\x63\x65\x48\x74\x6D\x6C","\x66\x6F\x72\x6D\x61\x74","\x7B\x7B\x6E\x61\x6D\x65\x7D\x7D","\x72\x65\x70\x6C\x61\x63\x65","\x3F","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x61\x62\x73\x6F\x6C\x75\x74\x65","\x74\x6F\x70","\x6C\x65\x66\x74","\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65","\x70\x74","\x66\x61\x73\x74","\x66\x61\x64\x65\x49\x6E","\x2E\x73\x65\x6C\x65\x63\x74\x69\x6F\x6E\x4F\x76\x65\x72\x6C\x61\x79\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x50\x69\x63\x6B\x20\x47\x65\x6E\x72\x65","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x6C\x65\x63\x74\x6F\x72\x42\x75\x74\x74\x6F\x6E\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x43\x6F\x6D\x70\x65\x74\x69\x74\x6F\x72\x4D\x6F\x64\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x2E\x70\x69\x63\x6B\x47\x65\x6E\x72\x65\x43\x6C\x69\x63\x6B\x28\x74\x68\x69\x73\x29\x22\x3E\x7B\x7B\x6E\x61\x6D\x65\x7D\x7D\x3C\x2F\x64\x69\x76\x3E","\x67\x65\x74\x41\x76\x61\x69\x6C\x61\x62\x6C\x65\x47\x65\x6E\x72\x65\x73","\x6D\x61\x72\x67\x69\x6E\x2D\x74\x6F\x70","\x77\x68\x69\x74\x65\x42\x75\x74\x74\x6F\x6E","\x50\x69\x63\x6B\x20\x50\x6C\x61\x74\x66\x6F\x72\x6D","\x67\x65\x74\x50\x6C\x61\x74\x66\x6F\x72\x6D\x73\x4F\x6E\x4D\x61\x72\x6B\x65\x74","\x63\x75\x72\x72\x65\x6E\x74\x47\x61\x6D\x65","\x67\x65\x74\x54\x6F\x74\x61\x6C\x4D\x61\x72\x6B\x65\x74\x53\x69\x7A\x65\x50\x65\x72\x63\x65\x6E\x74","\x73\x6F\x72\x74","\x23\x70\x6C\x61\x74\x66\x6F\x72\x6D\x42\x75\x74\x74\x6F\x6E\x54\x65\x6D\x70\x6C\x61\x74\x65","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72","\x70\x6C\x61\x74\x66\x6F\x72\x6D\x49\x64","\x70\x6C\x61\x74\x66\x6F\x72\x6D\x4E\x61\x6D\x65","\x6C\x69\x63\x65\x6E\x63\x65\x64\x50\x6C\x61\x74\x66\x6F\x72\x6D\x73","\x73\x72\x63","\x63\x75\x72\x72\x65\x6E\x74\x57\x65\x65\x6B","\x67\x65\x74\x50\x6C\x61\x74\x66\x6F\x72\x6D\x49\x6D\x61\x67\x65","\x61\x74\x74\x72","\x2E\x70\x6C\x61\x74\x66\x6F\x72\x6D\x42\x75\x74\x74\x6F\x6E\x49\x6D\x61\x67\x65","\x2E\x70\x6C\x61\x74\x66\x6F\x72\x6D\x54\x69\x74\x6C\x65","\x44\x65\x76\x2E\x20\x63\x6F\x73\x74\x3A\x20","\x64\x65\x76\x65\x6C\x6F\x70\x6D\x65\x6E\x74\x43\x6F\x73\x74\x73","\x67\x65\x74\x53\x68\x6F\x72\x74\x4E\x75\x6D\x62\x65\x72\x53\x74\x72\x69\x6E\x67","\x2E\x63\x6F\x73\x74","\x4C\x69\x63\x65\x6E\x73\x65\x20\x63\x6F\x73\x74\x3A\x20","\x6C\x69\x63\x65\x6E\x63\x65\x50\x72\x69\x7A\x65","\x2E\x6C\x69\x63\x65\x6E\x73\x65\x43\x6F\x73\x74","\x63\x61\x73\x68","\x72\x65\x64","\x4D\x61\x72\x6B\x65\x74\x73\x68\x61\x72\x65\x3A\x20","\x2E\x6D\x61\x72\x6B\x65\x74\x53\x68\x61\x72\x65","\x67\x65\x74\x50\x6C\x61\x74\x66\x6F\x72\x6D\x41\x75\x64\x69\x65\x6E\x63\x65\x48\x69\x6E\x74\x48\x74\x6D\x6C","\x68\x74\x6D\x6C","\x2E\x61\x75\x64\x69\x65\x6E\x63\x65\x48\x69\x6E\x74\x73","\x67\x65\x74\x50\x6C\x61\x74\x66\x6F\x72\x6D\x47\x65\x6E\x72\x65\x48\x69\x6E\x74\x48\x74\x6D\x6C","\x2E\x67\x65\x6E\x72\x65\x48\x69\x6E\x74\x73","\x6F\x6E","\x62\x75\x79\x50\x6C\x61\x74\x66\x6F\x72\x6D","\x64\x69\x73\x61\x62\x6C\x65\x64\x42\x75\x74\x74\x6F\x6E","\x2E\x72\x61\x74\x69\x6E\x67\x2E\x73\x65\x6C\x65\x63\x74\x65\x64","\x72\x61\x74\x69\x6E\x67\x59","\x68\x61\x73\x43\x6C\x61\x73\x73","\x79\x6F\x75\x6E\x67","\x72\x61\x74\x69\x6E\x67\x45","\x72\x61\x74\x69\x6E\x67\x4D","\x6D\x61\x74\x75\x72\x65","\x2E\x67\x61\x6D\x65\x53\x69\x7A\x65\x42\x75\x74\x74\x6F\x6E\x2E\x73\x65\x6C\x65\x63\x74\x65\x64","\x67\x61\x6D\x65\x53\x69\x7A\x65\x53\x6D\x61\x6C\x6C","\x67\x61\x6D\x65\x53\x69\x7A\x65\x4D\x65\x64\x69\x75\x6D","\x6D\x65\x64\x69\x75\x6D","\x67\x61\x6D\x65\x53\x69\x7A\x65\x4C\x61\x72\x67\x65","\x6C\x61\x72\x67\x65","\x67\x61\x6D\x65\x53\x69\x7A\x65\x41\x41\x41","\x61\x61\x61","\x66\x69\x72\x73\x74","\x67\x65\x74\x41\x6C\x6C","\x23\x70\x69\x63\x6B\x50\x6C\x61\x74\x66\x6F\x72\x6D\x42\x75\x74\x74\x6F\x6E","\x74\x72\x69\x6D"];var CompetitorModPublisher={};(function (){CompetitorModPublisher[_0x65be[0]]=[];var _0xbca0x2=function (){this[_0x65be[1]]=0;this[_0x65be[2]]=_0x65be[3];this[_0x65be[4]]=undefined;this[_0x65be[5]]=undefined;this[_0x65be[6]]=_0x65be[7];this[_0x65be[8]]=[];this[_0x65be[9]]=50000;this[_0x65be[10]]=70000;this[_0x65be[11]]=10;this[_0x65be[12]]=undefined;} ;CompetitorModPublisher[_0x65be[13]]=function (){CompetitorModPublisher[_0x65be[14]]();} ;CompetitorModPublisher[_0x65be[14]]=function (){var _0xbca0x3=[];_0xbca0x3[_0x65be[16]](_0x65be[15]);_0xbca0x3[_0x65be[16]](_0x65be[17]);_0xbca0x3[_0x65be[16]](_0x65be[18]);_0xbca0x3[_0x65be[16]](_0x65be[19]);_0xbca0x3[_0x65be[16]](_0x65be[20]);_0xbca0x3[_0x65be[16]](_0x65be[21]);_0xbca0x3[_0x65be[16]](_0x65be[22]);var _0xbca0x4=$(_0x65be[23]);_0xbca0x4[_0x65be[26]](_0xbca0x3[_0x65be[25]](_0x65be[24]));} ;CompetitorModPublisher[_0x65be[27]]=function (){$(_0x65be[29])[_0x65be[28]]();$(_0x65be[30])[_0x65be[28]]();$(_0x65be[31])[_0x65be[28]]();var _0xbca0x5=$(_0x65be[32]);_0xbca0x5[_0x65be[33]]();var _0xbca0x6=$(_0x65be[35])[_0x65be[34]]();_0xbca0x6[_0x65be[38]](_0x65be[37])[_0x65be[36]]();_0xbca0x6[_0x65be[38]](_0x65be[41])[_0x65be[40]](function (){CompetitorModPublisher[_0x65be[39]]();} );_0xbca0x6[_0x65be[38]](_0x65be[43])[_0x65be[40]](function (){CompetitorModPublisher[_0x65be[42]]();} );_0xbca0x6[_0x65be[38]](_0x65be[45])[_0x65be[40]](function (){UI[_0x65be[44]]();} );_0xbca0x6[_0x65be[38]](_0x65be[47])[_0x65be[40]](function (){CompetitorModPublisher[_0x65be[46]]($(this));} );if(GameManager[_0x65be[49]][_0x65be[48]]()){if(!GameManager[_0x65be[49]][_0x65be[50]]()){_0xbca0x6[_0x65be[38]](_0x65be[51])[_0x65be[28]]();} ;if(!GameManager[_0x65be[49]][_0x65be[52]]()){_0xbca0x6[_0x65be[38]](_0x65be[53])[_0x65be[28]]();} ;} else {_0xbca0x6[_0x65be[38]](_0x65be[54])[_0x65be[28]]();} ;if(!GameManager[_0x65be[49]][_0x65be[55]]()){_0xbca0x6[_0x65be[38]](_0x65be[56])[_0x65be[28]]();} ;_0xbca0x6[_0x65be[38]](_0x65be[45])[_0x65be[28]]();if(GameManager[_0x65be[49]][_0x65be[57]]()){_0xbca0x6[_0x65be[38]](_0x65be[47])[_0x65be[60]](_0x65be[63],_0x65be[62])[_0x65be[60]](_0x65be[61],_0x65be[62])[_0x65be[60]](_0x65be[58],_0x65be[59]);} else {_0xbca0x6[_0x65be[38]](_0x65be[47])[_0x65be[64]](1)[_0x65be[28]]();} ;if(!GameManager[_0x65be[49]][_0x65be[65]]()){_0xbca0x6[_0x65be[38]](_0x65be[66])[_0x65be[28]]();} ;_0xbca0x6[_0x65be[38]](_0x65be[67])[_0x65be[28]]();_0xbca0x6[_0x65be[38]](_0x65be[68])[_0x65be[28]]();_0xbca0x6[_0x65be[38]](_0x65be[72])[_0x65be[40]](function (){Sound[_0x65be[69]]();var _0xbca0x7=$(this);_0xbca0x7[_0x65be[73]]()[_0x65be[38]](_0x65be[72])[_0x65be[71]](_0x65be[70]);_0xbca0x7[_0x65be[74]](_0x65be[70]);} );$(_0x65be[78])[_0x65be[38]](_0x65be[77])[_0x65be[40]](function (){$(_0x65be[78])[_0x65be[38]](_0x65be[77])[_0x65be[76]](_0x65be[75],{times:2,distance:5},50);} );var _0xbca0x8=Research[_0x65be[84]]()[_0x65be[83]](function (_0xbca0x9){return _0xbca0x9[_0x65be[81]]===_0x65be[82];} )[_0x65be[80]](function (_0xbca0x9){return _0xbca0x9[_0x65be[79]];} );$(_0x65be[78])[_0x65be[38]](_0x65be[90])[_0x65be[40]](function (){Sound[_0x65be[69]]();UI._saveSelectedGameFeatureSettings(function (_0xbca0xa){return _0xbca0x8[_0x65be[85]](_0xbca0xa)!=-1;} );$(_0x65be[78])[_0x65be[38]](_0x65be[87])[_0x65be[86]]({"\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74":0});$(_0x65be[78])[_0x65be[38]](_0x65be[89])[_0x65be[86]]({"\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74":_0x65be[88]});} );_0xbca0x6[_0x65be[26]](_0x65be[91]+UI[_0x65be[92]](50000)+_0x65be[93]);_0xbca0x6[_0x65be[26]](_0x65be[94]);_0xbca0x6[_0x65be[38]](_0x65be[100])[_0x65be[99]]({min:0,max:100000000,range:_0x65be[95],value:50000,step:5000,animate:!1,slide:function (_0xbca0xb,_0xbca0xc){var _0xbca0xd=_0xbca0xc[_0x65be[96]];$(_0x65be[98])[_0x65be[97]](UI[_0x65be[92]](_0xbca0xd));} });_0xbca0x6[_0x65be[26]](_0x65be[101]+UI[_0x65be[102]](10)+_0x65be[93]);_0xbca0x6[_0x65be[26]](_0x65be[103]);_0xbca0x6[_0x65be[38]](_0x65be[105])[_0x65be[99]]({min:0,max:100,range:_0x65be[95],value:10,step:1,animate:!1,slide:function (_0xbca0xb,_0xbca0xc){var _0xbca0xd=_0xbca0xc[_0x65be[96]];$(_0x65be[104])[_0x65be[97]](UI[_0x65be[102]](_0xbca0xd));} });_0xbca0x6[_0x65be[26]](_0x65be[106]);_0xbca0x6[_0x65be[38]](_0x65be[111])[_0x65be[40]](function (){Sound[_0x65be[69]]();var _0xbca0xe=CompetitorModPublisher[_0x65be[107]]();if(_0xbca0xe==true){$(_0x65be[110])[_0x65be[109]](_0x65be[108]);} else {$(_0x65be[111])[_0x65be[76]](_0x65be[75],{times:2,distance:5},50);} ;} );okClicked=false;PlatformShim[_0x65be[114]](function (){_0xbca0x5[_0x65be[26]](_0xbca0x6);$(_0x65be[32])[_0x65be[112]]();$(_0x65be[113])[_0x65be[112]]();} );} ;CompetitorModPublisher[_0x65be[39]]=function (_0xbca0xf){Sound[_0x65be[69]]();var _0xbca0x10=$(_0x65be[29]);if(_0xbca0xf){var _0xbca0x11=$(_0x65be[32])[_0x65be[38]](_0x65be[41]);var _0xbca0x12=_0xbca0xf[_0x65be[117]][_0x65be[116]](_0x65be[115]);_0xbca0x11[_0x65be[118]](0)[_0x65be[117]]=_0xbca0x12[0];_0xbca0x11[_0x65be[71]](_0x65be[119]);$(_0x65be[32])[_0x65be[112]]();$(_0x65be[113])[_0x65be[112]]();$(_0x65be[29])[_0x65be[28]]();return ;} ;PlatformShim[_0x65be[114]](function (){var _0xbca0x13=$(_0x65be[120]);_0xbca0x13[_0x65be[38]](_0x65be[125])[_0x65be[124]](_0x65be[123][_0x65be[122]](_0x65be[121]));_0xbca0x10[_0x65be[33]]();var _0xbca0x14=_0x65be[126];var _0xbca0x15=_0x65be[127];var _0xbca0x16=3;var _0xbca0x17=0;var _0xbca0x18=0;var _0xbca0x19=0;var _0xbca0x1a=General[_0x65be[128]](GameManager[_0x65be[49]]);if(UI[_0x65be[129]]==undefined){var _0xbca0x1b=[];for(var _0xbca0x1c=0;_0xbca0x1c<_0xbca0x1a[_0x65be[130]];_0xbca0x1c++){_0xbca0x1b[_0x65be[16]](_0xbca0x1a[_0xbca0x1c][_0x65be[131]]);} ;UI[_0x65be[129]]=UI._getMaxFontSize(_0x65be[132],UI[_0x65be[133]]?_0x65be[134]:_0x65be[135],16,10,175,_0xbca0x1b);} ;for(var _0xbca0x1c=0;_0xbca0x1c<_0xbca0x1a[_0x65be[130]];_0xbca0x1c++){var _0xbca0x1d=_0xbca0x1a[_0xbca0x1c];_0xbca0x17++;if(_0xbca0x17>_0xbca0x16){_0xbca0x18++;_0xbca0x17=1;} ;var _0xbca0x1e=GameManager[_0x65be[49]][_0x65be[136]][_0x65be[85]](_0xbca0x1d)!=-1;var _0xbca0x1f=GameManager[_0x65be[138]][_0x65be[83]](function (_0xbca0x9){return _0xbca0x9[_0x65be[137]]===_0xbca0x1d[_0x65be[79]];} )[_0x65be[130]]>0;var _0xbca0x20=_0xbca0x1e;var _0xbca0x6=_0xbca0x20?_0xbca0x14:_0xbca0x15;var _0xbca0x21=(!_0xbca0x20&&(!_0xbca0x1e&&!_0xbca0x1f))||!_0xbca0x20;if(!_0xbca0x21){if(GameManager[_0x65be[139]]()&&Knowledge[_0x65be[140]](GameManager[_0x65be[49]],_0xbca0x1d)){var _0xbca0x22=!_0xbca0x20?_0x65be[141]:_0x65be[142];var _0xbca0x23=!_0xbca0x20?_0x65be[143]:_0x65be[144];var _0xbca0x24=_0x65be[145]+_0xbca0x23+_0x65be[146]+_0xbca0x22+_0x65be[147];_0xbca0x6=_0xbca0x24[_0x65be[149]](_0xbca0x1d[_0x65be[131]],Knowledge[_0x65be[148]](GameManager[_0x65be[49]],_0xbca0x1d));} else {_0xbca0x6=_0xbca0x6[_0x65be[151]](_0x65be[150],_0xbca0x1d[_0x65be[131]]);} ;} else {_0xbca0x6=_0xbca0x6[_0x65be[151]](_0x65be[150],_0x65be[152]);} ;var _0xbca0xf=$(_0xbca0x6);_0xbca0xf[_0x65be[60]](_0x65be[153],_0x65be[154]);_0xbca0xf[_0x65be[60]](_0x65be[155],50*_0xbca0x18+_0xbca0x18*10);_0xbca0xf[_0x65be[60]](_0x65be[156],(_0xbca0x17-1)*190+10);_0xbca0xf[_0x65be[60]](_0x65be[157],UI[_0x65be[129]]+_0x65be[158]);_0xbca0x10[_0x65be[26]](_0xbca0xf);if(!_0xbca0x1e&&!_0xbca0x1f){_0xbca0x19++;} ;} ;_0xbca0x13[_0x65be[38]](_0x65be[161])[_0x65be[160]](_0x65be[159]);$(_0x65be[32])[_0x65be[28]]();$(_0x65be[113])[_0x65be[28]]();$(_0x65be[29])[_0x65be[112]]();} );} ;CompetitorModPublisher[_0x65be[42]]=function (_0xbca0xf){Sound[_0x65be[69]]();var _0xbca0x10=$(_0x65be[30]);if(_0xbca0xf){var _0xbca0x25=$(_0x65be[32])[_0x65be[38]](_0x65be[43]);_0xbca0x25[_0x65be[118]](0)[_0x65be[117]]=_0xbca0xf[_0x65be[117]];_0xbca0x25[_0x65be[71]](_0x65be[119]);$(_0x65be[32])[_0x65be[112]]();$(_0x65be[113])[_0x65be[112]]();$(_0x65be[30])[_0x65be[28]]();return ;} ;PlatformShim[_0x65be[114]](function (){var _0xbca0x13=$(_0x65be[120]);_0xbca0x13[_0x65be[38]](_0x65be[125])[_0x65be[124]](_0x65be[162][_0x65be[122]](_0x65be[121]));_0xbca0x10[_0x65be[33]]();var _0xbca0x6=_0x65be[163];var _0xbca0x26=General[_0x65be[164]](GameManager[_0x65be[49]]);var _0xbca0x27=false;for(var _0xbca0x1c=0;_0xbca0x1c<_0xbca0x26[_0x65be[130]];_0xbca0x1c++){var _0xbca0x28=_0xbca0x26[_0xbca0x1c];var _0xbca0xf=$(_0xbca0x6[_0x65be[151]](_0x65be[150],_0xbca0x28[_0x65be[131]]));_0xbca0xf[_0x65be[60]](_0x65be[63],210);if(!_0xbca0x27){_0xbca0xf[_0x65be[60]](_0x65be[165],90);_0xbca0x27=true;} ;_0xbca0xf[_0x65be[74]](_0x65be[166]);_0xbca0x10[_0x65be[26]](_0xbca0xf);} ;_0xbca0x13[_0x65be[38]](_0x65be[161])[_0x65be[160]](_0x65be[159]);$(_0x65be[32])[_0x65be[28]]();$(_0x65be[113])[_0x65be[28]]();$(_0x65be[30])[_0x65be[112]]();} );} ;CompetitorModPublisher[_0x65be[46]]=function (_0xbca0x29,_0xbca0x2a){Sound[_0x65be[69]]();var _0xbca0x10=$(_0x65be[31]);if(_0xbca0x29&&_0xbca0x2a){var _0xbca0x2b=$(_0x65be[32])[_0x65be[38]](_0x65be[47]);_0xbca0x2b[_0x65be[118]](0)[_0x65be[117]]=_0xbca0x29;_0xbca0x2b[_0x65be[71]](_0x65be[119]);$(_0x65be[32])[_0x65be[112]]();$(_0x65be[113])[_0x65be[112]]();$(_0x65be[31])[_0x65be[28]]();return ;} ;PlatformShim[_0x65be[114]](function (){var _0xbca0x13=$(_0x65be[120]);_0xbca0x13[_0x65be[38]](_0x65be[125])[_0x65be[124]](_0x65be[167][_0x65be[122]](_0x65be[121]));_0xbca0x10[_0x65be[33]]();var _0xbca0x2c=Platforms[_0x65be[168]](GameManager[_0x65be[49]]);var _0xbca0x2d=GameManager[_0x65be[49]][_0x65be[169]];_0xbca0x2c=_0xbca0x2c[_0x65be[64]]()[_0x65be[171]](function (_0xbca0xb,_0xbca0xc){return Platforms[_0x65be[170]](_0xbca0xc,GameManager[_0x65be[49]])-Platforms[_0x65be[170]](_0xbca0xb,GameManager[_0x65be[49]]);} );for(var _0xbca0x1c=0;_0xbca0x1c<_0xbca0x2c[_0x65be[130]];_0xbca0x1c++){var _0xbca0xf=$(_0x65be[172])[_0x65be[34]]();_0xbca0xf[_0x65be[173]](_0x65be[79]);var _0xbca0x2e=_0xbca0x2c[_0xbca0x1c];_0xbca0xf[_0x65be[174]]=_0xbca0x2e[_0x65be[79]];_0xbca0xf[_0x65be[175]]=_0xbca0x2e[_0x65be[131]];var _0xbca0x20=GameManager[_0x65be[49]][_0x65be[176]][_0x65be[85]](_0xbca0x2e)!=-1;_0xbca0xf[_0x65be[38]](_0x65be[181])[_0x65be[180]](_0x65be[177],Platforms[_0x65be[179]](_0xbca0x2e,GameManager[_0x65be[49]][_0x65be[178]]));_0xbca0xf[_0x65be[38]](_0x65be[182])[_0x65be[124]](_0xbca0x2e[_0x65be[131]]);_0xbca0xf[_0x65be[38]](_0x65be[186])[_0x65be[124]](_0x65be[183][_0x65be[122]]()+UI[_0x65be[185]](_0xbca0x2e[_0x65be[184]]));if(!_0xbca0x20){_0xbca0xf[_0x65be[38]](_0x65be[189])[_0x65be[124]](_0x65be[187][_0x65be[122]]()+UI[_0x65be[185]](_0xbca0x2e[_0x65be[188]]));if(GameManager[_0x65be[49]][_0x65be[190]]<_0xbca0x2e[_0x65be[188]]){_0xbca0xf[_0x65be[38]](_0x65be[189])[_0x65be[74]](_0x65be[191]);} ;} else {_0xbca0xf[_0x65be[38]](_0x65be[189])[_0x65be[28]]();} ;_0xbca0xf[_0x65be[38]](_0x65be[193])[_0x65be[124]](_0x65be[192][_0x65be[122]]()+UI[_0x65be[102]](Platforms[_0x65be[170]](_0xbca0x2e,GameManager[_0x65be[49]])));if(GameManager[_0x65be[139]]()){var _0xbca0x5=Knowledge[_0x65be[194]](GameManager[_0x65be[49]],_0xbca0x2e);if(_0xbca0x5){_0xbca0xf[_0x65be[38]](_0x65be[196])[_0x65be[195]](_0xbca0x5);} ;var _0xbca0x5=Knowledge[_0x65be[197]](GameManager[_0x65be[49]],_0xbca0x2e);if(_0xbca0x5){_0xbca0xf[_0x65be[38]](_0x65be[198])[_0x65be[195]](_0xbca0x5);} ;} ;(function (_0xbca0xf){if(_0xbca0x20){_0xbca0xf[_0x65be[74]](_0x65be[166]);_0xbca0xf[_0x65be[199]](_0x65be[69],function (){CompetitorModPublisher[_0x65be[46]](_0xbca0xf[_0x65be[175]],_0xbca0xf[_0x65be[174]]);} );} else {if(_0xbca0x2e[_0x65be[188]]<=GameManager[_0x65be[49]][_0x65be[190]]){_0xbca0xf[_0x65be[74]](_0x65be[166]);_0xbca0xf[_0x65be[199]](_0x65be[69],function (){var _0xbca0x2f=this;UI[_0x65be[200]]($(_0xbca0x2f)[_0x65be[38]](_0x65be[182])[_0x65be[118]](0)[_0x65be[117]],function (_0xbca0x7){if(_0xbca0x7){CompetitorModPublisher[_0x65be[46]](_0xbca0xf[_0x65be[175]],_0xbca0xf[_0x65be[174]]);} ;} );} );} else {_0xbca0xf[_0x65be[74]](_0x65be[201]);} ;} ;} )(_0xbca0xf);_0xbca0x10[_0x65be[26]](_0xbca0xf);} ;_0xbca0x13[_0x65be[38]](_0x65be[161])[_0x65be[160]](_0x65be[159]);$(_0x65be[32])[_0x65be[28]]();$(_0x65be[113])[_0x65be[28]]();$(_0x65be[31])[_0x65be[112]]();} );} ;var _0xbca0x30=function (_0xbca0x31){var _0xbca0x32=$(_0x65be[32]);var _0xbca0x33=_0xbca0x32[_0x65be[38]](_0x65be[202]);;;if(_0xbca0x33[_0x65be[204]](_0x65be[203])){return _0x65be[205];} else {if(_0xbca0x33[_0x65be[204]](_0x65be[206])){return _0x65be[7];} else {if(_0xbca0x33[_0x65be[204]](_0x65be[207])){return _0x65be[208];} ;} ;} ;return _0x65be[7];} ;var _0xbca0x34=function (_0xbca0x35){var _0xbca0x32=$(_0x65be[32]);var _0xbca0x36=_0xbca0x32[_0x65be[38]](_0x65be[209]);;;if(_0xbca0x36[_0x65be[204]](_0x65be[210])){return _0x65be[3];} else {if(_0xbca0x36[_0x65be[204]](_0x65be[211])){return _0x65be[212];} else {if(_0xbca0x36[_0x65be[204]](_0x65be[213])){return _0x65be[214];} else {if(_0xbca0x36[_0x65be[204]](_0x65be[215])){return _0x65be[216];} ;} ;} ;} ;return _0x65be[3];} ;var _0xbca0x37=function (){var _0xbca0x32=$(_0x65be[32]);var _0xbca0x38=_0xbca0x32[_0x65be[38]](_0x65be[41])[_0x65be[124]]();var _0xbca0x1d=GameManager[_0x65be[49]][_0x65be[136]][_0x65be[217]](function (_0xbca0x24){return _0xbca0x24[_0x65be[131]]==_0xbca0x38;} );return _0xbca0x1d;} ;var _0xbca0x39=function (){var _0xbca0x32=$(_0x65be[32]);var _0xbca0x3a=_0xbca0x32[_0x65be[38]](_0x65be[43])[_0x65be[124]]();var _0xbca0x28=GameGenre[_0x65be[218]]()[_0x65be[217]](function (_0xbca0x1c){return _0xbca0x1c[_0x65be[131]]==_0xbca0x3a;} );return _0xbca0x28;} ;var _0xbca0x3b=function (){var _0xbca0x32=$(_0x65be[32]);var _0xbca0x29=_0xbca0x32[_0x65be[38]](_0x65be[219])[_0x65be[124]]();var _0xbca0x2e=GameManager[_0x65be[49]][_0x65be[176]][_0x65be[217]](function (_0xbca0x1c){return _0xbca0x1c[_0x65be[131]][_0x65be[220]]()==_0xbca0x29[_0x65be[220]]();} );return _0xbca0x2e;} ;CompetitorModPublisher[_0x65be[107]]=function (){var _0xbca0x3c= new _0xbca0x2();var _0xbca0x1d=_0xbca0x37();var _0xbca0x28=_0xbca0x39();var _0xbca0x2e=_0xbca0x3b();var _0xbca0x3d=_0xbca0x30();var _0xbca0x3e=_0xbca0x34();if(_0xbca0x1d==null||_0xbca0x28==null||_0xbca0x2e==null){return null;} ;_0xbca0x3c[_0x65be[1]]=1;s;_0xbca0x3c[_0x65be[2]]=_0xbca0x3e;_0xbca0x3c[_0x65be[4]]=_0xbca0x28;_0xbca0x3c[_0x65be[5]]=_0xbca0x1d;_0xbca0x3c[_0x65be[6]]=_0xbca0x3d;_0xbca0x3c[_0x65be[8]][_0x65be[16]](_0xbca0x2e);CompetitorModPublisher[_0x65be[0]][_0x65be[16]](_0xbca0x3c);return true;} ;} )();
+﻿var CompetitorModPublisher = {};
+(function () {
+CompetitorModPublisher.contracts = [];
+
+	var PublisherContract = function () {
+		this.score = 0;
+		this.gameSize = "small";
+		this.genre = undefined;
+		this.topic = undefined;
+		this.targetAudience = "everyone";
+		this.platforms = [];
+		this.penaltyFee = 50000;
+		this.preBonus = 70000;
+		this.royalty = 10;
+		this.activeCompany = undefined;
+	}
+
+	CompetitorModPublisher.init = function () {
+		CompetitorModPublisher.initUI();
+	}
+	
+	
+//UI
+	CompetitorModPublisher.initUI = function () {
+		var html = [];
+		html.push('<div id="CompetitorModPublisherContainer" class="windowBorder tallWindow" style="z-index: 5400;overflow:auto;display:none;">');
+		html.push('<div id="CompetitorModPublisherTitle" class="windowTitle smallerWindowTitle">Create A Publisher Contract</div>');
+		html.push('<div id="CompetitorModPublisherContent"/>');
+		html.push('<div id="CompetitorModPublisherTopicChooser"/>');
+		html.push('<div id="CompetitorModPublisherGenreChooser"/>');
+		html.push('<div id="CompetitorModPublisherPlatformChooser"/>');
+		html.push('</div>');
+		var div = $("body");
+		div.append(html.join(""));
+	}
+	
+	CompetitorModPublisher.createContractUI = function () {
+		$("#CompetitorModPublisherTopicChooser").hide();
+		$("#CompetitorModPublisherGenreChooser").hide();
+		$("#CompetitorModPublisherPlatformChooser").hide();
+
+		var content = $("#CompetitorModPublisherContent");
+		content.empty();
+		
+		var template = $("#gameDefinitionContentTemplate").clone();
+		template.find("#gameTitle").remove();
+		
+		template.find(".pickTopicButton").clickExcl(function () {
+			CompetitorModPublisher.pickTopicClick();
+		});
+		template.find("#pickGenreButton").clickExcl(function () {
+			CompetitorModPublisher.pickGenreClick();
+		});
+		template.find("#pickSecondGenreButton").clickExcl(function () {
+			UI.pickSecondGenreClick()
+		});
+		template.find(".pickPlatformButton").clickExcl(function () {
+			CompetitorModPublisher.pickPlatformClick($(this))
+		});
+		if (GameManager.company.canDevelopMediumGames()) {
+			if (!GameManager.company.canDevelopLargeGames())
+				template.find(".gameSizeLarge").hide();
+			if (!GameManager.company.canDevelopAAAGames())
+				template.find(".gameSizeAAA").hide()
+		} else
+			template.find("#gameSizeGroup").hide();
+		if (!GameManager.company.canDevelopMMOGames())
+			template.find(".gameGenreMMO").hide();
+		//if (!GameManager.company.canUseMultiGenre())
+			template.find("#pickSecondGenreButton").hide();
+		/*else {
+			template.find("#pickSecondGenreButton").css("margin-left", "2.5px").css("margin-right", "2.5px").css("width", "145px");
+			template.find("#pickGenreButton").css("margin-left",
+				"2.5px").css("margin-right", "2.5px").css("width", "145px")
+		}*/
+		if (GameManager.company.canDevelopMultiPlatform())
+			template.find(".pickPlatformButton").css("margin-left", "2.5px").css("margin-right", "2.5px").css("width", "145px");
+		else
+			template.find(".pickPlatformButton").slice(1).hide();
+		if (!GameManager.company.canSetTargetAudience())
+			template.find("#targetRating").hide();
+			
+		
+		template.find(".pickEngineButtonWrapper").hide();
+		template.find(".ratingLabel").hide();
+		
+		template.find(".gameDefSelection").clickExcl(function () {
+			Sound.click();
+			var e = $(this);
+			/*if (e.hasClass("rating"))
+				if (game.flags.lockedSettings && game.flags.lockedSettings.targetAudience)
+					return;
+			if (e.hasClass("gameSizeButton"))
+				if (game.flags.lockedSettings && game.flags.lockedSettings.gameSize)
+					return;
+			if (e.hasClass("gameGenreMMO")) {
+				if (game.flags.lockedSettings && game.flags.lockedSettings.mmo)
+					return;
+				if (e.hasClass("selected"))
+					e.removeClass("selected");
+				else
+					e.addClass("selected")
+			} else {*/
+				e.parent().find(".gameDefSelection").removeClass("selected");
+				e.addClass("selected");
+				//if (e.hasClass("rating"))
+				//	template.find(".ratingLabel").text(getAudienceLabel(e));
+				//else if (e.hasClass("gameSizeButton"))
+					//game.gameSize = getGameSizeFromButton(template.find(".gameSizeButton.selected"))
+			/*}
+			UI._updateGameDefinitionCost();
+			UI._updateGameDefinitionNextButtonEnabled()*/
+		});
+		
+		$("#gameDefinition").find(".dialogNextButton").clickExcl(function () {
+			$("#gameDefinition").find(".dialogNextButton").effect("shake", {
+				times : 2,
+				distance : 5
+			}, 50)
+		});
+		var allGraphicTypeIds = Research.getAllItems().filter(function (f) {
+				return f.group ===
+				"graphic-type"
+			}).map(function (f) {
+				return f.id
+			});
+		$("#gameDefinition").find(".dialogBackButton").clickExcl(function () {
+			Sound.click();
+			UI._saveSelectedGameFeatureSettings(function (id) {
+				return allGraphicTypeIds.indexOf(id) != -1
+			});
+			$("#gameDefinition").find(".dialogScreen1").transition({
+				"margin-left" : 0
+			});
+			$("#gameDefinition").find(".dialogScreen2").transition({
+				"margin-left" : "100%"
+			})
+		});
+		
+		//money slider
+		template.append("PrePay Bonus: <input id='moneyField' type='text' maxlength='35' value='" + UI.getLongNumberString(50000) + "' style='width:170px;font-size: 22pt'/>");
+		template.append("<div id='moneySlider' style='margin-top:3px;'></div>")
+		template.find("#moneySlider").slider({
+		min: 0,
+		max: 100000000,
+		range: "min",
+		value: 50000,
+		step:5000,
+		animate: !1,
+		slide: function (a, b) {
+			var value = b.value;
+			$("#moneyField").val(UI.getLongNumberString(value));
+		}});
+		//royalty slider
+		template.append("RoyaltyRate %: <input id='royaltyField' type='text' maxlength='35' value='" + UI.getPercentNumberString(10) + "' style='width:170px;font-size: 22pt'/>");
+		template.append("<div id='royaltySlider' style='margin-top:3px;'></div>")
+		template.find("#royaltySlider").slider({
+		min: 0,
+		max: 100,
+		range: "min",
+		value: 10,
+		step:1,
+		animate: !1,
+		slide: function (a, b) {
+			var value = b.value;
+			$("#royaltyField").val(UI.getPercentNumberString(value));
+		}});
+
+		template.append("<div style='width:302px;margin: auto;'><div id='CompetitorModPublisherOKButton' class=' baseButton orangeButton windowLargeOkButton'>Create Publisher Contract</div></div>");
+		template.find("#CompetitorModPublisherOKButton").clickExcl(function () {
+			Sound.click();
+			var succes = CompetitorModPublisher.createContract();
+			if(succes == true){
+				$("#CompetitorModPublisherContainer").dialog("close");
+			}else{
+				$("#CompetitorModPublisherOKButton").effect("shake", {
+				times : 2,
+				distance : 5
+			}, 50)
+			}
+				
+		});
+
+		okClicked = false;
+		PlatformShim.execUnsafeLocalFunction(function () {
+			content.append(template);
+			$("#CompetitorModPublisherContent").show();
+			$("#CompetitorModPublisherTitle").show();
+		})
+	}
+	
+	
+	CompetitorModPublisher.pickTopicClick = function (element) {
+		Sound.click();
+		var container = $("#CompetitorModPublisherTopicChooser");
+
+		if (element) {
+			var pickTopicButton = $("#CompetitorModPublisherContent").find(".pickTopicButton");
+			var names = element.innerText.split("\n");
+			pickTopicButton.get(0).innerText = names[0];
+			pickTopicButton.removeClass("selectorButtonEmpty");
+			
+			$("#CompetitorModPublisherContent").show();
+			$("#CompetitorModPublisherTitle").show();
+			$("#CompetitorModPublisherTopicChooser").hide();
+			return;
+		}
+		PlatformShim.execUnsafeLocalFunction(function () {
+			var modal = $(".simplemodal-data");
+			modal.find(".overlayTitle").text("Pick Topic".localize("heading"));
+			container.empty();
+			var activeTopictemplate = '<div class="selectorButton whiteButton" onclick="CompetitorModPublisher.pickTopicClick(this)">{{name}}</div>';
+			var lockedTopicTemplate = '<div class="selectorButton disabledButton">{{name}}</div>';
+			var itemsPerRow = 3;
+			var currentCount = 0;
+			var row = 0;
+			var researchVisibleCount = 0;
+			var topics = General.getTopicOrder(GameManager.company);
+			if (UI.pickTopicFontSize == undefined) {
+				var values = [];
+				for (var i = 0; i < topics.length; i++)
+					values.push(topics[i].name);
+				UI.pickTopicFontSize = UI._getMaxFontSize("{0}pt {1}",
+						UI.IS_SEGOE_UI_INSTALLED ? "Segoe UI" : "Open Sans", 16, 10, 175, values)
+			}
+			for (var i = 0; i < topics.length; i++) {
+				var topic = topics[i];
+				currentCount++;
+				if (currentCount > itemsPerRow) {
+					row++;
+					currentCount = 1
+				}
+				var isAvailable = GameManager.company.topics.indexOf(topic) != -1;
+				var isInResearch = GameManager.currentResearches.filter(function (f) {
+						return f.topicId === topic.id
+					}).length > 0;
+				var isEnabled = isAvailable;
+				var template = isEnabled ? activeTopictemplate :
+					lockedTopicTemplate;
+				var isNameHidden = (!isEnabled && (!isAvailable && !isInResearch)) || !isEnabled;
+				if (!isNameHidden)
+					if (GameManager.areHintsEnabled() && Knowledge.hasTopicAudienceWeightingKnowledge(GameManager.company, topic)) {
+						var enabledDisabledContent = !isEnabled ? " disabledButton" : '" onclick="CompetitorModPublisher.pickTopicClick(this)';
+						var whiteButton = !isEnabled ? " " : " whiteButton ";
+						var t = '<div class="selectorButton' + whiteButton + "pickTopicButtonAudienceHintVisible" + enabledDisabledContent + '"><span style="position:relative;top:5px;">{0}<span style="font-size:11pt;"><br/>{1}</span></span></div>';
+						template = t.format(topic.name, Knowledge.getTopicAudienceHtml(GameManager.company, topic))
+					} else
+						template = template.replace("{{name}}", topic.name);
+				else
+					template = template.replace("{{name}}", "?");
+				var element = $(template);
+				element.css("position", "absolute");
+				element.css("top", 50 * row + row * 10);
+				element.css("left", (currentCount - 1) * 190 + 10);
+				element.css("font-size", UI.pickTopicFontSize + "pt");
+				container.append(element);
+				if (!isAvailable && !isInResearch)
+					researchVisibleCount++
+			}
+			modal.find(".selectionOverlayContainer").fadeIn("fast")
+			
+			$("#CompetitorModPublisherContent").hide();
+			$("#CompetitorModPublisherTitle").hide();
+			$("#CompetitorModPublisherTopicChooser").show();
+		})
+	};
+	
+	CompetitorModPublisher.pickGenreClick = function (element) {
+		Sound.click();
+		var container = $("#CompetitorModPublisherGenreChooser");
+
+		if (element) {
+			var pickGenreButton = $("#CompetitorModPublisherContent").find("#pickGenreButton");
+			pickGenreButton.get(0).innerText = element.innerText;
+			pickGenreButton.removeClass("selectorButtonEmpty");
+			
+			$("#CompetitorModPublisherContent").show();
+			$("#CompetitorModPublisherTitle").show();
+			$("#CompetitorModPublisherGenreChooser").hide();
+			return
+		}
+		PlatformShim.execUnsafeLocalFunction(function () {
+			var modal = $(".simplemodal-data");
+			modal.find(".overlayTitle").text("Pick Genre".localize("heading"));
+			container.empty();
+			var template = '<div class="selectorButton" onclick="CompetitorModPublisher.pickGenreClick(this)">{{name}}</div>';
+			var genres = General.getAvailableGenres(GameManager.company);
+			//var second = modal.find("#pickSecondGenreButton").get(0).innerText;
+			var topMarginAdded = false;
+			for (var i = 0; i < genres.length; i++) {
+				//if (second == genres[i].name)
+				//	continue;
+				var genre = genres[i];
+				var element = $(template.replace("{{name}}", genre.name));
+				element.css("margin-left", 210);
+				if (!topMarginAdded) {
+					element.css("margin-top", 90);
+					topMarginAdded = true
+				}
+				element.addClass("whiteButton");
+				container.append(element)
+			}
+			modal.find(".selectionOverlayContainer").fadeIn("fast")
+			
+			$("#CompetitorModPublisherContent").hide();
+			$("#CompetitorModPublisherTitle").hide();
+			$("#CompetitorModPublisherGenreChooser").show();
+		})
+	};
+	
+	CompetitorModPublisher.pickPlatformClick = function (platformName,platformId) {
+		Sound.click();
+		var container = $("#CompetitorModPublisherPlatformChooser");
+		
+		
+		if (platformName && platformId) {
+			var pickplatformButton = $("#CompetitorModPublisherContent").find(".pickPlatformButton");
+			pickplatformButton.get(0).innerText = platformName;
+			pickplatformButton.removeClass("selectorButtonEmpty");
+			
+			$("#CompetitorModPublisherContent").show();
+			$("#CompetitorModPublisherTitle").show();
+			$("#CompetitorModPublisherPlatformChooser").hide();
+			return;
+		}
+		
+		
+		PlatformShim.execUnsafeLocalFunction(function () {
+			var modal =$(".simplemodal-data");
+			modal.find(".overlayTitle").text("Pick Platform".localize("heading"));
+			
+			container.empty();
+			var platforms = Platforms.getPlatformsOnMarket(GameManager.company);
+			var game = GameManager.company.currentGame;
+
+			platforms = platforms.slice().sort(function (a, b) {
+					return Platforms.getTotalMarketSizePercent(b, GameManager.company) - Platforms.getTotalMarketSizePercent(a,
+						GameManager.company)});
+						
+			for (var i = 0; i < platforms.length; i++) {
+				var element =
+					$("#platformButtonTemplate").clone();
+				element.removeAttr("id");
+				var platform = platforms[i];
+				element.platformId = platform.id;
+				element.platformName = platform.name;
+				var isEnabled = GameManager.company.licencedPlatforms.indexOf(platform) != -1;
+				element.find(".platformButtonImage").attr("src", Platforms.getPlatformImage(platform, GameManager.company.currentWeek));
+				element.find(".platformTitle").text(platform.name);
+				element.find(".cost").text("Dev. cost: ".localize() + UI.getShortNumberString(platform.developmentCosts));
+				if (!isEnabled) {
+					element.find(".licenseCost").text("License cost: ".localize() +
+						UI.getShortNumberString(platform.licencePrize));
+					if (GameManager.company.cash < platform.licencePrize)
+						element.find(".licenseCost").addClass("red")
+				} else
+					element.find(".licenseCost").hide();
+				element.find(".marketShare").text("Marketshare: ".localize() + UI.getPercentNumberString(Platforms.getTotalMarketSizePercent(platform, GameManager.company)));
+				if (GameManager.areHintsEnabled()) {
+					var content = Knowledge.getPlatformAudienceHintHtml(GameManager.company, platform);
+					if (content)
+						element.find(".audienceHints").html(content);
+					var content = Knowledge.getPlatformGenreHintHtml(GameManager.company, platform);
+					if (content)
+						element.find(".genreHints").html(content)
+				}
+				(function (element) {
+					if (isEnabled) {
+						element.addClass("whiteButton");
+						element.on("click", function () {
+							CompetitorModPublisher.pickPlatformClick(element.platformName,element.platformId)
+						})
+					} else if (platform.licencePrize <= GameManager.company.cash) {
+						element.addClass("whiteButton");
+						element.on("click", function () {
+							var that = this;
+							UI.buyPlatform($(that).find(".platformTitle").get(0).innerText, function (e) {
+								if (e)
+									CompetitorModPublisher.pickPlatformClick(element.platformName,element.platformId)
+							})
+						})
+					} else
+						element.addClass("disabledButton")
+				})(element);
+				container.append(element)
+			}
+			modal.find(".selectionOverlayContainer").fadeIn("fast")
+			
+			$("#CompetitorModPublisherContent").hide();
+			$("#CompetitorModPublisherTitle").hide();
+			$("#CompetitorModPublisherPlatformChooser").show();
+		})
+	};
+
+	var getTargetAudience = function (audience) {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var selectedRating = modalContent.find(".rating.selected");;
+		
+		if (selectedRating.hasClass("ratingY"))
+			return "young";
+		else if (selectedRating.hasClass("ratingE"))
+			return "everyone";
+		else if (selectedRating.hasClass("ratingM"))
+			return "mature";
+		return "everyone"
+	};
+	var getGameSize = function (size) {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var selectedSize = modalContent.find(".gameSizeButton.selected");;
+		
+		if (selectedSize.hasClass("gameSizeSmall"))
+			return "small";
+		else if (selectedSize.hasClass("gameSizeMedium"))
+			return "medium";
+		else if (selectedSize.hasClass("gameSizeLarge"))
+			return "large";
+		else if (selectedSize.hasClass("gameSizeAAA"))
+			return "aaa";
+		return "small"
+	};
+	var getSelectedTopic = function () {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var topicName = modalContent.find(".pickTopicButton").text();
+		var topic = GameManager.company.topics.first(function (t) {
+				return t.name == topicName
+			});
+		return topic
+	};
+	var getSelectedGenre = function () {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var genreName = modalContent.find("#pickGenreButton").text();
+		var genre = GameGenre.getAll().first(function (i) {
+				return i.name == genreName
+			});
+		return genre
+	};
+	var getSelectedPlatform = function () {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var platformName = modalContent.find("#pickPlatformButton").text();
+		var platform = GameManager.company.licencedPlatforms.first(function (i) {
+				return i.name.trim() == platformName.trim()
+			});
+		return platform
+	};
+	
+	CompetitorModPublisher.createContract = function(){
+		var contract = new PublisherContract();
+		
+		var topic = getSelectedTopic();
+		var genre = getSelectedGenre();
+		var platform = getSelectedPlatform();
+		var targetAudience = getTargetAudience();
+		var gameSize = getGameSize();
+		//var score = 
+		
+		if(topic == null || genre == null || platform == null){
+			return null;
+		}
+		
+		contract.score = 1;s
+		contract.gameSize = gameSize;
+		contract.genre = genre;
+		contract.topic = topic;
+		contract.targetAudience = targetAudience;
+		contract.platforms.push(platform);
+		
+		CompetitorModPublisher.contracts.push(contract);
+		
+		return true;
+	}
+})();

@@ -1,1 +1,213 @@
-﻿var _0xb19e=["\x63\x61\x6C\x63\x75\x6C\x61\x74\x65\x53\x61\x6C\x65\x73","\x79\x65\x61\x72","\x67\x65\x74\x43\x75\x72\x72\x65\x6E\x74\x44\x61\x74\x65","\x63\x6F\x6D\x70\x61\x6E\x79","\x63\x6C\x61\x6D\x70","\x73\x63\x6F\x72\x65","\x6D\x65\x64\x69\x75\x6D","\x6C\x61\x72\x67\x65","\x61\x61\x61","\x67\x61\x6D\x65\x53\x69\x7A\x65","\x66\x61\x6E\x73","\x6D\x69\x6E","\x6D\x61\x78","\x6C\x65\x6E\x67\x74\x68","\x70\x6C\x61\x74\x66\x6F\x72\x6D\x73","\x69\x64","\x50\x43","\x74\x65\x63\x68\x4C\x65\x76\x65\x6C","\x63\x75\x72\x72\x65\x6E\x74\x57\x65\x65\x6B","\x67\x65\x74\x4D\x61\x72\x6B\x65\x74\x53\x69\x7A\x65\x46\x6F\x72\x57\x65\x65\x6B","\x70\x6F\x77","\x63\x75\x72\x72\x65\x6E\x74\x4C\x65\x76\x65\x6C","\x74\x61\x72\x67\x65\x74\x41\x75\x64\x69\x65\x6E\x63\x65","\x67\x65\x74\x41\x75\x64\x69\x65\x6E\x63\x65\x57\x65\x69\x67\x68\x74\x69\x6E\x67","\x66\x6C\x6F\x6F\x72","\x68\x79\x70\x65\x50\x6F\x69\x6E\x74\x73","\x69\x6E\x74\x65\x72\x76\x69\x65\x77\x48\x79\x70\x65\x64","\x66\x6C\x61\x67\x73","\x64\x65\x63\x69\x73\x69\x6F\x6E","\x72\x6F\x79\x61\x6C\x74\x79\x52\x61\x74\x65","\x67\x65\x74\x54\x61\x72\x67\x65\x74\x46\x61\x6E\x73","\x6C\x6F\x67","\x73\x75\x6D","\x66\x6F\x72\x6D\x61\x74","\x6D\x61\x72\x6B\x65\x74\x20\x73\x69\x7A\x65\x20\x7B\x30\x7D\x2E\x20\x74\x6F\x74\x61\x6C\x20\x72\x65\x61\x63\x68\x20\x7B\x31\x7D\x2E\x20\x65\x78\x69\x73\x74\x69\x6E\x67\x20\x66\x61\x6E\x73\x20\x7B\x32\x7D","\x67\x65\x74\x52\x61\x6E\x64\x6F\x6D","\x73\x65\x71\x75\x65\x6C\x73\x54\x6F\x6F\x43\x6C\x6F\x73\x65","\x75\x6E\x69\x74\x50\x72\x69\x63\x65","\x67\x65\x74\x55\x6E\x69\x74\x50\x72\x69\x63\x65","\x6D\x6D\x6F","\x75\x6E\x69\x74\x73\x20\x73\x6F\x6C\x64\x3A\x20\x7B\x30\x7D\x2C\x20\x73\x61\x6C\x65\x73\x3A\x20\x7B\x31\x7D\x24\x2C\x20\x66\x61\x6E\x4D\x6F\x64\x7B\x32\x7D","\x74\x6F\x74\x61\x6C\x53\x61\x6C\x65\x73\x43\x61\x73\x68","\x66\x61\x6E\x73\x43\x68\x61\x6E\x67\x65\x54\x61\x72\x67\x65\x74","\x6E\x61\x6D\x65","\x63\x6F\x6D\x70\x61\x6E\x79\x3A\x20\x7B\x30\x7D\x20\x20\x73\x63\x6F\x72\x65\x3A\x20\x7B\x31\x7D\x20\x74\x6F\x74\x61\x6C\x43\x61\x73\x68\x46\x6F\x72\x4E\x65\x78\x74\x47\x61\x6D\x65\x3A\x7B\x32\x7D\x20\x74\x6F\x74\x61\x6C\x46\x61\x6E\x73\x46\x6F\x72\x4E\x65\x78\x74\x47\x61\x6D\x65\x3A\x7B\x33\x7D","\x67\x65\x74\x49\x6E\x63\x6F\x6D\x65","\x63\x75\x72\x72\x65\x6E\x74\x53\x61\x6C\x65\x73\x43\x61\x73\x68","\x73\x65\x6C\x6C\x47\x61\x6D\x65","\x75\x6E\x69\x74\x73\x53\x6F\x6C\x64","\x72\x65\x76\x65\x6E\x75\x65","\x6E\x65\x78\x74\x53\x61\x6C\x65\x73\x43\x61\x73\x68","\x63\x75\x72\x72\x65\x6E\x74\x53\x61\x6C\x65\x73\x52\x61\x6E\x6B","\x6E\x65\x78\x74\x53\x61\x6C\x65\x73\x52\x61\x6E\x6B","\x66\x61\x6E\x73\x43\x68\x61\x6E\x67\x65\x64","\x6E\x65\x78\x74\x66\x61\x6E\x73\x43\x68\x61\x6E\x67\x65","\x63\x6F\x6E\x74\x72\x61\x63\x74","\x72\x6F\x79\x61\x6C\x74\x79","\x63\x61\x73\x68","\x50\x75\x62\x6C\x69\x73\x68\x65\x72\x20\x43\x6F\x6E\x74\x72\x61\x63\x74\x20\x52\x6F\x79\x61\x6C\x74\x79\x20\x7B\x30\x7D","\x61\x64\x6A\x75\x73\x74\x43\x61\x73\x68","\x73\x61\x6C\x65\x43\x61\x6E\x63\x65\x6C\x6C\x65\x64","\x6E\x65\x78\x74\x4D\x61\x69\x6E\x74\x65\x6E\x61\x6E\x63\x65","\x73\x6F\x6C\x64\x4F\x75\x74","\x69\x73\x4C\x61\x73\x74\x47\x61\x6D\x65\x53\x65\x6C\x6C\x69\x6E\x67","\x67\x65\x74\x4C\x6F\x6E\x67\x4E\x75\x6D\x62\x65\x72\x53\x74\x72\x69\x6E\x67","\x6C\x6F\x63\x61\x6C\x69\x7A\x65","\x7B\x30\x7D\x20\x69\x73\x20\x6E\x6F\x77\x20\x6F\x66\x66\x20\x74\x68\x65\x20\x6D\x61\x72\x6B\x65\x74\x2E\x20\x49\x74\x20\x73\x6F\x6C\x64\x20\x7B\x31\x7D\x20\x75\x6E\x69\x74\x73\x20\x67\x65\x6E\x65\x72\x61\x74\x69\x6E\x67\x20\x7B\x32\x7D\x20\x69\x6E\x20\x73\x61\x6C\x65\x73\x2E"];var CompetitorModSales={};(function (){CompetitorModSales[_0xb19e[0]]=function (_0xa96fx2,_0xa96fx3){var _0xa96fx4=GameManager[_0xb19e[3]][_0xb19e[2]]()[_0xb19e[1]];var _0xa96fx5=_0xa96fx3[_0xb19e[5]][_0xb19e[4]](1,10);var _0xa96fx6=function (_0xa96fx3){var _0xa96fx7=0;switch(_0xa96fx3[_0xb19e[9]]){case _0xb19e[6]:_0xa96fx7=1;break ;;case _0xb19e[7]:_0xa96fx7=1.2;break ;;case _0xb19e[8]:_0xa96fx7=1.5;break ;;default:return 1;;} ;return 1+_0xa96fx7;} ;var _0xa96fx8=_0xa96fx5/10;var _0xa96fx9=Math[_0xb19e[11]](1500000,_0xa96fx2[_0xb19e[10]])+Math[_0xb19e[12]](0,_0xa96fx2[_0xb19e[10]]-1500000)/10;var _0xa96fxa=[0,0,0];var _0xa96fxb=8;for(var _0xa96fxc=0;_0xa96fxc<_0xa96fx3[_0xb19e[14]][_0xb19e[13]];_0xa96fxc++){if(_0xa96fx3[_0xb19e[14]][_0xa96fxc][_0xb19e[15]]!=_0xb19e[16]){_0xa96fxb=Math[_0xb19e[11]](_0xa96fxb,_0xa96fx3[_0xb19e[14]][_0xa96fxc][_0xb19e[17]]);} ;} ;for(var _0xa96fxd=0;_0xa96fxd<_0xa96fx3[_0xb19e[14]][_0xb19e[13]];_0xa96fxd++){var _0xa96fxe=_0xa96fx3[_0xb19e[14]][_0xa96fxd][_0xb19e[17]];if(_0xa96fx3[_0xb19e[14]][_0xa96fxd][_0xb19e[15]]==_0xb19e[16]){_0xa96fxe=_0xa96fxb;} ;var _0xa96fxf=1;if(_0xa96fxd==0&&_0xa96fx3[_0xb19e[14]][_0xb19e[13]]>1){_0xa96fxf=0.7;} else {if(_0xa96fxd==1){_0xa96fxf=_0xa96fx3[_0xb19e[14]][_0xb19e[13]]==2?0.55:0.4;} else {if(_0xa96fxd==2){_0xa96fxf=0.3;} ;} ;} ;_0xa96fxa[_0xa96fxd]+=Platforms[_0xb19e[19]](_0xa96fx3[_0xb19e[14]][_0xa96fxd],GameManager[_0xb19e[3]][_0xb19e[18]],_0xa96fx2)*_0xa96fxf*(1/_0xa96fxe*_0xa96fxb)*_0xa96fx6(_0xa96fx3);} ;var _0xa96fx10=[0,0,0];var _0xa96fx11=0;var _0xa96fx12=1;if(_0xa96fx5<=9){_0xa96fx11=Math[_0xb19e[20]](_0xa96fx5,3)/100*0.2;if(GameManager[_0xb19e[3]][_0xb19e[21]]===4){_0xa96fx12=1.25;} ;} else {_0xa96fx11=Math[_0xb19e[20]](_0xa96fx5,3)/(100-35*(_0xa96fx5-9));if(_0xa96fx4<6){_0xa96fx12=0.65;} else {if(GameManager[_0xb19e[3]][_0xb19e[21]]===4){_0xa96fx12=0.35;} else {_0xa96fx12=0.5;} ;} ;} ;_0xa96fx11*=_0xa96fx12;_0xa96fx11=_0xa96fx11/15*0.2+0.008;_0xa96fx11=[_0xa96fx11,_0xa96fx11,_0xa96fx11];for(var _0xa96fxd=0;_0xa96fxd<_0xa96fx3[_0xb19e[14]][_0xb19e[13]];_0xa96fxd++){var _0xa96fx13=[_0xa96fx3[_0xb19e[14]][_0xa96fxd]];_0xa96fx11[_0xa96fxd]=_0xa96fx11[_0xa96fxd]*Platforms[_0xb19e[23]](_0xa96fx13,_0xa96fx3[_0xb19e[22]]);_0xa96fx10[_0xa96fxd]+=Math[_0xb19e[24]](_0xa96fxa[_0xa96fxd]*_0xa96fx11[_0xa96fxd]);} ;if(_0xa96fx3[_0xb19e[25]]){var _0xa96fx14=Math[_0xb19e[11]](500,_0xa96fx3[_0xb19e[25]])/500;var _0xa96fx15=_0xa96fx5>=5;if(_0xa96fx3[_0xb19e[27]][_0xb19e[26]]&&_0xa96fx3[_0xb19e[27]][_0xb19e[26]][_0xb19e[28]]){_0xa96fx15=_0xa96fx5>=8;} ;if(_0xa96fx15){for(var _0xa96fxd=0;_0xa96fxd<_0xa96fx3[_0xb19e[14]][_0xb19e[13]];_0xa96fxd++){_0xa96fx10[_0xa96fxd]+=Math[_0xb19e[24]](_0xa96fxa[_0xa96fxd]*0.05*_0xa96fx14*((_0xa96fx5-5)/5));} ;} else {for(var _0xa96fxd=0;_0xa96fxd<_0xa96fx3[_0xb19e[14]][_0xb19e[13]];_0xa96fxd++){_0xa96fx10[_0xa96fxd]-=Math[_0xb19e[24]](_0xa96fxa[_0xa96fxd]*_0xa96fx11[_0xa96fxd]*0.25*_0xa96fx14*(_0xa96fx5/5));} ;} ;} ;for(var _0xa96fxd=0;_0xa96fxd<_0xa96fx3[_0xb19e[14]][_0xb19e[13]];_0xa96fxd++){_0xa96fx10[_0xa96fxd]=Math[_0xb19e[24]](Math[_0xb19e[11]](_0xa96fx10[_0xa96fxd],_0xa96fxa[_0xa96fxd]));} ;if(!_0xa96fx3[_0xb19e[27]][_0xb19e[29]]){_0xa96fx10[0]+=_0xa96fx9*_0xa96fx8;} else {_0xa96fx10[0]+=Math[_0xb19e[12]](0,Sales[_0xb19e[30]](_0xa96fx2,_0xa96fx3))*_0xa96fx8;for(var _0xa96fxd=0;_0xa96fxd<_0xa96fx3[_0xb19e[14]][_0xb19e[13]];_0xa96fxd++){_0xa96fx10[_0xa96fxd]*=10;} ;} ;if(!LOGWEEKSALES){_0xb19e[34][_0xb19e[33]](_0xa96fxa[_0xb19e[32]](function (_0xa96fxc){return _0xa96fxc;} ),_0xa96fx10[_0xb19e[32]](function (_0xa96fxc){return _0xa96fxc;} ),_0xa96fx9)[_0xb19e[31]]();} ;var _0xa96fx16=Math[_0xb19e[24]](_0xa96fx10[_0xb19e[32]](function (_0xa96fxc){return _0xa96fxc;} )*0.8*_0xa96fx8+_0xa96fx10[_0xb19e[32]](function (_0xa96fxc){return _0xa96fxc;} )*0.2*GameManager[_0xb19e[3]][_0xb19e[35]]());var _0xa96fx17=0;if(_0xa96fx5>=7&&!_0xa96fx3[_0xb19e[27]][_0xb19e[36]]){_0xa96fx17+=_0xa96fx9*0.05+_0xa96fx9*0.05*GameManager[_0xb19e[3]][_0xb19e[35]]();} ;if(_0xa96fx5>=5&&!_0xa96fx3[_0xb19e[27]][_0xb19e[36]]){if(_0xa96fx3[_0xb19e[27]][_0xb19e[29]]&&Sales[_0xb19e[30]](_0xa96fx2,_0xa96fx3)-_0xa96fx9<=0){_0xa96fx17+=Math[_0xb19e[24]]((_0xa96fx16*0.005*_0xa96fx8+_0xa96fx16*0.005*GameManager[_0xb19e[3]][_0xb19e[35]]())/10);} else {_0xa96fx17+=Math[_0xb19e[24]](_0xa96fx16*0.005*_0xa96fx8+_0xa96fx16*0.005*GameManager[_0xb19e[3]][_0xb19e[35]]());} ;} else {_0xa96fx17=-_0xa96fx2[_0xb19e[10]]*(1-_0xa96fx8)*0.25*GameManager[_0xb19e[3]][_0xb19e[35]]();} ;_0xa96fx3[_0xb19e[37]]=Sales[_0xb19e[38]](_0xa96fx3);if(_0xa96fx3[_0xb19e[27]][_0xb19e[39]]&&_0xa96fx3[_0xb19e[9]]===_0xb19e[8]){_0xa96fx16*=1.45;} ;var _0xa96fx18=_0xa96fx16*_0xa96fx3[_0xb19e[37]];if(!LOGWEEKSALES){_0xb19e[40][_0xb19e[33]](_0xa96fx16,_0xa96fx18,_0xa96fx17)[_0xb19e[31]]();} ;if(!_0xa96fx3[_0xb19e[41]]){_0xa96fx3[_0xb19e[41]]=0;} ;_0xa96fx3[_0xb19e[41]]+=_0xa96fx18;_0xa96fx3[_0xb19e[42]]=_0xa96fx17;console[_0xb19e[31]](_0xb19e[44][_0xb19e[33]](_0xa96fx2[_0xb19e[43]],_0xa96fx5,_0xa96fx3[_0xb19e[41]],_0xa96fx3[_0xb19e[42]]));} ;CompetitorModSales[_0xb19e[45]]=function (_0xa96fx3){var _0xa96fx19=_0xa96fx3[_0xb19e[41]]-_0xa96fx3[_0xb19e[46]];var _0xa96fx1a=0.1;var _0xa96fx1b=0.01;var _0xa96fx1c=0.4;var _0xa96fx1d=0.2;var _0xa96fx1e=1;if(_0xa96fx3[_0xb19e[9]]===_0xb19e[6]){_0xa96fx1e=0.75;} else {if(_0xa96fx3[_0xb19e[9]]===_0xb19e[7]){_0xa96fx1e=0.65;} else {if(_0xa96fx3[_0xb19e[9]]===_0xb19e[8]){_0xa96fx1e=0.5;} ;} ;} ;if((_0xa96fx3[_0xb19e[41]]-_0xa96fx3[_0xb19e[46]])/_0xa96fx3[_0xb19e[41]]<_0xa96fx1a*_0xa96fx1e){if((_0xa96fx3[_0xb19e[41]]-_0xa96fx3[_0xb19e[46]])/_0xa96fx3[_0xb19e[41]]>_0xa96fx1b*_0xa96fx1e){_0xa96fx19=(_0xa96fx3[_0xb19e[41]]-_0xa96fx3[_0xb19e[46]])*(GameManager[_0xb19e[3]][_0xb19e[35]]()*_0xa96fx1c*_0xa96fx1e+_0xa96fx1c*_0xa96fx1e);} ;} else {_0xa96fx19=(_0xa96fx3[_0xb19e[41]]-_0xa96fx3[_0xb19e[46]])*(GameManager[_0xb19e[3]][_0xb19e[35]]()*_0xa96fx1d*_0xa96fx1e+_0xa96fx1d*_0xa96fx1e);} ;return _0xa96fx19;} ;CompetitorModSales[_0xb19e[47]]=function (_0xa96fx2,_0xa96fx3){if(!_0xa96fx3[_0xb19e[48]]){_0xa96fx3[_0xb19e[48]]=0;} ;if(!_0xa96fx3[_0xb19e[49]]){_0xa96fx3[_0xb19e[49]]=0;} ;if(_0xa96fx3[_0xb19e[50]]){_0xa96fx3[_0xb19e[51]]=_0xa96fx3[_0xb19e[52]];_0xa96fx3[_0xb19e[53]]+=_0xa96fx3[_0xb19e[54]];_0xa96fx3[_0xb19e[46]]+=_0xa96fx3[_0xb19e[50]];_0xa96fx3[_0xb19e[48]]+=Math[_0xb19e[24]](_0xa96fx3[_0xb19e[50]]/_0xa96fx3[_0xb19e[37]]);if(_0xa96fx3[_0xb19e[50]]!=0){if(_0xa96fx3[_0xb19e[55]]!=undefined){var _0xa96fx1f=_0xa96fx3[_0xb19e[55]][_0xb19e[56]];var _0xa96fx20=(_0xa96fx3[_0xb19e[50]]*_0xa96fx1f)/100;_0xa96fx2[_0xb19e[57]]+=Math[_0xb19e[24]](_0xa96fx3[_0xb19e[50]]-_0xa96fx20);_0xa96fx3[_0xb19e[49]]+=Math[_0xb19e[24]](_0xa96fx3[_0xb19e[50]]-_0xa96fx20);GameManager[_0xb19e[3]][_0xb19e[59]](Math[_0xb19e[24]](_0xa96fx20),_0xb19e[58][_0xb19e[33]](_0xa96fx2[_0xb19e[43]]));} else {_0xa96fx2[_0xb19e[57]]+=_0xa96fx3[_0xb19e[50]];_0xa96fx3[_0xb19e[49]]+=Math[_0xb19e[24]](_0xa96fx3[_0xb19e[50]]);} ;} ;if(_0xa96fx3[_0xb19e[54]]!=0){var _0xa96fx21=Math[_0xb19e[24]](_0xa96fx3[_0xb19e[54]]);if(_0xa96fx2[_0xb19e[10]]===0){if(_0xa96fx21<=0){return ;} ;} ;_0xa96fx2[_0xb19e[10]]+=_0xa96fx21;} ;_0xa96fx3[_0xb19e[54]]=undefined;_0xa96fx3[_0xb19e[50]]=undefined;} ;if(_0xa96fx3[_0xb19e[41]]>_0xa96fx3[_0xb19e[46]]||_0xa96fx3[_0xb19e[27]][_0xb19e[39]]&&!_0xa96fx3[_0xb19e[27]][_0xb19e[60]]){var _0xa96fx22=_0xa96fx3[_0xb19e[46]]===0;var _0xa96fx19=CompetitorModSales[_0xb19e[45]](_0xa96fx3);var _0xa96fx23=_0xa96fx19/_0xa96fx3[_0xb19e[41]];_0xa96fx3[_0xb19e[54]]=Math[_0xb19e[24]](_0xa96fx3[_0xb19e[42]]*_0xa96fx23);_0xa96fx3[_0xb19e[50]]=Math[_0xb19e[24]](_0xa96fx19);if(_0xa96fx3[_0xb19e[50]]<=0){_0xa96fx3[_0xb19e[50]]=undefined;_0xa96fx3[_0xb19e[61]]=undefined;_0xa96fx3[_0xb19e[41]]=_0xa96fx3[_0xb19e[46]];} ;} else {_0xa96fx3[_0xb19e[62]]=true;_0xa96fx2[_0xb19e[63]]=false;_0xa96fx3[_0xb19e[51]]=-1;var _0xa96fx24=_0xb19e[66][_0xb19e[65]]()[_0xb19e[33]](_0xa96fx3[_0xb19e[43]],UI[_0xb19e[64]](_0xa96fx3[_0xb19e[48]]),UI[_0xb19e[64]](_0xa96fx3[_0xb19e[49]]));} ;} ;} )();
+﻿var CompetitorModSales = {};
+(function () {
+
+	CompetitorModSales.calculateSales = function (company, game) {
+		var year = GameManager.company.getCurrentDate().year;
+		var score = game.score.clamp(1, 10);
+		
+		var getMarketSizeFactor = function (game) {
+			var bonusFactor = 0;
+			switch (game.gameSize) {
+			case "medium":
+				bonusFactor = 1;
+				break;
+			case "large":
+				bonusFactor = 1.2;
+				break;
+			case "aaa":
+				bonusFactor = 1.5;
+				break;
+			default:
+				return 1
+			}
+			return 1 + bonusFactor;
+		};
+
+		var scoreRatio = score / 10;
+		var fans = Math.min(1500000, company.fans) + Math.max(0, company.fans - 1500000) / 10;
+		var marketSize = [0, 0, 0];
+		var minTech = 8;
+		for (var x = 0; x < game.platforms.length; x++)
+			if (game.platforms[x].id != "PC")
+				minTech = Math.min(minTech, game.platforms[x].techLevel);
+		for (var i = 0; i < game.platforms.length; i++) {
+			var currentTechLevel = game.platforms[i].techLevel;
+			if (game.platforms[i].id == "PC")
+				currentTechLevel = minTech;
+			var marketSizeFactor = 1;
+			if (i == 0 && game.platforms.length >
+				1)
+				marketSizeFactor = 0.7;
+			else if (i == 1)
+				marketSizeFactor = game.platforms.length == 2 ? 0.55 : 0.4;
+			else if (i == 2)
+				marketSizeFactor = 0.3;
+			marketSize[i] += Platforms.getMarketSizeForWeek(game.platforms[i], GameManager.company.currentWeek , company) * marketSizeFactor * (1 / currentTechLevel * minTech) * getMarketSizeFactor(game);
+		}
+		var reach = [0, 0, 0];
+		var marketReach = 0;
+		var reachBalanceF = 1;
+		if (score <= 9) {
+			marketReach = Math.pow(score, 3) / 100 * 0.2;
+			if (GameManager.company.currentLevel === 4)
+				reachBalanceF = 1.25
+		} else {
+			marketReach = Math.pow(score, 3) / (100 - 35 * (score - 9));
+			if (year < 6)
+				reachBalanceF = 0.65;
+			else if (GameManager.company.currentLevel === 4)
+				reachBalanceF = 0.35;
+			else
+				reachBalanceF = 0.5
+		}
+		marketReach *= reachBalanceF;
+		marketReach = marketReach / 15 * 0.2 + 0.008;
+		marketReach = [marketReach, marketReach, marketReach];
+		for (var i = 0; i < game.platforms.length; i++) {
+			var tempPlatform = [game.platforms[i]];
+			marketReach[i] = marketReach[i] * Platforms.getAudienceWeighting(tempPlatform, game.targetAudience);
+			reach[i] += Math.floor(marketSize[i] * marketReach[i])
+		}
+		if (game.hypePoints) {
+			var hypeFactor = Math.min(500, game.hypePoints) / 500;
+			var hasPositiveHypeEffect =
+				score >= 5;
+			if (game.flags.interviewHyped && game.flags.interviewHyped.decision)
+				hasPositiveHypeEffect = score >= 8;
+			if (hasPositiveHypeEffect)
+				for (var i = 0; i < game.platforms.length; i++)
+					reach[i] += Math.floor(marketSize[i] * 0.05 * hypeFactor * ((score - 5) / 5));
+			else
+				for (var i = 0; i < game.platforms.length; i++)
+					reach[i] -= Math.floor(marketSize[i] * marketReach[i] * 0.25 * hypeFactor * (score / 5))
+		}
+		for (var i = 0; i < game.platforms.length; i++)
+			reach[i] = Math.floor(Math.min(reach[i], marketSize[i]));
+		if (!game.flags.royaltyRate)
+			reach[0] += fans * scoreRatio;
+		else {
+			reach[0] += Math.max(0, Sales.getTargetFans(company, game) /*- fans*/) * scoreRatio;
+			for (var i = 0; i < game.platforms.length; i++)
+				reach[i] *= 10
+		}
+		if (!LOGWEEKSALES)
+			"market size {0}. total reach {1}. existing fans {2}".format(marketSize.sum(function (x) {
+					return x
+				}), reach.sum(function (x) {
+					return x
+				}), fans).log();
+		var unitSales = Math.floor(reach.sum(function (x) {
+					return x
+				}) * 0.8 * scoreRatio + reach.sum(function (x) {
+					return x
+				}) * 0.2 * GameManager.company.getRandom());
+		var fanModification = 0;
+		if (score >= 7 && !game.flags.sequelsTooClose)
+			fanModification +=
+			fans * 0.05 + fans * 0.05 * GameManager.company.getRandom();
+		if (score >= 5 && !game.flags.sequelsTooClose)
+			if (game.flags.royaltyRate && Sales.getTargetFans(company, game) - fans <= 0)
+				fanModification += Math.floor((unitSales * 0.005 * scoreRatio + unitSales * 0.005 * GameManager.company.getRandom()) / 10);
+			else
+				fanModification += Math.floor(unitSales * 0.005 * scoreRatio + unitSales * 0.005 * GameManager.company.getRandom());
+		else
+			fanModification = -company.fans * (1 - scoreRatio) * 0.25 * GameManager.company.getRandom();
+		game.unitPrice = Sales.getUnitPrice(game);
+		if (game.flags.mmo && game.gameSize === "aaa")
+			unitSales *=
+			1.45;
+		var sales = unitSales * game.unitPrice;
+		if (!LOGWEEKSALES)
+			"units sold: {0}, sales: {1}$, fanMod{2}".format(unitSales, sales, fanModification).log();
+		if (!game.totalSalesCash)
+			game.totalSalesCash = 0;
+		game.totalSalesCash += sales;
+		game.fansChangeTarget = fanModification;
+		console.log("company: {0}  score: {1} totalCashForNextGame:{2} totalFansForNextGame:{3}".format(company.name,score,game.totalSalesCash,game.fansChangeTarget));
+	};
+
+	CompetitorModSales.getIncome = function (game) {
+		var cashIncome = game.totalSalesCash - game.currentSalesCash;
+		var salesEnd = 0.1;
+		var beforeAll = 0.01;
+		var endFactor = 0.4;
+		var normalFactor = 0.2;
+		var generalFactor = 1;
+		if (game.gameSize === "medium")
+			generalFactor = 0.75;
+		else if (game.gameSize === "large")
+			generalFactor = 0.65;
+		else if (game.gameSize === "aaa")
+			generalFactor = 0.5;
+		if ((game.totalSalesCash - game.currentSalesCash) / game.totalSalesCash < salesEnd * generalFactor) {
+			if ((game.totalSalesCash - game.currentSalesCash) / game.totalSalesCash > beforeAll * generalFactor)
+				cashIncome = (game.totalSalesCash - game.currentSalesCash) * (GameManager.company.getRandom() * endFactor * generalFactor + endFactor * generalFactor)
+		} else
+			cashIncome = (game.totalSalesCash - game.currentSalesCash) * (GameManager.company.getRandom() * normalFactor * generalFactor + normalFactor * generalFactor);
+		return cashIncome
+	};
+
+	CompetitorModSales.sellGame = function (company, game) {
+		if (!game.unitsSold)
+			game.unitsSold = 0;
+		if (!game.revenue)
+			game.revenue = 0;
+
+		//var saleLengthInWeeks = Sales.getSalesLengthInWeek(game);
+		
+		if (game.nextSalesCash) {
+			game.currentSalesRank = game.nextSalesRank;
+			game.fansChanged += game.nextfansChange;
+			game.currentSalesCash += game.nextSalesCash;
+			game.unitsSold += Math.floor(game.nextSalesCash / game.unitPrice)
+			
+			if (game.nextSalesCash != 0) {
+				//publisher contracts
+				if(game.contract != undefined ){
+					var percentage = game.contract.royalty;
+					var royalteMoney = (game.nextSalesCash * percentage)/100;
+					
+					company.cash += Math.floor(game.nextSalesCash-royalteMoney);
+					game.revenue += Math.floor(game.nextSalesCash-royalteMoney);
+					
+					GameManager.company.adjustCash( Math.floor(royalteMoney), "Publisher Contract Royalty {0}".format(company.name));
+				}else{
+					company.cash += game.nextSalesCash;
+					game.revenue += Math.floor(game.nextSalesCash);
+				}
+			}
+			
+			if (game.nextfansChange != 0) {
+				var fanChange = Math.floor(game.nextfansChange);
+				if (company.fans === 0) {
+					if (fanChange <= 0)
+						return;
+				}
+				company.fans += fanChange;
+			}
+			
+			game.nextfansChange = undefined;
+			game.nextSalesCash = undefined
+		}
+		if (game.totalSalesCash > game.currentSalesCash || game.flags.mmo && !game.flags.saleCancelled) {
+			var firstSales = game.currentSalesCash === 0;
+			
+			var cashIncome = CompetitorModSales.getIncome(game);
+			var part = cashIncome / game.totalSalesCash;
+			game.nextfansChange = Math.floor(game.fansChangeTarget * part);
+			game.nextSalesCash = Math.floor(cashIncome);
+			if (game.nextSalesCash <= 0) {
+				game.nextSalesCash = undefined;
+				game.nextMaintenance = undefined;
+				game.totalSalesCash = game.currentSalesCash
+			}
+		} else {
+			game.soldOut = true;
+			company.isLastGameSelling = false;
+			game.currentSalesRank = -1;
+			var msg = "{0} is now off the market. It sold {1} units generating {2} in sales.".localize().format(game.name, UI.getLongNumberString(game.unitsSold), UI.getLongNumberString(game.revenue));
+			//GameManager.company.notifications.push(new Notification("Game off the market.".localize("heading"),
+			//		msg, "OK".localize()))
+		}
+	};	
+})();
