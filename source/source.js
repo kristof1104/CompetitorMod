@@ -15,13 +15,13 @@ var maxCompetitors = 10;
 		}
 		//end temp for testing
 
-		
-		
-		
+
+
+
 var oldStartNewGame = GameManager.startNewGame;
 var newStartNewGame = function(){
 	CompetitorMod.startNewGame();
-	CompetitorUI.updateCompetitorUI();	
+	CompetitorUI.updateCompetitorUI();
 	oldStartNewGame();
 }
 GameManager.startNewGame = newStartNewGame;
@@ -34,10 +34,10 @@ CompetitorMod.init = function(){
 	GDT.on(GDT.eventKeys.gameplay.weekProceeded, CompetitorMod.tick);
 	GDT.on(GDT.eventKeys.saves.loading, CompetitorMod.load);
 	GDT.on(GDT.eventKeys.saves.saving, CompetitorMod.save);
-	
+
 	//debug
 	GDT.on(GDT.eventKeys.saves.loading, setCustomGameSpeed);
-	
+
 	//init companynames
 	companyNames = $.extend([], CompanyNames);
 	companyNames.push("Sienna");
@@ -52,13 +52,17 @@ CompetitorMod.init = function(){
     companyNames.push("Eagle Software");
 
 	//test
-	/*ResourceKeys.Level1 = "./mods/CompetitorMod/source/images/level1.png";
-	var loader = new html5Preloader(ResourceKeys.Level1);
-	GameDev.ResourceManager.resources[ResourceKeys.Level1] = loader.getFile(ResourceKeys.Level1);*/
+	/*
+	this.embedCustomArt = function()
+  {
+    GameDev.ResourceManager.resources[ResourceKeys.Level1] = new Image();
+    GameDev.ResourceManager.resources[ResourceKeys.Level1].src = 'http://www.jpl.nasa.gov/spaceimages/images/mediumsize/PIA17011_ip.jpg';
+  };
+	*/
 
 }
-	
-	
+
+
 CompetitorMod.save = function(e){
 	var data = e.data;
 	var competitorModData = data['competitorModData'];
@@ -76,14 +80,14 @@ CompetitorMod.load = function(e){
 	}else if(competitorModData["competitors"]){
 		CompetitorMod.competitors = competitorModData["competitors"].map(function (o) {return CompetitorLib.load(o)});
 	}
-	
+
 	CompetitorUI.updateCompetitorUI();
 }
 
 CompetitorMod.tick = function(company){
 	for (var i=CompetitorMod.competitors.length-1;i>=0;i--){
 		var competitor = CompetitorMod.competitors[i];
-		
+
 		if(competitor.flagForRemoval == true){
 			//remove from array and add new competitor
 			CompetitorMod.competitors.remove(competitor);
@@ -93,13 +97,13 @@ CompetitorMod.tick = function(company){
 		competitor.tick();
 	}
 	CompetitorMod.sortCompetitors();
-	
+
 	CompetitorUI.updateCompetitorUI();
 }
 
 CompetitorMod.startNewGame = function(company){
 	CompetitorMod.competitors = [];
-	
+
 	for(var i = 0;i<maxCompetitors;i++){
 		CompetitorMod.addNewCompetitor(true);
 	}
@@ -112,7 +116,7 @@ CompetitorMod.addNewCompetitor = function(newGameInstance,newName,cash,owned){
     if(newName !=null){
         name = newName;
     }
-	
+
 	//check if name is used already
 	for (var i=0;i<CompetitorMod.competitors.length;i++){
 		var competitor = CompetitorMod.competitors[i];
@@ -129,7 +133,7 @@ CompetitorMod.addNewCompetitor = function(newGameInstance,newName,cash,owned){
 	}
 
 	var new_competitor = CompetitorLib.createCompetitor("ID_"+name.replace(/\s/g,"") , name,[],CompetitorMod.getRandomTopics().slice(0, 4));
-	
+
 	if(!newGameInstance){
 		new_competitor.cash = 2500000;
 	}
@@ -144,7 +148,7 @@ CompetitorMod.addNewCompetitor = function(newGameInstance,newName,cash,owned){
 
 CompetitorMod.setRandomFocusPoints = function (competitor) {
 	competitor.focusPoints = [];
-	
+
 	do{
 		var focusPoint = competitor.experience.getAll().pickRandom();
 		competitor.addFocusPoint(focusPoint);
@@ -202,7 +206,7 @@ CompetitorMod.sabotage = function(competitor_id,option){
 		var action = function(){
 			GameManager.company.adjustCash(-100000, "Hack Competitor");
 			GameManager.company.researchPoints = Math.floor(GameManager.company.researchPoints) + 10;
-			VisualsManager.researchPoints.updatePoints(GameManager.company.researchPoints); 
+			VisualsManager.researchPoints.updatePoints(GameManager.company.researchPoints);
 		}
 		CompetitorUI.confirmAction("Are you sure you want to hack this competitor? This will costs you 100K. You will get 10 Research Points",action);
 	}
@@ -213,7 +217,7 @@ CompetitorMod.buy = function(competitor_id,option){
 	if(option == 1){
 		if(competitor.owned == true)
 			return;
-	
+
 		var action = function(){
 			GameManager.company.adjustCash(-competitor.cash, "Buy");
 			competitor.owned = true;
@@ -227,38 +231,38 @@ CompetitorMod.settings = function(competitor_id,option){
 	if(option == 1){
 		if(competitor == undefined || competitor.flagForRemoval == true || competitor.owned == false)
 			return;
-		
+
 		var action = function(){
 			// add company cash to parent company
 			GameManager.company.adjustCash(competitor.cash, "Merge company {0}".format(competitor.name));
 			//add research points xp /50 = 1 RP
 			GameManager.company.researchPoints += Math.floor(competitor.xp/50);
-			VisualsManager.researchPoints.updatePoints(GameManager.company.researchPoints); 
+			VisualsManager.researchPoints.updatePoints(GameManager.company.researchPoints);
 			//add fans
 			GameManager.company.fans += competitor.fans;
 			//todo staff training!
-			
+
 			//flag competitor for removal
 			competitor.owned = false;
 			competitor.flagForRemoval = true;
 		}
-		
+
 		CompetitorUI.confirmAction("Are you sure you want to merge this competitor with your company?",action);
-		
+
 	}else if(option == 2){
 		if(competitor.owned == false)
 			return;
-			
+
 		var action = function(){
 			GameManager.company.adjustCash(competitor.cash, "Sell company {0}".format(competitor.name));
 			competitor.owned = false;
 		}
-			
+
 		CompetitorUI.confirmAction("Are you sure you want to sell this competitor?",action);
 	}else if(option == 3){
 		if(competitor.owned == false)
 			return;
-		
+
 		var action = function(){
 			var name = $("#CompetitorModContent").find("#textField"+option).val();
 			competitor.name = name;
@@ -276,7 +280,7 @@ CompetitorMod.showGameHistory = function (competitor) {
 			var content = dlg.find("#gameHistoryContent");
 			content.empty();
 			dlg.find(".windowTitle").text(competitor.name + " Game History");
-			
+
 			var slider = $('<div class="gameHistorySliderContainer royalSlider rsDefaultInv"></div>');
 			content.append(slider);
 			games.slice().sort(function (a,
@@ -434,7 +438,7 @@ CompetitorMod.getElementForGameDetail = function (game, avgReview) {
 	}
 		template.find(".gameAverageScoreOverview").text(avgReview);
 		template.find(".gameDetailsAvgReview").text(avgReview)
-	
+
 	return template
 }
 
@@ -486,7 +490,7 @@ var dn = DecisionNotifications;
 			}
 		}
 	};
-	
+
 	dn.offerNotification = {
 		id : "offerNotification",
 		trigger : function (company) {
