@@ -81,7 +81,8 @@ var createSabotageCompetitorScreen = function(competitor){
 	div.append(createUIButton(competitor.id + "1" , competitor , 1 , 1 , "Bankrupt company(debug)"));
 	div.append(createUIButton(competitor.id + "2" , competitor , 1 , 2 , "Hire Scammers (Costs 100k)"));
 	div.append(createUIButton(competitor.id + "3" , competitor , 1 , 3 , "Hack (Costs:100k  Reward:10RP)"));
-}
+};
+
 var createSettingsCompetitorScreen = function(competitor){
 	var div = $("#CompetitorModTitle");
 	div.html("Settings For: "+competitor.name);
@@ -92,7 +93,55 @@ var createSettingsCompetitorScreen = function(competitor){
 	div.append(createUIButton(competitor.id + "2" , competitor , 2 , 2 , "Sell company"));
 	div.append(createUITexFieldWithButton(competitor.id + "3" , competitor , 3 , "Change"));
 	//div.append(createUIButton(competitor.id + "4" , competitor , 2 , 4 , "Focus on Genre"));
-}
+};
+
+var createSubCompetitorScreen = function(){
+	var div = $("#CompetitorModTitle");
+	div.html("Create sub company");
+	div = $("#CompetitorModContent");
+	div.html("Creating a sub company, can provide you with an extra income.<br>");
+
+    var html = [];
+    html.push("<div style='text-align:center;'><br>");
+    html.push("<span style='font-size: 22pt'>Name:</span><br>");
+    html.push("<input id='newCompanyName' type='text' maxlength='35' value='' style='width:300px;font-size: 22pt'/><br>");
+    html.push("<span style='font-size: 22pt'>Starting budget:</span><br>");
+    html.push("<div class='centeredButtonWrapper selectorButton windowStepActionButton' onClick='updateNewCompanyStartBudget(true)' style='width:50px; display:inline-block; font-size:30pt;'><i class='fontCharacterButton icon-arrow-up'></i></div>");
+    html.push("<input id='newCompanyStartBudget' type='text' maxlength='35' value='100000' style='width:300px;font-size: 22pt'/>");
+    html.push("<div class='centeredButtonWrapper selectorButton windowStepActionButton' onClick='updateNewCompanyStartBudget(false)' style='width:50px; display:inline-block; font-size:30pt;'><i class='fontCharacterButton icon-arrow-down'></i></div>");
+    html.push("<div class='centeredButtonWrapper selectorButton windowStepActionButton' onClick='createSubCompany()' style='width:300px; display:inline-block; font-size:30pt;'>Create</div>");
+    html.push("</div'>");
+    div.append(html.join(""));
+
+    updateNewCompanyStartBudget = function(increase){
+        var value = parseInt($("#newCompanyStartBudget").val());
+        if(!value || isNaN(value) ) value = 0;
+        if(increase){
+            value += 1000;
+        }else{
+            value -= 1000;
+        }
+        $("#newCompanyStartBudget").val(value);
+        return false;
+    };
+
+    createSubCompany = function(){
+        var name = $("#newCompanyName").val();
+        var cash = parseInt($("#newCompanyStartBudget").val());
+        if(cash && !isNaN(cash) && cash > 0 && name) {
+            var txt = "Are you sure you want to create this sub company? This will cost you {0}".format(cash);
+            var result = CompetitorUI.confirmAction(txt,function(){
+                if(GameManager.company.cash >= cash){
+                    CompetitorMod.addNewCompetitor(false, name, cash, true);
+                    $("#CompetitorModContainer").dialog("close");
+                    GameManager.company.adjustCash(-cash,"Created {0}".format(name));
+                }
+            });
+        }
+        return false;
+    };
+};
+
 var createCompetitorPlayerScreen = function(){
 	var div = $("#CompetitorModTitle");
 	div.html("CompetitorMod");
@@ -344,26 +393,45 @@ var new_showContextMenu = function(b, c, d, h){
 			
 			if (targetChar && targetChar.id == 0){
 				c.push({
-					label : "CompetitorMod".localize("menu item"),
+					label : "Create Publish Deal".localize("menu item"),
 					action : function () {
 						Sound.click();
-						var dlg = $("#CompetitorModContainer");
-						$("#CompetitorModContainer").css("z-index","5400");
-						createCompetitorPlayerScreen();
+						var dlg = $("#CompetitorModPublisherContainer");
+						CompetitorModPublisher.createContractUI();
+						//UI.showModalContent("#CompetitorModPublisherContainer");
+						$("#CompetitorModPublisherContainer").css("z-index","5400");
 						dlg.gdDialog({
 							close : true,
 							popout : true,
 							onClose : function () {
-								GameManager.resume(true);
-							}	
+								GameManager.resume(true)
+							}
 						})
+						dlg.dialog( "option", "width", 620 );
 					}
 				});
-			}	
+				c.push({
+					label : "Create Sub Company".localize("menu item"),
+					action : function () {
+                        Sound.click();
+                        var dlg = $("#CompetitorModContainer");
+                        $("#CompetitorModContainer").css("z-index","5400");
+                        createSubCompetitorScreen();
+                        dlg.gdDialog({
+                            close : true,
+                            popout : true,
+                            onClose : function () {
+                                GameManager.resume(true)
+                            }
+                        })
+                    }
+				});
+			}
 		}
 	original_showContextMenu(b, c, d, h);
 };
-UI._showContextMenu = new_showContextMenu
+UI._showContextMenu = new_showContextMenu;
+
 
 CompetitorUI.updateCompetitorUI = function(){
 	var visible_graphs = 3;
@@ -379,10 +447,20 @@ CompetitorUI.updateCompetitorUI = function(){
 		if(i==0) margin = 35;
 		
 		html.push('<div id="CompetitorRanking" class="selectorButton " style="background-color: white;border: solid 2px #a4a4a4;position:absolute;line-height: 35px;height:40px;width: 40px; opacity=0;-webkit-border-radius: 999px;-moz-border-radius: 999px;border-radius: 999px;behavior: url(PIE.htc);">' + (i+1) + "</div>");
-		html.push('<div id="{0}" class="statusBar" style="margin-top:{1}px;margin-left:60px;width:250px;word-spacing: normal;">'.format(competitor.id,margin));
+		html.push('<div id="{0}" title=" {1}" class="statusBar" style="margin-top:{2}px;margin-left:60px;width:250px;word-spacing: normal;">'.format(competitor.id,competitor.getDebugData(),margin));
 			
 		if(competitor.owned)
 			html.push('<div id="competitorOwned" style="background-color:#ddfcdf;text-align:center;font-size: 10pt;width:60px;border: 2px solid #5aef62;border-radius: 5px;position: absolute; margin-left:180px">Owned</div>');
+		
+		if(competitor.activeContract != undefined) {
+			if (competitor.activeContract.active == true) {
+				if(competitor.owned) {
+					html.push('<div id="competitorContractOwned" style="background-color:#FFDE00;text-align:center;font-size: 10pt;width:100px;border: 2px solid #FFAB00;border-radius: 5px;position: absolute; margin-left:145px; margin-top:25px">Working on contract</div>');	
+				} else {
+					html.push('<div id="competitorContract" style="background-color:#FFDE00; text-align:center;font-size: 10pt;width:100px;border: 2px solid #FFAB00;border-radius: 5px;position: absolute; margin-left:145px">Working on contract</div>');				
+				}
+			}
+		}
 		
 		html.push('<div id="competitorName" class="statusBarItem">{0}</div><br>'.format(competitor.name));
 		html.push('<div id="competitorNrOfGames" class="statusBarItem" style="padding-left:10px;font-size:13px;">Cash: {0}<br>Fans: {1}</div><br>'.format(UI.getShortNumberString(competitor.cash),UI.getShortNumberString(competitor.fans)));
@@ -394,7 +472,9 @@ CompetitorUI.updateCompetitorUI = function(){
 	//add show/hide & All Competitors button
 	html.push('<div id="CompetitorModAllCompetitors" class="selectorButton" style="background-color: white;border: solid 2px #a4a4a4;border-radius: 5px;margin-top:20px;margin-left:60px;width:150px;height:30px;line-height: 26px;word-spacing: normal;">All Competitors</div>');
 	html.push('<div id="CompetitorModShowHide" class="selectorButton" style="background-color: white;border: solid 2px #a4a4a4;border-radius: 5px;margin-top:2px;margin-left:60px;width:120px;height:30px;line-height: 26px;word-spacing: normal;">Show/Hide</div>');
+	//div.attr('title', '{0}'.format(competitor.getDebugData()));
 	div.html(html.join(""));
+
 	
 	//add menu to graphs
 	for (var i=0;i<visible_graphs;i++){
@@ -428,7 +508,7 @@ CompetitorUI.updateCompetitorUI = function(){
 						GameManager.resume(true)
 					}	
 					
-		})
+		});
 		$("#CompetitorModAllCompetitorsSlider").gdSlider();
 		return false;
 	});
@@ -470,7 +550,7 @@ CompetitorUI.confirmAction = function (text,action) {
 		onClose : function () {
 			GameManager.resume(true)
 		}
-	})
+	});
 };
 			
 })();

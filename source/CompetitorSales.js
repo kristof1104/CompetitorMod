@@ -91,11 +91,11 @@
 				reach[i] *= 10
 		}
 		if (!LOGWEEKSALES)
-			"market size {0}. total reach {1}. existing fans {2}".format(marketSize.sum(function (x) {
+			/*"market size {0}. total reach {1}. existing fans {2}".format(marketSize.sum(function (x) {
 					return x
 				}), reach.sum(function (x) {
 					return x
-				}), fans).log();
+				}), fans).log();*/
 		var unitSales = Math.floor(reach.sum(function (x) {
 					return x
 				}) * 0.8 * scoreRatio + reach.sum(function (x) {
@@ -117,13 +117,13 @@
 			unitSales *=
 			1.45;
 		var sales = unitSales * game.unitPrice;
-		if (!LOGWEEKSALES)
-			"units sold: {0}, sales: {1}$, fanMod{2}".format(unitSales, sales, fanModification).log();
+		//if (!LOGWEEKSALES)
+			//"units sold: {0}, sales: {1}$, fanMod{2}".format(unitSales, sales, fanModification).log();
 		if (!game.totalSalesCash)
 			game.totalSalesCash = 0;
 		game.totalSalesCash += sales;
 		game.fansChangeTarget = fanModification;
-		console.log("company: {0}  score: {1} totalCashForNextGame:{2} totalFansForNextGame:{3}".format(company.name,score,game.totalSalesCash,game.fansChangeTarget));
+		//console.log("company: {0}  score: {1} totalCashForNextGame:{2} totalFansForNextGame:{3}".format(company.name,score,game.totalSalesCash,game.fansChangeTarget));
 	};
 
 	CompetitorModSales.getIncome = function (game) {

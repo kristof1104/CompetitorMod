@@ -7,9 +7,11 @@
 	};
 
 	GDT.loadJs(
-	['mods/CompetitorMod/source/CompetitorSales.js',
-	'mods/CompetitorMod/source/CompetitorPublisher.js',
-	'mods/CompetitorMod/source/CompetitorUI.js',
-	'mods/CompetitorMod/source/Kristof1104Lib.js',
-	'mods/CompetitorMod/source/source.js'], ready, error);
+	['source/CompetitorSales.js',
+	'source/CompetitorGameLib.js',
+	'source/CompetitorLib.js',
+	'source/CompetitorPublisher.js',
+	'source/CompetitorUI.js',
+	'source/Kristof1104Lib.js',
+	'source/source.js'], ready, error);
 })();

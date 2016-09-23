@@ -3,22 +3,24 @@
 CompetitorModPublisher.contracts = [];
 
 	var PublisherContract = function () {
+		this.name;
 		this.score = 0;
+		this.minScore = 0;
 		this.gameSize = "small";
 		this.genre = undefined;
 		this.topic = undefined;
 		this.targetAudience = "everyone";
 		this.platforms = [];
-		this.penaltyFee = 50000;
-		this.preBonus = 70000;
-		this.royalty = 10;
+		this.penaltyFee = 0;
+		this.preBonus = 0;
+		this.royalty = 0;
 		this.activeCompany = undefined;
+		this.active = false;
 	}
 
 	CompetitorModPublisher.init = function () {
 		CompetitorModPublisher.initUI();
 	}
-	
 	
 //UI
 	CompetitorModPublisher.initUI = function () {
@@ -29,6 +31,7 @@ CompetitorModPublisher.contracts = [];
 		html.push('<div id="CompetitorModPublisherTopicChooser"/>');
 		html.push('<div id="CompetitorModPublisherGenreChooser"/>');
 		html.push('<div id="CompetitorModPublisherPlatformChooser"/>');
+		html.push('<div id="CompetitorModPublisherCompetitorChooser"/>');
 		html.push('</div>');
 		var div = $("body");
 		div.append(html.join(""));
@@ -38,9 +41,12 @@ CompetitorModPublisher.contracts = [];
 		$("#CompetitorModPublisherTopicChooser").hide();
 		$("#CompetitorModPublisherGenreChooser").hide();
 		$("#CompetitorModPublisherPlatformChooser").hide();
+		$("#CompetitorModPublisherCompetitorChooser").hide();
 
 		var content = $("#CompetitorModPublisherContent");
 		content.empty();
+		
+		content.append("<div class='contractName centeredButtonWrapper'> <input id='contractNameInput' type='text' maxlength='35' value='Contract Name' style='width:500px;font-size: 22pt; text-align:center'/> </div>");
 		
 		var template = $("#gameDefinitionContentTemplate").clone();
 		template.find("#gameTitle").remove();
@@ -87,29 +93,8 @@ CompetitorModPublisher.contracts = [];
 		template.find(".gameDefSelection").clickExcl(function () {
 			Sound.click();
 			var e = $(this);
-			/*if (e.hasClass("rating"))
-				if (game.flags.lockedSettings && game.flags.lockedSettings.targetAudience)
-					return;
-			if (e.hasClass("gameSizeButton"))
-				if (game.flags.lockedSettings && game.flags.lockedSettings.gameSize)
-					return;
-			if (e.hasClass("gameGenreMMO")) {
-				if (game.flags.lockedSettings && game.flags.lockedSettings.mmo)
-					return;
-				if (e.hasClass("selected"))
-					e.removeClass("selected");
-				else
-					e.addClass("selected")
-			} else {*/
 				e.parent().find(".gameDefSelection").removeClass("selected");
 				e.addClass("selected");
-				//if (e.hasClass("rating"))
-				//	template.find(".ratingLabel").text(getAudienceLabel(e));
-				//else if (e.hasClass("gameSizeButton"))
-					//game.gameSize = getGameSizeFromButton(template.find(".gameSizeButton.selected"))
-			/*}
-			UI._updateGameDefinitionCost();
-			UI._updateGameDefinitionNextButtonEnabled()*/
 		});
 		
 		$("#gameDefinition").find(".dialogNextButton").clickExcl(function () {
@@ -137,22 +122,29 @@ CompetitorModPublisher.contracts = [];
 			})
 		});
 		
-		//money slider
-		template.append("PrePay Bonus: <input id='moneyField' type='text' maxlength='35' value='" + UI.getLongNumberString(50000) + "' style='width:170px;font-size: 22pt'/>");
-		template.append("<div id='moneySlider' style='margin-top:3px;'></div>")
-		template.find("#moneySlider").slider({
-		min: 0,
-		max: 100000000,
-		range: "min",
-		value: 50000,
-		step:5000,
-		animate: !1,
-		slide: function (a, b) {
-			var value = b.value;
-			$("#moneyField").val(UI.getLongNumberString(value));
-		}});
-		//royalty slider
-		template.append("RoyaltyRate %: <input id='royaltyField' type='text' maxlength='35' value='" + UI.getPercentNumberString(10) + "' style='width:170px;font-size: 22pt'/>");
+		//PrePay Value
+		var PrePay = GameManager.company.cash * 0.05;
+		template.append("<div style='font-size: 22pt'> Pre Pay Bonus: </div>")
+		template.append("<div class='increasePrePay centeredButtonWrapper selectorButton windowStepActionButton' onClick='increasePrePay()' style='width:50px; display:inline-block; font-size:30pt;'> &#8657 </div>");
+		template.append("<input id='moneyField' type='number' readonly='readonly' maxlength='35' value='" + PrePay + "' style='width:170px;font-size: 22pt'/>");
+		template.append("<div class='decreasePrePay centeredButtonWrapper selectorButton windowStepActionButton' onClick='decreasePrePay()' style='width:50px; display:inline-block; font-size:30pt;'> &#8659 <br/> </div>");
+		
+		increasePrePay = function () {
+			if(PrePay + 10000 <= GameManager.company.cash)
+				PrePay += 10000;
+				
+			template.find("#moneyField").val(PrePay);
+		}
+		decreasePrePay = function () {
+			if(PrePay - 10000 >= 0)
+				PrePay -= 10000;
+				
+			template.find("#moneyField").val(PrePay);
+		}
+				
+		//Royalty Slider
+		template.append("<div style='font-size: 22pt'> Royalty Rate %: </div>");
+		template.append("<div> <input id='royaltyField' type='number' readonly='readonly' maxlength='35' value='" + UI.getLongNumberString(10) + "' style='width:170px;font-size: 22pt'/> </div>")
 		template.append("<div id='royaltySlider' style='margin-top:3px;'></div>")
 		template.find("#royaltySlider").slider({
 		min: 0,
@@ -163,10 +155,33 @@ CompetitorModPublisher.contracts = [];
 		animate: !1,
 		slide: function (a, b) {
 			var value = b.value;
-			$("#royaltyField").val(UI.getPercentNumberString(value));
+			$("#royaltyField").val(UI.getLongNumberString(value));
 		}});
-
-		template.append("<div style='width:302px;margin: auto;'><div id='CompetitorModPublisherOKButton' class=' baseButton orangeButton windowLargeOkButton'>Create Publisher Contract</div></div>");
+		
+		//Minimum Score
+		var MinScore = 7;
+		
+		template.append("<div style='font-size: 22pt'> Minimum Score: </div>")
+		template.append("<div class='increasePrePay centeredButtonWrapper selectorButton windowStepActionButton' onClick='increaseScore()' style='width:50px; display:inline-block; font-size:30pt;'> &#8657 </div>");
+		template.append("<input id='scoreField' type='number' readonly='readonly' maxlength='35' value='" + MinScore + "' style='width:170px;font-size: 22pt'/>");
+		template.append("<div class='decreasePrePay centeredButtonWrapper selectorButton windowStepActionButton' onClick='decreaseScore()' style='width:50px; display:inline-block; font-size:30pt;'> &#8659 <br/> </div>");
+		
+		increaseScore= function () {
+			if(MinScore + 1 < 11)
+				MinScore += 1;
+				
+			template.find("#scoreField").val(MinScore);
+		}
+		
+		decreaseScore = function () {
+			if(MinScore - 1 >= 1)
+				MinScore -= 1;
+				
+			template.find("#scoreField").val(MinScore);
+		}
+		
+		//Create Publisher Contract
+		template.append("<div style='width:302px;margin:auto;'><div id='CompetitorModPublisherOKButton' class=' baseButton orangeButton windowLargeOkButton'>Create Publisher Contract</div></div>");
 		template.find("#CompetitorModPublisherOKButton").clickExcl(function () {
 			Sound.click();
 			var succes = CompetitorModPublisher.createContract();
@@ -174,9 +189,9 @@ CompetitorModPublisher.contracts = [];
 				$("#CompetitorModPublisherContainer").dialog("close");
 			}else{
 				$("#CompetitorModPublisherOKButton").effect("shake", {
-				times : 2,
-				distance : 5
-			}, 50)
+					times : 2,
+					distance : 5
+				}, 50)
 			}
 				
 		});
@@ -188,7 +203,6 @@ CompetitorModPublisher.contracts = [];
 			$("#CompetitorModPublisherTitle").show();
 		})
 	}
-	
 	
 	CompetitorModPublisher.pickTopicClick = function (element) {
 		Sound.click();
@@ -216,13 +230,6 @@ CompetitorModPublisher.contracts = [];
 			var row = 0;
 			var researchVisibleCount = 0;
 			var topics = General.getTopicOrder(GameManager.company);
-			if (UI.pickTopicFontSize == undefined) {
-				var values = [];
-				for (var i = 0; i < topics.length; i++)
-					values.push(topics[i].name);
-				UI.pickTopicFontSize = UI._getMaxFontSize("{0}pt {1}",
-						UI.IS_SEGOE_UI_INSTALLED ? "Segoe UI" : "Open Sans", 16, 10, 175, values)
-			}
 			for (var i = 0; i < topics.length; i++) {
 				var topic = topics[i];
 				currentCount++;
@@ -418,6 +425,11 @@ CompetitorModPublisher.contracts = [];
 			return "aaa";
 		return "small"
 	};
+	var getContractName = function () {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var contractName = modalContent.find("#contractNameInput").val();
+		return contractName
+	}
 	var getSelectedTopic = function () {
 		var modalContent = $("#CompetitorModPublisherContent");
 		var topicName = modalContent.find(".pickTopicButton").text();
@@ -442,28 +454,54 @@ CompetitorModPublisher.contracts = [];
 			});
 		return platform
 	};
+	var getRoyaltyRate = function () {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var royaltyRate = modalContent.find("#royaltyField").val();
+		return royaltyRate
+	}
+	var getPrePay = function () {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var royaltyRate = modalContent.find("#moneyField").val();
+		return royaltyRate
+	}
+	
+	var getMinScore = function () {
+		var modalContent = $("#CompetitorModPublisherContent");
+		var minScore = modalContent.find("#scoreField").val();
+		return minScore
+	}
 	
 	CompetitorModPublisher.createContract = function(){
 		var contract = new PublisherContract();
 		
+		var contractName = getContractName();
 		var topic = getSelectedTopic();
 		var genre = getSelectedGenre();
 		var platform = getSelectedPlatform();
 		var targetAudience = getTargetAudience();
 		var gameSize = getGameSize();
-		//var score = 
+		var royaltyRate = getRoyaltyRate();
+		var prePayBonus = getPrePay();
+		var minScore = getMinScore();
 		
-		if(topic == null || genre == null || platform == null){
+		if(contractName == null || topic == null || genre == null || platform == null){
 			return null;
 		}
 		
-		contract.score = 1;s
+		contract.name = contractName;
+		contract.score = 1;
 		contract.gameSize = gameSize;
 		contract.genre = genre;
 		contract.topic = topic;
 		contract.targetAudience = targetAudience;
 		contract.platforms.push(platform);
+		contract.royalty = royaltyRate;
+		contract.penaltyFee = prePayBonus * 0.60;
+		contract.preBonus = prePayBonus;
+		contract.active = true;
+		contract.minScore = minScore;
 		
+		GameManager.company.cash -= contract.preBonus;
 		CompetitorModPublisher.contracts.push(contract);
 		
 		return true;
